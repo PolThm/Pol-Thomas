@@ -1,0 +1,47 @@
+@import "libs/keyframes.scss";
+@import "libs/mediaQueries";
+@import "libs/fonts.scss";
+
+$primary-color: white;
+$secondary-color: #333;
+$tertiary-color: #fbb32c;
+
+html {
+  font-size: 16px;
+}
+*, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  height: 100vh;
+  background: url("./img/background_header.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+.mes-realisations {
+  height: 100vh;
+}
+
+.a-propos {
+  height: 100vh;
+  background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
+  background-size: cover;
+}
+
+footer {
+  margin-top: -40px;
+  background:rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px black;
+  .text-footer {
+    height: 40px;
+    color: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    span {
+      color: $tertiary-color;
+    }
+  }
+}
