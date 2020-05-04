@@ -2,9 +2,9 @@
 @import "libs/mediaQueries";
 @import "libs/fonts.scss";
 
-$primary-color: white;
-$secondary-color: #333;
-$tertiary-color: #fbb32c;
+$primary: white;
+$secondary: #333;
+$tertiary: #fbb32c;
 
 html {
   font-size: 16px;
@@ -17,6 +17,78 @@ header {
   height: 100vh;
   background: url("./img/background_header.jpg") no-repeat fixed;
   background-size: cover;
+  color: $primary;
+  padding: 0 14% 0 14%;
+  .navbar {
+    //width: 65%;
+    padding-top: 5vh;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 1.61rem;
+    letter-spacing: 0.585rem;
+
+    .nav-link {
+      color: $primary !important;
+      //padding-right: 5rem !important;
+      &:hover {
+        color: $tertiary !important;
+      }
+    }
+    .navLinkPadding {
+      padding-left: 4rem !important;
+    }
+    button.navbar-toggler.collapsed {
+      //background-color: $primary !important;
+      color: $primary !important;
+
+    }
+    .navbar-toggler-icon {
+      background: url("./img/icon-bars-white.png");
+      background-size: cover;
+    }
+  }
+  .text-name {
+    //width: 60%;
+    font-family: 'Bebas', sans-serif;
+    font-size: 14.5rem;
+    margin-top: 5vh;
+  }
+  .text-title {
+    //max-width: 61%;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.66rem;
+    letter-spacing: 0.67rem;
+    //margin-top: -30px;
+    margin-top: 5vh;
+    animation: fadeInUp 2000ms forwards;
+  }
+  .line-header {
+    margin-top: 5vh;
+    width: 19.9rem;
+    border-bottom: 1rem $tertiary solid;
+  }
+  .text-welcome{
+    //width: 60%;
+    margin-top: 5vh;
+    font-size: 3.17rem;
+    letter-spacing: 0.335rem;
+    animation: fadeIn 2000ms 1000ms both;
+  }
+  .text-introduction {
+    max-width: 100%;
+    width: 60rem;
+    //padding-right: 40%;
+    margin-top: 5vh;
+    text-align: justify;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    animation: fadeIn 2000ms 1500ms both;
+  }
+}
+
+.navbar.scrolling-navbar.top-nav-collapse {
+  background: #ff0000 !important;
 }
 
 .mes-realisations {
@@ -35,13 +107,13 @@ footer {
   box-shadow: 0 0 10px black;
   .text-footer {
     height: 40px;
-    color: $primary-color;
+    color: $primary;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
     span {
-      color: $tertiary-color;
+      color: $tertiary;
     }
   }
 }

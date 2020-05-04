@@ -18,56 +18,66 @@
 }
 @media (max-width: 480px) {
   html {
-    font-size: 60% !important;
+    font-size: 40% !important;
+  }
+
+  .navbar {
+    display: none !important;
   }
 
   .text-name {
-    font-size: 7rem !important;
-    padding-top: 20px !important;
-  }
-
-  .figure-caption {
-    font-size: 1.5rem !important;
-  }
-
-  .buttonContact {
-    width: 50% !important;
+    font-size: 6.87rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
   }
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 645px) {
   html {
-    font-size: 70% !important;
+    font-size: 44% !important;
+  }
+
+  .navbar {
+    display: none !important;
   }
 
   .text-name {
-    font-size: 9rem !important;
+    font-size: 10.43rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
+  }
+}
+@media (min-width: 646px) and (max-width: 767px) {
+  html {
+    font-size: 44% !important;
   }
 
-  .figure-caption {
-    font-size: 1.3rem !important;
+  .navbar {
+    display: none !important;
   }
 
-  .buttonContact {
-    width: 50% !important;
+  .text-name {
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
   html {
-    font-size: 75% !important;
-  }
-
-  .figure-caption {
-    font-size: 1.1rem !important;
+    font-size: 44% !important;
   }
 }
 @media (min-width: 960px) and (max-width: 1199px) {
   html {
-    font-size: 80% !important;
+    font-size: 44% !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1599px) {
   html {
-    font-size: 90% !important;
+    font-size: 55% !important;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 70% !important;
   }
 }
 @font-face {
@@ -86,6 +96,68 @@ header {
   height: 100vh;
   background: url("./img/background_header.jpg") no-repeat fixed;
   background-size: cover;
+  color: white;
+  padding: 0 14% 0 14%;
+}
+header .navbar {
+  padding-top: 5vh;
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1.61rem;
+  letter-spacing: 0.585rem;
+}
+header .navbar .nav-link {
+  color: white !important;
+}
+header .navbar .nav-link:hover {
+  color: #fbb32c !important;
+}
+header .navbar .navLinkPadding {
+  padding-left: 4rem !important;
+}
+header .navbar button.navbar-toggler.collapsed {
+  color: white !important;
+}
+header .navbar .navbar-toggler-icon {
+  background: url("./img/icon-bars-white.png");
+  background-size: cover;
+}
+header .text-name {
+  font-family: "Bebas", sans-serif;
+  font-size: 14.5rem;
+  margin-top: 5vh;
+}
+header .text-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.66rem;
+  letter-spacing: 0.67rem;
+  margin-top: 5vh;
+  animation: fadeInUp 2000ms forwards;
+}
+header .line-header {
+  margin-top: 5vh;
+  width: 19.9rem;
+  border-bottom: 1rem #fbb32c solid;
+}
+header .text-welcome {
+  margin-top: 5vh;
+  font-size: 3.17rem;
+  letter-spacing: 0.335rem;
+  animation: fadeIn 2000ms 1000ms both;
+}
+header .text-introduction {
+  max-width: 100%;
+  width: 60rem;
+  margin-top: 5vh;
+  text-align: justify;
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  animation: fadeIn 2000ms 1500ms both;
+}
+
+.navbar.scrolling-navbar.top-nav-collapse {
+  background: #ff0000 !important;
 }
 
 .mes-realisations {

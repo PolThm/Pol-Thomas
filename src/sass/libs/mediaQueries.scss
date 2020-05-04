@@ -1,62 +1,72 @@
 //Smartphones
 @media (max-width: 480px) {
   html {
-    font-size: 60% !important;
+    font-size: 40% !important;
+  }
+  .navbar {
+    display: none !important;
   }
   .text-name {
-    font-size: 7rem !important;
-    padding-top: 20px !important;
-  }
-  .text-title {
-    //margin-top: 10px !important;
-  }
-  .figure-caption {
-    font-size: 1.5rem !important;
-  }
-  .buttonContact {
-    width: 50% !important;
+    font-size: 6.87rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
   }
 }
 
-//Smartphones to Tablets
-@media (min-width: 481px) and (max-width: 767px) {
+//Smartphones to Tablets 1
+@media (min-width: 481px) and (max-width: 645px) {
   html {
-    font-size: 70% !important;
+    font-size: 44% !important;
+  }
+  .navbar {
+    display: none !important;
   }
   .text-name {
-    font-size: 9rem !important;
+    font-size: 10.43rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
   }
-  //.text-title {
-  //  margin-top: -10px !important;
-  //}
-  .figure-caption {
-    font-size: 1.3rem !important;
+}
+
+
+//Smartphones to Tablets 2
+@media (min-width: 646px) and (max-width: 767px) {
+  html {
+    font-size: 44% !important;
   }
-  .buttonContact {
-    width: 50% !important;
+  .navbar {
+    display: none !important;
+  }
+  .text-name {
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
   }
 }
 
 //Tablets
 @media (min-width: 768px) and (max-width: 959px) {
   html {
-    font-size: 75% !important;
-  }
-  .figure-caption {
-    font-size: 1.1rem !important;
+    font-size: 44% !important;
   }
 }
 
 //Desktop
 @media (min-width: 960px) and (max-width: 1199px) {
  html {
-   font-size: 80% !important;
+   font-size: 44% !important;
  }
 }
 
 //Large Display
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1599px) {
   html {
-    font-size: 90% !important;
+    font-size: 55% !important;
+  }
+}
+
+//Large Display
+@media (min-width: 1600px) {
+  html {
+    font-size: 70% !important;
   }
 }
