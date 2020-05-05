@@ -10,6 +10,7 @@ html {
 }
 * {
   font-family: 'Montserrat', sans-serif;
+  letter-spacing: 4px;
 }
 
 header {
@@ -74,17 +75,66 @@ header {
     margin-top: 5vh;
     text-align: justify;
     font-size: 1.5rem;
-    letter-spacing: 4px;
     animation: fadeIn 2000ms 1500ms both;
   }
 }
 
-.navbar.scrolling-navbar.top-nav-collapse {
-  background: #ff0000 !important;
-}
-
 .mes-realisations {
-  height: 100vh;
+  min-height: 100vh;
+  padding: 0 14% 0 14%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: auto;
+  h2 {
+    padding: 5vh 0 5vh 0;
+    font-size: 1.61rem;
+    letter-spacing: 0.585rem;
+  }
+  .container-fluid {
+    padding-bottom: 5vh;
+    .figure {
+      margin-bottom: 2.5vh;
+      border: #333 1px solid;
+      box-shadow: 0 0 1px #333;
+      transition: transform 100ms ease-in-out;
+      position: relative;
+      &:hover {
+        transform: scale(1.1);
+        &::before {
+          background-color: rgba(251, 179, 44, 0.9);
+          content: '';
+          display: block;
+          height: 100%;
+          position: absolute;
+          width: 100%;
+        }
+        &:hover .text-realisation{
+          display: block;
+        }
+      }
+      .figure-img {
+        margin-bottom: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .text-realisation {
+        color: $secondary;
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        display: none;
+
+      }
+    }
+  }
 }
 
 .a-propos {

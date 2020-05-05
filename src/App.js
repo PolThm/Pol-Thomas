@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Col, Row, Button, Container, Navbar, Nav, NavDropdown} from "react-bootstrap";
+import {Container, Navbar, Nav} from "react-bootstrap";
 // import "animate.css/animate.min.css";
 // import ScrollAnimation from 'react-animate-on-scroll';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MesRealisations from "./components/MesRealisations";
 
 
 class App extends Component {
@@ -39,7 +40,6 @@ class App extends Component {
                   <Nav.Link className={"navLink3 navLinkPadding"} href="#contact">CONTACT</Nav.Link>
                 </Nav>
             </Navbar>
-
             <h1 className="text-name">Pol Thomas</h1>
             <h1 className="text-title">DÉVELOPPEUR D'APPLICATION FRONTEND</h1>
             <div className="line-header"/>
@@ -48,9 +48,9 @@ class App extends Component {
               dans le cadre de mon parcours de développeur frontend</p>
           </Container>
         </header>
-        <div className={"mes-realisations"}>
 
-        </div>
+        <MesRealisations/>
+
         <div className={"a-propos"}>
 
         </div>
