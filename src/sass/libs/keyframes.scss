@@ -1,10 +1,24 @@
 @keyframes fadeInUp {
   0% {
     opacity: 0;
-    transform: translate3d(0,100%,0);
+    transform: translate3d(0, 100%, 0);
   }
   100% {
     transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(200%, 0, 0);
+  }
+  67% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
     opacity: 1;
   }
 }

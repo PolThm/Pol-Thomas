@@ -8,76 +8,25 @@
     opacity: 1;
   }
 }
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(200%, 0, 0);
+  }
+  67% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
-  }
-}
-@media (max-width: 480px) {
-  html {
-    font-size: 40% !important;
-  }
-
-  .navbar {
-    display: none !important;
-  }
-
-  .text-name {
-    font-size: 6.87rem !important;
-    margin-top: 0 !important;
-    padding-top: 5vh !important;
-  }
-}
-@media (min-width: 481px) and (max-width: 645px) {
-  html {
-    font-size: 44% !important;
-  }
-
-  .navbar {
-    display: none !important;
-  }
-
-  .text-name {
-    font-size: 10.43rem !important;
-    margin-top: 0 !important;
-    padding-top: 5vh !important;
-  }
-}
-@media (min-width: 646px) and (max-width: 767px) {
-  html {
-    font-size: 44% !important;
-  }
-
-  .navbar {
-    display: none !important;
-  }
-
-  .text-name {
-    margin-top: 0 !important;
-    padding-top: 5vh !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 959px) {
-  html {
-    font-size: 44% !important;
-  }
-}
-@media (min-width: 960px) and (max-width: 1199px) {
-  html {
-    font-size: 44% !important;
-  }
-}
-@media (min-width: 1200px) and (max-width: 1599px) {
-  html {
-    font-size: 55% !important;
-  }
-}
-@media (min-width: 1600px) {
-  html {
-    font-size: 70% !important;
   }
 }
 @font-face {
@@ -88,7 +37,7 @@ html {
   font-size: 16px;
 }
 
-*, body {
+* {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -106,21 +55,23 @@ header .navbar {
   font-size: 1.61rem;
   letter-spacing: 0.585rem;
 }
+header .navbar .navLinkPadding {
+  padding-left: 4rem !important;
+}
 header .navbar .nav-link {
   color: white !important;
 }
 header .navbar .nav-link:hover {
   color: #fbb32c !important;
 }
-header .navbar .navLinkPadding {
-  padding-left: 4rem !important;
+header .navbar .navLink1 {
+  animation: fadeIn 2000ms 2000ms both;
 }
-header .navbar button.navbar-toggler.collapsed {
-  color: white !important;
+header .navbar .navLink2 {
+  animation: fadeIn 2000ms 2500ms both;
 }
-header .navbar .navbar-toggler-icon {
-  background: url("./img/icon-bars-white.png");
-  background-size: cover;
+header .navbar .navLink3 {
+  animation: fadeIn 2000ms 3000ms both;
 }
 header .text-name {
   font-family: "Bebas", sans-serif;
@@ -138,7 +89,8 @@ header .text-title {
 header .line-header {
   margin-top: 5vh;
   width: 19.9rem;
-  border-bottom: 1rem #fbb32c solid;
+  border-bottom: 0.8rem #fbb32c solid;
+  animation: fadeInRight 2000ms forwards ease-out;
 }
 header .text-welcome {
   margin-top: 5vh;
@@ -185,6 +137,86 @@ footer .text-footer {
 }
 footer .text-footer span {
   color: #fbb32c;
+}
+
+@media (max-width: 319px) {
+  html {
+    font-size: 30%;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  .text-name {
+    font-size: 6.87rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  .text-name {
+    font-size: 6.87rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
+  }
+}
+@media (min-width: 481px) and (max-width: 645px) {
+  html {
+    font-size: 44%;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  .text-name {
+    font-size: 10.43rem !important;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
+  }
+}
+@media (min-width: 646px) and (max-width: 767px) {
+  html {
+    font-size: 44%;
+  }
+
+  .navbar {
+    display: none !important;
+  }
+
+  .text-name {
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 959px) {
+  html {
+    font-size: 44%;
+  }
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+  html {
+    font-size: 44%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1599px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 70%;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */

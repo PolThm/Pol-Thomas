@@ -1,5 +1,4 @@
 @import "libs/keyframes.scss";
-@import "libs/mediaQueries";
 @import "libs/fonts.scss";
 
 $primary: white;
@@ -9,7 +8,7 @@ $tertiary: #fbb32c;
 html {
   font-size: 16px;
 }
-*, body {
+* {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,56 +19,50 @@ header {
   color: $primary;
   padding: 0 14% 0 14%;
   .navbar {
-    //width: 65%;
     padding-top: 5vh;
     padding-left: 0;
     padding-right: 0;
     font-size: 1.61rem;
     letter-spacing: 0.585rem;
-
+    .navLinkPadding {
+      padding-left: 4rem !important;
+    }
     .nav-link {
       color: $primary !important;
-      //padding-right: 5rem !important;
       &:hover {
         color: $tertiary !important;
       }
     }
-    .navLinkPadding {
-      padding-left: 4rem !important;
+    .navLink1 {
+      animation: fadeIn 2000ms 2000ms both;
     }
-    button.navbar-toggler.collapsed {
-      //background-color: $primary !important;
-      color: $primary !important;
-
+    .navLink2 {
+      animation: fadeIn 2000ms 2500ms both;
     }
-    .navbar-toggler-icon {
-      background: url("./img/icon-bars-white.png");
-      background-size: cover;
+    .navLink3 {
+      animation: fadeIn 2000ms 3000ms both;
     }
   }
   .text-name {
-    //width: 60%;
     font-family: 'Bebas', sans-serif;
     font-size: 14.5rem;
     margin-top: 5vh;
   }
   .text-title {
-    //max-width: 61%;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.66rem;
     letter-spacing: 0.67rem;
-    //margin-top: -30px;
     margin-top: 5vh;
     animation: fadeInUp 2000ms forwards;
   }
   .line-header {
     margin-top: 5vh;
     width: 19.9rem;
-    border-bottom: 1rem $tertiary solid;
+    border-bottom: 0.8rem $tertiary solid;
+    animation: fadeInRight 2000ms forwards ease-out;
   }
   .text-welcome{
-    //width: 60%;
     margin-top: 5vh;
     font-size: 3.17rem;
     letter-spacing: 0.335rem;
@@ -78,7 +71,6 @@ header {
   .text-introduction {
     max-width: 100%;
     width: 60rem;
-    //padding-right: 40%;
     margin-top: 5vh;
     text-align: justify;
     font-size: 1.5rem;
@@ -117,3 +109,5 @@ footer {
     }
   }
 }
+
+@import "libs/mediaQueries";

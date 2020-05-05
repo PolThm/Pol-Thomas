@@ -1,7 +1,7 @@
-//Smartphones
-@media (max-width: 480px) {
+// Tiny Smartphones
+@media (max-width: 319px) {
   html {
-    font-size: 40% !important;
+    font-size: 30%;
   }
   .navbar {
     display: none !important;
@@ -13,10 +13,25 @@
   }
 }
 
+//Smartphones
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    font-size: 40%;
+  }
+  .navbar {
+    display: none !important;
+  }
+  .text-name {
+    font-size: 6.87rem !important;;
+    margin-top: 0 !important;
+    padding-top: 5vh !important;
+  }
+}
+
 //Smartphones to Tablets 1
 @media (min-width: 481px) and (max-width: 645px) {
   html {
-    font-size: 44% !important;
+    font-size: 44%;
   }
   .navbar {
     display: none !important;
@@ -32,7 +47,7 @@
 //Smartphones to Tablets 2
 @media (min-width: 646px) and (max-width: 767px) {
   html {
-    font-size: 44% !important;
+    font-size: 44%;
   }
   .navbar {
     display: none !important;
@@ -46,27 +61,27 @@
 //Tablets
 @media (min-width: 768px) and (max-width: 959px) {
   html {
-    font-size: 44% !important;
+    font-size: 44%;
   }
 }
 
 //Desktop
 @media (min-width: 960px) and (max-width: 1199px) {
  html {
-   font-size: 44% !important;
+   font-size: 44%;
  }
 }
 
 //Large Display
 @media (min-width: 1200px) and (max-width: 1599px) {
   html {
-    font-size: 55% !important;
+    font-size: 55%;
   }
 }
 
 //Large Display
 @media (min-width: 1600px) {
   html {
-    font-size: 70% !important;
+    font-size: 70%;
   }
 }
