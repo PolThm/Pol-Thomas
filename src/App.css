@@ -172,9 +172,16 @@ header .text-introduction {
 }
 
 footer {
-  margin-top: -40px;
-  background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px black;
+  background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
+  background-size: cover;
+}
+footer::before {
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
 }
 footer .text-footer {
   height: 40px;
