@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon-bars-grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/icon-bars-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
@@ -90,7 +93,8 @@
       <workItem from="1588606703348" duration="3727000" />
       <workItem from="1588614406142" duration="417000" />
       <workItem from="1588614871708" duration="2508000" />
-      <workItem from="1588664971534" duration="7736000" />
+      <workItem from="1588664971534" duration="7782000" />
+      <workItem from="1588679302295" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -127,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588672494362</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Footer : done !">
+      <created>1588672759086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588672759086</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +164,7 @@
     <MESSAGE value="La plus grande partie du header + responsive du header : done !" />
     <MESSAGE value="Header : done !" />
     <MESSAGE value="Section &quot;Mes réalisations&quot; : done !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section &quot;Mes réalisations&quot; : done !" />
+    <MESSAGE value="Footer : done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer : done !" />
   </component>
 </project>

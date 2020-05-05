@@ -14,7 +14,7 @@ html {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./img/background_header.jpg") no-repeat fixed;
   background-size: cover;
   color: $primary;
@@ -23,7 +23,7 @@ header {
     padding-top: 5vh;
     padding-left: 0;
     padding-right: 0;
-    font-size: 1.61rem;
+    font-size: 1.95rem;
     letter-spacing: 0.585rem;
     .navLinkPadding {
       padding-left: 4rem !important;
@@ -46,7 +46,7 @@ header {
   }
   .text-name {
     font-family: 'Bebas', sans-serif;
-    font-size: 14.5rem;
+    font-size: 13.73rem;
     margin-top: 5vh;
   }
   .text-title {
@@ -76,6 +76,7 @@ header {
     text-align: justify;
     font-size: 1.5rem;
     animation: fadeIn 2000ms 1500ms both;
+    padding-bottom: 5vh;
   }
 }
 
@@ -89,7 +90,7 @@ header {
   overflow: auto;
   h2 {
     padding: 5vh 0 5vh 0;
-    font-size: 1.61rem;
+    font-size: 1.95rem;
     letter-spacing: 0.585rem;
   }
   .container-fluid {
@@ -138,7 +139,7 @@ header {
 }
 
 .a-propos {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
 }

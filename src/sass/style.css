@@ -43,7 +43,7 @@ html {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./img/background_header.jpg") no-repeat fixed;
   background-size: cover;
   color: white;
@@ -53,7 +53,7 @@ header .navbar {
   padding-top: 5vh;
   padding-left: 0;
   padding-right: 0;
-  font-size: 1.61rem;
+  font-size: 1.95rem;
   letter-spacing: 0.585rem;
 }
 header .navbar .navLinkPadding {
@@ -76,7 +76,7 @@ header .navbar .navLink3 {
 }
 header .text-name {
   font-family: "Bebas", sans-serif;
-  font-size: 14.5rem;
+  font-size: 13.73rem;
   margin-top: 5vh;
 }
 header .text-title {
@@ -106,6 +106,7 @@ header .text-introduction {
   text-align: justify;
   font-size: 1.5rem;
   animation: fadeIn 2000ms 1500ms both;
+  padding-bottom: 5vh;
 }
 
 .mes-realisations {
@@ -119,7 +120,7 @@ header .text-introduction {
 }
 .mes-realisations h2 {
   padding: 5vh 0 5vh 0;
-  font-size: 1.61rem;
+  font-size: 1.95rem;
   letter-spacing: 0.585rem;
 }
 .mes-realisations .container-fluid {
@@ -166,7 +167,7 @@ header .text-introduction {
 }
 
 .a-propos {
-  height: 100vh;
+  min-height: 100vh;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
 }
@@ -225,7 +226,7 @@ footer .text-footer span {
     padding-top: 5vh !important;
   }
 }
-@media (min-width: 481px) and (max-width: 645px) {
+@media (min-width: 481px) and (max-width: 652px) {
   html {
     font-size: 44%;
   }
@@ -235,12 +236,12 @@ footer .text-footer span {
   }
 
   .text-name {
-    font-size: 10.43rem !important;
+    font-size: 9.05rem !important;
     margin-top: 0 !important;
     padding-top: 5vh !important;
   }
 }
-@media (min-width: 646px) and (max-width: 767px) {
+@media (min-width: 653px) and (max-width: 767px) {
   html {
     font-size: 44%;
   }
@@ -252,21 +253,46 @@ footer .text-footer span {
   .text-name {
     margin-top: 0 !important;
     padding-top: 5vh !important;
+    font-size: 13.3rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
   html {
     font-size: 44%;
   }
+
+  .text-name {
+    font-size: 13.3rem !important;
+  }
+
+  .navbar {
+    font-size: 1.64rem !important;
+  }
 }
 @media (min-width: 960px) and (max-width: 1199px) {
   html {
     font-size: 44%;
   }
+
+  .text-name {
+    font-size: 13.3rem !important;
+  }
+
+  .navbar {
+    font-size: 1.64rem !important;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1599px) {
   html {
     font-size: 55%;
+  }
+
+  .text-name {
+    font-size: 13.53rem !important;
+  }
+
+  .navbar {
+    font-size: 1.81rem !important;
   }
 }
 @media (min-width: 1600px) {

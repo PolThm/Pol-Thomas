@@ -29,7 +29,7 @@
 }
 
 //Smartphones to Tablets 1
-@media (min-width: 481px) and (max-width: 645px) {
+@media (min-width: 481px) and (max-width: 652px) {
   html {
     font-size: 44%;
   }
@@ -37,15 +37,14 @@
     display: none !important;
   }
   .text-name {
-    font-size: 10.43rem !important;
+    font-size: 9.05rem !important;
     margin-top: 0 !important;
     padding-top: 5vh !important;
   }
 }
 
-
 //Smartphones to Tablets 2
-@media (min-width: 646px) and (max-width: 767px) {
+@media (min-width: 653px) and (max-width: 767px) {
   html {
     font-size: 44%;
   }
@@ -55,6 +54,7 @@
   .text-name {
     margin-top: 0 !important;
     padding-top: 5vh !important;
+    font-size: 13.3rem !important;
   }
 }
 
@@ -63,6 +63,12 @@
   html {
     font-size: 44%;
   }
+  .text-name {
+    font-size: 13.3rem !important;
+  }
+  .navbar {
+    font-size: 1.64rem !important;
+  }
 }
 
 //Desktop
@@ -70,12 +76,24 @@
  html {
    font-size: 44%;
  }
+  .text-name {
+    font-size: 13.3rem !important;
+  }
+  .navbar {
+    font-size: 1.64rem !important;
+  }
 }
 
 //Large Display
 @media (min-width: 1200px) and (max-width: 1599px) {
   html {
     font-size: 55%;
+  }
+  .text-name {
+    font-size: 13.53rem !important;
+  }
+  .navbar {
+    font-size: 1.81rem !important;
   }
 }
 
