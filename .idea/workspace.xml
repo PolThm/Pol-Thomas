@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60af650a-ce5f-4cee-870d-5ccbdfd7c8cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/architecture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/personal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/season-sale.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
@@ -99,7 +93,7 @@
       <workItem from="1588614871708" duration="2508000" />
       <workItem from="1588664971534" duration="7782000" />
       <workItem from="1588679302295" duration="2514000" />
-      <workItem from="1588752287556" duration="5364000" />
+      <workItem from="1588752287556" duration="5896000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -150,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588681740312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Section mes réalisations peaufiner + tabs ajoutés">
+      <created>1588758685085</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588758685085</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +179,7 @@
     <MESSAGE value="Section &quot;Mes réalisations&quot; : done !" />
     <MESSAGE value="Footer : done !" />
     <MESSAGE value="Rectifications responsive header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectifications responsive header" />
+    <MESSAGE value="Section mes réalisations peaufiner + tabs ajoutés" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section mes réalisations peaufiner + tabs ajoutés" />
   </component>
 </project>
