@@ -4,6 +4,7 @@
 $primary: white;
 $secondary: #333;
 $tertiary: #fbb32c;
+//$tertiary: #cc7013;
 
 html {
   font-size: 16px;
@@ -81,7 +82,7 @@ header {
 }
 
 .mes-realisations {
-  min-height: 100vh;
+  //min-height: 100vh;
   padding: 0 14% 0 14%;
   display: flex;
   flex-direction: column;
@@ -90,15 +91,31 @@ header {
   overflow: auto;
   h2 {
     padding: 5vh 0 5vh 0;
-    font-size: 1.95rem;
+    font-size: 2.26rem;
     letter-spacing: 0.585rem;
+  }
+  .nav-tabs {
+    margin-bottom: 5vh;
+    border-color: $tertiary;
+    .nav-link {
+      color: $secondary;
+      &:hover {
+        //border-color: $tertiary;
+        color: $tertiary;
+        border-color: $primary $primary $tertiary $primary ;
+      }
+    }
+    .nav-link.active {
+      color: $tertiary;
+      border-color: $tertiary $tertiary $primary;
+    }
   }
   .container-fluid {
     padding-bottom: 5vh;
     .figure {
       margin-bottom: 2.5vh;
-      border: #333 1px solid;
-      box-shadow: 0 0 1px #333;
+      border: $secondary 1px solid;
+      box-shadow: 0 0 1px $secondary;
       transition: transform 100ms ease-in-out;
       position: relative;
       &:hover {
@@ -123,8 +140,8 @@ header {
       }
       .text-realisation {
         color: $secondary;
-        font-size: 2rem;
-        padding: 1rem;
+        font-size: 1.5rem;
+        padding: 9rem 1rem 9rem 1rem;
         text-align: center;
         position: absolute;
         top: 50%;
@@ -132,7 +149,6 @@ header {
         transform: translate(-50%, -50%);
         width: 100%;
         display: none;
-
       }
     }
   }
