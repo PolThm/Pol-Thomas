@@ -109,6 +109,7 @@ header {
     .nav-link.active {
       color: $tertiary;
       border-color: $tertiary $tertiary $primary;
+      //text-decoration: underline;
     }
   }
   .container-fluid {

@@ -16,7 +16,7 @@ class MesRealisationsSitesVitrines extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={lesFilmsDePleinAir}
-              description={'Les Films De Plein Air - Site web d\'un festival de films en plein air'}
+              description={'Festival de films en plein air'}
               link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
@@ -24,14 +24,14 @@ class MesRealisationsSitesVitrines extends React.Component {
             <Realisation
               className={'figureInTheMiddle'}
               picture={chaletEtCaviar}
-              description={'Chalets & Caviar - Site web d\'une agence immobilière'}
+              description={'Agence immobilière'}
               link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={theRange}
-              description={'The Range - Site web maquette'}
+              description={'Maquette expérimentale'}
               link={'https://therange.pol-thomas.com/'}
             />
           </Col>

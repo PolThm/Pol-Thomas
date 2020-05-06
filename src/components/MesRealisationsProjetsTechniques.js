@@ -13,7 +13,7 @@ class MesRealisationsProjetsTechniques extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={textories}
-              description={'Textories - Application mobile type "chat stories" (créé avec React Native)'}
+              description={'Application mobile type "chat stories" (créé avec React Native)'}
               link={'https://www.youtube.com/watch?v=dS7lIfNiHsY&t'}
             />
           </Col>
@@ -21,14 +21,14 @@ class MesRealisationsProjetsTechniques extends React.Component {
             <Realisation
               className={'figureInTheMiddle'}
               picture={smartPoint}
-              description={'Smart Point - Site d\'avis de restaurants (créé avec React JS)'}
+              description={'Site d\'avis de restaurants (créé avec React JS)'}
               link={'https://smartpoint.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={shootMe}
-              description={'Shoot Me - Jeu de plateau en JavaScript'}
+              description={'Jeu de plateau (créé en JavaScript)'}
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>

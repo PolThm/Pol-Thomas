@@ -4,10 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Navbar, Nav, Tabs, Tab} from "react-bootstrap";
 // import "animate.css/animate.min.css";
 // import ScrollAnimation from 'react-animate-on-scroll';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MesRealisations from "./components/MesRealisations";
-import MesRealisationsSitesVitrine from "./components/MesRealisationsSitesVitrine";
-import MesRealisationsProjetsTechniques from "./components/MesRealisationsProjetsTechniques";
 
 
 class App extends Component {
