@@ -79,6 +79,27 @@ header {
     animation: fadeIn 2000ms 1500ms both;
     padding-bottom: 5vh;
   }
+  .downArrow {
+    width: 100%;
+    min-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 3;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    animation: fadeInDown 2000ms 3500ms both;
+    .downArrowSvg {
+      height: 5vh;
+      min-height: 30px;
+    }
+    .downArrowPath {
+      fill: white;
+    }
+  }
 }
 
 .mes-realisations {

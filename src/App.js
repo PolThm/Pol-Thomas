@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Container, Navbar, Nav, Tabs, Tab} from "react-bootstrap";
+import ScrollableAnchor from 'react-scrollable-anchor'
+import { configureAnchors } from 'react-scrollable-anchor'
 // import "animate.css/animate.min.css";
 // import ScrollAnimation from 'react-animate-on-scroll';
 import MesRealisations from "./components/MesRealisations";
+import HeaderComponent from "./components/HeaderComponent"
 
+configureAnchors({scrollDuration: 1000});
 
 class App extends Component {
   constructor(props) {
@@ -30,23 +33,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>
-          <Container fluid className={"header-width"}>
-            <Navbar>
-                <Nav className="mr-auto">
-                  <Nav.Link className={"navLink1"} href="#mes-realisations">MES RÉALISATIONS</Nav.Link>
-                  <Nav.Link className={"navLink2 navLinkPadding"} href="#a-propos">À PROPOS</Nav.Link>
-                  <Nav.Link className={"navLink3 navLinkPadding"} href="#contact">CONTACT</Nav.Link>
-                </Nav>
-            </Navbar>
-            <h1 className="text-name">Pol Thomas</h1>
-            <h1 className="text-title">DÉVELOPPEUR D'APPLICATION FRONTEND</h1>
-            <div className="line-header"/>
-            <h2 className="text-welcome">Bienvenue</h2>
-            <p className="text-introduction">Je vous propose de découvrir un aperçu de mes réalisations
-              dans le cadre de mon parcours de développeur frontend</p>
-          </Container>
-        </header>
+
+          <HeaderComponent/>
+
 
         <MesRealisations/>
 

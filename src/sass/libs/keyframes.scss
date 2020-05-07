@@ -9,6 +9,17 @@
   }
 }
 
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 @keyframes fadeInRight {
   0% {
     opacity: 0;

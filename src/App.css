@@ -8,6 +8,16 @@
     opacity: 1;
   }
 }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
 @keyframes fadeInRight {
   0% {
     opacity: 0;
@@ -107,6 +117,27 @@ header .text-introduction {
   font-size: 1.5rem;
   animation: fadeIn 2000ms 1500ms both;
   padding-bottom: 5vh;
+}
+header .downArrow {
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  animation: fadeInDown 2000ms 3500ms both;
+}
+header .downArrow .downArrowSvg {
+  height: 5vh;
+  min-height: 30px;
+}
+header .downArrow .downArrowPath {
+  fill: white;
 }
 
 .mes-realisations {
