@@ -14,7 +14,7 @@ class ModalContact extends React.Component {
         <Modal className={'modalContact'} show={this.props.showModalContact} onHide={this.props.closeModalContact}>
           {/*<a href="mailto:pol.thomas56@gmail.com">pol.thomas56@gmail.com</a>*/}
           <Modal.Header className={'title'} closeButton>
-            <Modal.Title>Laissez-moi un message...</Modal.Title>
+            <Modal.Title>Laissez-moi un message</Modal.Title>
           </Modal.Header>
           <ContactForm
             closeModalContact={this.props.closeModalContact}

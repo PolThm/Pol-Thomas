@@ -103,13 +103,11 @@ header {
 }
 
 .mes-realisations {
-  //min-height: 100vh;
   padding: 0 14% 0 14%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  overflow: auto;
   h2 {
     padding: 5vh 0 5vh 0;
     //font-size: 2.26rem;
@@ -181,19 +179,106 @@ header {
   min-height: 100vh;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
+  padding: 0 14% 0 14%;
+  color: $primary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  .a-propos-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .texts-a-propos {
+    width: 50%;
+  }
+  h2 {
+    padding: 5vh 0 5vh 0;
+    font-size: 2.02rem;
+    letter-spacing: 0.585rem;
+  }
+  h3 {
+    padding: 2.5vh 0 0 0;
+    font-size: 3.17rem;
+    letter-spacing: 0.335rem;
+  }
+  p {
+    padding: 0 0 5vh 0;
+    //max-width: 100%;
+    //width: 60rem;
+    margin-top: 5vh;
+    text-align: justify;
+  }
+  .picture-a-propos {
+    width: 50%;
+    text-align: right;
+    img {
+      width: 67%;
+      //height: 100%;
+      border: 3px $primary solid;
+    }
+  }
+  .contactSection {
+    .buttonContact {
+      //width: 100%;
+      background-color: $tertiary;
+      font-size: 2.02rem;
+      letter-spacing: 0.585rem;
+      //font-weight: 700;
+      color: $primary;
+      //border: 1px #333 solid;
+      border-radius: 50px;
+      padding: 1rem 6rem 1rem 6rem;
+      //box-shadow: 0 0 10px #333;
+      transition: transform 100ms ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+        background-color: $tertiary;
+        color: $secondary;
+        //box-shadow: 0 0 10px $primary;
+      }
+    }
+    .scrollContactButton {
+      transition: transform 100ms ease-in-out;
+    }
+  }
+  .modalContact {
+    text-align: center;
+    .modal-title {
+      margin: auto;
+    }
+    .close {
+      position: absolute;
+      right: 15px;
+    }
+  }
+  .contactForm {
+    padding: 20px;
+    color: $secondary;
+    .btnContactForm {
+      border-radius: 50px;
+      width: 30%;
+      box-shadow: 0 0 1px $secondary;
+      &:hover {
+        background-color: $secondary;
+      }
+    }
+  }
 }
 
 footer {
+  margin-top: -40px;
   box-shadow: 0 0 10px black;
-  background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
-  background-size: cover;
-  &::before {
-    background:rgba(0, 0, 0, 0.1);
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-  }
+  //background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
+  //background-size: cover;
+  //  &::before {
+  //    background:rgba(0, 0, 0, 1);
+  //    content: '';
+  //    display: block;
+  //    position: absolute;
+  //    width: 100%;
+  //  }
   .text-footer {
     height: 40px;
     color: $primary;

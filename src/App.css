@@ -146,7 +146,6 @@ header .downArrow .downArrowPath {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  overflow: auto;
 }
 .mes-realisations h2 {
   padding: 5vh 0 5vh 0;
@@ -215,19 +214,87 @@ header .downArrow .downArrowPath {
   min-height: 100vh;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
+  padding: 0 14% 0 14%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.a-propos .a-propos-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.a-propos .texts-a-propos {
+  width: 50%;
+}
+.a-propos h2 {
+  padding: 5vh 0 5vh 0;
+  font-size: 2.02rem;
+  letter-spacing: 0.585rem;
+}
+.a-propos h3 {
+  padding: 2.5vh 0 0 0;
+  font-size: 3.17rem;
+  letter-spacing: 0.335rem;
+}
+.a-propos p {
+  padding: 0 0 5vh 0;
+  margin-top: 5vh;
+  text-align: justify;
+}
+.a-propos .picture-a-propos {
+  width: 50%;
+  text-align: right;
+}
+.a-propos .picture-a-propos img {
+  width: 67%;
+  border: 3px white solid;
+}
+.a-propos .contactSection .buttonContact {
+  background-color: #fbb32c;
+  font-size: 2.02rem;
+  letter-spacing: 0.585rem;
+  color: white;
+  border-radius: 50px;
+  padding: 1rem 6rem 1rem 6rem;
+  transition: transform 100ms ease-in-out;
+}
+.a-propos .contactSection .buttonContact:hover {
+  transform: scale(1.1);
+  background-color: #fbb32c;
+  color: #333;
+}
+.a-propos .contactSection .scrollContactButton {
+  transition: transform 100ms ease-in-out;
+}
+.a-propos .modalContact {
+  text-align: center;
+}
+.a-propos .modalContact .modal-title {
+  margin: auto;
+}
+.a-propos .modalContact .close {
+  position: absolute;
+  right: 15px;
+}
+.a-propos .contactForm {
+  padding: 20px;
+  color: #333;
+}
+.a-propos .contactForm .btnContactForm {
+  border-radius: 50px;
+  width: 30%;
+  box-shadow: 0 0 1px #333;
+}
+.a-propos .contactForm .btnContactForm:hover {
+  background-color: #333;
 }
 
 footer {
+  margin-top: -40px;
   box-shadow: 0 0 10px black;
-  background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
-  background-size: cover;
-}
-footer::before {
-  background: rgba(0, 0, 0, 0.1);
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
 }
 footer .text-footer {
   height: 40px;
