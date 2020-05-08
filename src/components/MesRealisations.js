@@ -11,7 +11,7 @@ class MesRealisations extends React.Component {
     return(
       <ScrollableAnchor id={"mes-realisations"}>
         <div className={"mes-realisations"}>
-          <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+          <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
             <h2 className={"mes-realisation-title"}>MES RÉALISATIONS</h2>
           </ScrollAnimation>
           <Tabs defaultActiveKey="sitesVitrines" id="mes-realisations-tabs">

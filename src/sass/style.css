@@ -222,25 +222,20 @@ header .downArrow .downArrowPath {
   justify-content: space-evenly;
 }
 .a-propos .a-propos-content {
-  padding: 5vh 0 0 0;
   display: flex;
-  align-items: flex-start;
 }
 .a-propos .texts-a-propos {
-  width: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 .a-propos h2 {
-  padding: 2.5vh 0 5vh 0;
   font-size: 2.02rem;
   letter-spacing: 0.585rem;
 }
-.a-propos h3 {
-  padding: 2.5vh 0 0 0;
-  font-size: 3.17rem;
-  letter-spacing: 0.335rem;
-}
 .a-propos p {
-  padding: 0 0 5vh 0;
   font-size: 1.5rem;
   margin-top: 5vh;
   text-align: justify;
@@ -250,7 +245,7 @@ header .downArrow .downArrowPath {
   text-align: right;
 }
 .a-propos .picture-a-propos img {
-  width: 67%;
+  width: 75%;
   border: 3px #fbb32c solid;
 }
 .a-propos .contactSection {
