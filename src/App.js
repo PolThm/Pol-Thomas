@@ -12,11 +12,11 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showModalContact: false,
+      showModalContact: false
     }
   }
 
-  showModalContact = () => {
+  openModalContact = () => {
     this.setState({
       showModalContact: true
     })
@@ -35,7 +35,11 @@ class App extends Component {
 
         <MesRealisations/>
 
-        <APropos/>
+        <APropos
+          showModalContact={this.state.showModalContact}
+          openModalContact={this.openModalContact}
+          closeModalContact={this.closeModalContact}
+        />
 
         <footer>
           <p className={'text-footer'}>Copyright 2020 - Site réalisé par <span>Pol Thomas</span></p>

@@ -266,33 +266,51 @@ header .downArrow .downArrowPath {
   background-color: #fbb32c;
   color: #333;
 }
+.a-propos .contactSection .buttonContact:focus {
+  box-shadow: none;
+}
 .a-propos .contactSection .buttonContactForPhone {
   display: none;
 }
-.a-propos .contactSection .scrollContactButton {
-  transition: transform 100ms ease-in-out;
-}
-.a-propos .modalContact {
+
+.modalContact {
   text-align: center;
 }
-.a-propos .modalContact .modal-title {
+.modalContact .modal-title {
   margin: auto;
 }
-.a-propos .modalContact .close {
+.modalContact .close {
   position: absolute;
-  right: 15px;
+  right: 10px;
 }
-.a-propos .contactForm {
+
+.contactForm {
   padding: 20px;
   color: #333;
+  border-color: #fbb32c;
 }
-.a-propos .contactForm .btnContactForm {
+.contactForm .btnContactForm {
   border-radius: 50px;
   width: 30%;
-  box-shadow: 0 0 1px #333;
+  background-color: #fbb32c;
+  border-color: #fbb32c;
 }
-.a-propos .contactForm .btnContactForm:hover {
-  background-color: #333;
+.contactForm .btnContactForm:hover {
+  background-color: #fbb32c;
+  border-color: #fbb32c;
+  color: #333;
+}
+.contactForm .btnContactForm:focus {
+  background-color: #fbb32c;
+  border-color: #fbb32c;
+  box-shadow: none;
+}
+.contactForm .btnContactForm:not(:disabled):not(.disabled):active {
+  color: white;
+  box-shadow: none;
+}
+.contactForm .form-control {
+  letter-spacing: 1px;
 }
 
 footer {

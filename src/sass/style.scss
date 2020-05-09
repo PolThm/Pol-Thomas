@@ -237,39 +237,56 @@ header {
         color: $secondary;
         //box-shadow: 0 0 10px $primary;
       }
-      &:active {
-        //border: 10px white solid;
-        //box-shadow: 0 0 10px $primary;
+      &:focus {
+        box-shadow: none;
       }
     }
     .buttonContactForPhone {
       display: none;
     }
-    .scrollContactButton {
-      transition: transform 100ms ease-in-out;
+    //.scrollContactButton {
+    //  transition: transform 100ms ease-in-out;
+    //}
+  }
+}
+.modalContact {
+  text-align: center;
+  .modal-title {
+    margin: auto;
+  }
+  .close {
+    position: absolute;
+    right: 10px;
+  }
+}
+.contactForm {
+  padding: 20px;
+  color: $secondary;
+  border-color: $tertiary;
+  .btnContactForm {
+    border-radius: 50px;
+    width: 30%;
+    background-color: $tertiary;
+    border-color: $tertiary;
+    //color: $secondary;
+    &:hover {
+      background-color: $tertiary;
+      border-color: $tertiary;
+      color: $secondary;
+    }
+    &:focus {
+      background-color: $tertiary;
+      border-color: $tertiary;
+      box-shadow: none;
+    }
+    &:not(:disabled):not(.disabled):active {
+      //border-color: $secondary;
+      color: $primary;
+      box-shadow: none;
     }
   }
-  .modalContact {
-    text-align: center;
-    .modal-title {
-      margin: auto;
-    }
-    .close {
-      position: absolute;
-      right: 15px;
-    }
-  }
-  .contactForm {
-    padding: 20px;
-    color: $secondary;
-    .btnContactForm {
-      border-radius: 50px;
-      width: 30%;
-      box-shadow: 0 0 1px $secondary;
-      &:hover {
-        background-color: $secondary;
-      }
-    }
+  .form-control {
+    letter-spacing: 1px;
   }
 }
 

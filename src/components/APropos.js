@@ -3,7 +3,7 @@ import ScrollableAnchor from "react-scrollable-anchor";
 import ScrollAnimation from "react-animate-on-scroll";
 import polProfil from "../img/pol-profil-bw.jpg"
 import {Button, Image} from "react-bootstrap";
-// import ModalContact from "./ModalContact";
+import ModalContact from "./ModalContact";
 
 
 class APropos extends Component {
@@ -29,15 +29,15 @@ class APropos extends Component {
 
           <section className={'contactSection'}>
             <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
-              <Button variant="secondary" className="buttonContact buttonContactNotForPhone" onClick={this.showModalContact}>CONTACT</Button>
+              <Button variant="secondary" className="buttonContact buttonContactNotForPhone" onClick={this.props.openModalContact}>CONTACT</Button>
             </ScrollAnimation>
-            <Button variant="secondary" className="buttonContact buttonContactForPhone" onClick={this.showModalContact}>CONTACT</Button>
+            <Button variant="secondary" className="buttonContact buttonContactForPhone" onClick={this.props.openModalContact}>CONTACT</Button>
 
 
-            {/*<ModalContact*/}
-            {/*  showModalContact={this.state.showModalContact}*/}
-            {/*  closeModalContact={this.closeModalContact}*/}
-            {/*/>*/}
+            <ModalContact
+              showModalContact={this.props.showModalContact}
+              closeModalContact={this.props.closeModalContact}
+            />
           </section>
         </div>
       </ScrollableAnchor>
