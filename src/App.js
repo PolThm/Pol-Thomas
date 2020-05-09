@@ -31,7 +31,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <HeaderComponent/>
+        <HeaderComponent
+          showModalContact={this.state.showModalContact}
+          openModalContact={this.openModalContact}
+          closeModalContact={this.closeModalContact}
+        />
 
         <MesRealisations/>
 

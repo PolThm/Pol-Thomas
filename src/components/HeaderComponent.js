@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Container, Navbar, Nav} from "react-bootstrap";
+import ModalContact from "./ModalContact";
 
 
 class HeaderComponent extends Component {
@@ -11,7 +12,7 @@ class HeaderComponent extends Component {
             <Nav className="mr-auto">
               <Nav.Link className={"navLink1"} href="#mes-realisations">MES RÉALISATIONS</Nav.Link>
               <Nav.Link className={"navLink2 navLinkPadding"} href="#a-propos">À PROPOS</Nav.Link>
-              <Nav.Link className={"navLink3 navLinkPadding"} href="#contact">CONTACT</Nav.Link>
+              <Nav.Link className={"navLink3 navLinkPadding"} onClick={this.props.openModalContact}>CONTACT</Nav.Link>
             </Nav>
           </Navbar>
           <h1 className="text-name">Pol Thomas</h1>
@@ -31,6 +32,10 @@ class HeaderComponent extends Component {
             </a>
           </div>
         </Container>
+        <ModalContact
+          showModalContact={this.props.showModalContact}
+          closeModalContact={this.props.closeModalContact}
+        />
       </header>
     );
   }

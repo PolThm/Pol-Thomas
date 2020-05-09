@@ -9,6 +9,7 @@ import architecture from '../img/architecture.jpg';
 import seasonSale from '../img/season-sale.jpg';
 
 class MesRealisationsSitesVitrines extends React.Component {
+
   render() {
     return(
       <Container fluid>

@@ -24,7 +24,7 @@ class ContactForm extends React.Component{
         this.resetForm();
         this.closeModalContact();
       }else if(response.data.status === 'fail'){
-        alert("Erreur : Le message n'est pas parti")
+        alert("Le message n'est pas parti, il semble y avoir un problème")
       }
     })
   }
