@@ -110,7 +110,7 @@ header {
   justify-content: space-evenly;
   h2 {
     padding: 5vh 0 5vh 0;
-    //font-size: 2.26rem;
+    //font-size: 2.34rem;
     font-size: 2.02rem;
     letter-spacing: 0.585rem;
   }
@@ -132,7 +132,7 @@ header {
     }
   }
   .container-fluid {
-    padding-bottom: 17.1vh;
+    padding-bottom: 18.3vh;
     .figure {
       margin-bottom: 2.5vh;
       border: $secondary 1px solid;
@@ -203,11 +203,6 @@ header {
     font-size: 2.02rem;
     letter-spacing: 0.585rem;
   }
-  //h3 {
-  //  padding: 2.5vh 0 0 0;
-  //  font-size: 3.17rem;
-  //  letter-spacing: 0.335rem;
-  //}
   p {
     //padding: 0 0 5vh 0;
     font-size: 1.5rem;
@@ -220,7 +215,7 @@ header {
     img {
       width: 75%;
       //height: 100%;
-      border: 3px $tertiary solid;
+      border: 0.4rem $tertiary solid;
     }
   }
 

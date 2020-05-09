@@ -14,6 +14,7 @@ class MesRealisations extends React.Component {
           <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
             <h2 className={"mes-realisation-title"}>MES RÉALISATIONS</h2>
           </ScrollAnimation>
+
           <Tabs defaultActiveKey="sitesVitrines" id="mes-realisations-tabs">
             <Tab eventKey="sitesVitrines" title="Sites vitrines">
               <MesRealisationsSitesVitrines/>
@@ -22,6 +23,7 @@ class MesRealisations extends React.Component {
               <MesRealisationsProjetsTechniques />
             </Tab>
           </Tabs>
+
         </div>
       </ScrollableAnchor>
     )

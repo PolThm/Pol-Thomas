@@ -17,7 +17,7 @@ class HeaderComponent extends Component {
           <h1 className="text-name">Pol Thomas</h1>
           <h1 className="text-title">DÉVELOPPEUR WEB FRONTEND</h1>
           <div className="line-header"/>
-          <h2 className="text-welcome">Bienvenue</h2>
+          <h3 className="text-welcome">Bienvenue</h3>
           <p className="text-introduction">Je vous propose de découvrir un aperçu de mes réalisations
             dans le cadre de mon parcours de développeur web frontend</p>
           <div className={"downArrow"}>

@@ -5,8 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/APropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/APropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
@@ -101,7 +102,8 @@
       <workItem from="1588846220384" duration="204000" />
       <workItem from="1588853433285" duration="347000" />
       <workItem from="1588930995781" duration="2484000" />
-      <workItem from="1588940833841" duration="3124000" />
+      <workItem from="1588940833841" duration="3252000" />
+      <workItem from="1589014412844" duration="4814000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -194,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588943076456</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Retouches sur la section &quot;à propos&quot;">
+      <created>1588944000127</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1588944000127</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +237,7 @@
     <MESSAGE value="Mise en place de la fleche blanche sur le header pour scroller vers le bas" />
     <MESSAGE value="Section &quot;à propos&quot; commencée" />
     <MESSAGE value="Petites retouches sur le design du Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Petites retouches sur le design du Header" />
+    <MESSAGE value="Retouches sur la section &quot;à propos&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Retouches sur la section &quot;à propos&quot;" />
   </component>
 </project>

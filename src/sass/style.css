@@ -168,7 +168,7 @@ header .downArrow .downArrowPath {
   border-color: #fbb32c #fbb32c white;
 }
 .mes-realisations .container-fluid {
-  padding-bottom: 17.1vh;
+  padding-bottom: 18.3vh;
 }
 .mes-realisations .container-fluid .figure {
   margin-bottom: 2.5vh;
@@ -246,7 +246,7 @@ header .downArrow .downArrowPath {
 }
 .a-propos .picture-a-propos img {
   width: 75%;
-  border: 3px #fbb32c solid;
+  border: 0.4rem #fbb32c solid;
 }
 .a-propos .contactSection {
   padding-bottom: 5vh;
@@ -318,10 +318,28 @@ footer .text-footer span {
     display: none !important;
   }
 
+  .downArrow {
+    animation: fadeInDown 2000ms 2000ms both !important;
+  }
+
   .text-name {
     font-size: 6.87rem !important;
     margin-top: 0 !important;
     padding-top: 5vh !important;
+  }
+
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+    border: none !important;
+    font-size: 1.3rem;
+  }
+  .nav-tabs .nav-link.active {
+    border-color: white white #fbb32c !important;
+  }
+
+  .mes-realisations .container-fluid {
+    padding-bottom: 15vh !important;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -333,10 +351,28 @@ footer .text-footer span {
     display: none !important;
   }
 
+  .downArrow {
+    animation: fadeInDown 2000ms 2000ms both !important;
+  }
+
   .text-name {
     font-size: 6.87rem !important;
     margin-top: 0 !important;
     padding-top: 5vh !important;
+  }
+
+  .nav-tabs {
+    display: flex;
+    justify-content: center;
+    border: none !important;
+    font-size: 1.3rem;
+  }
+  .nav-tabs .nav-link.active {
+    border-color: white white #fbb32c !important;
+  }
+
+  .mes-realisations .container-fluid {
+    padding-bottom: 15vh !important;
   }
 }
 @media (min-width: 481px) and (max-width: 652px) {
@@ -348,10 +384,18 @@ footer .text-footer span {
     display: none !important;
   }
 
+  .downArrow {
+    animation: fadeInDown 2000ms 2000ms both !important;
+  }
+
   .text-name {
     font-size: 9.05rem !important;
     margin-top: 0 !important;
     padding-top: 5vh !important;
+  }
+
+  h2 {
+    font-size: 2.7rem !important;
   }
 }
 @media (min-width: 653px) and (max-width: 767px) {
@@ -363,10 +407,18 @@ footer .text-footer span {
     display: none !important;
   }
 
+  .downArrow {
+    animation: fadeInDown 2000ms 2000ms both !important;
+  }
+
   .text-name {
     margin-top: 0 !important;
     padding-top: 5vh !important;
     font-size: 13.3rem !important;
+  }
+
+  h2 {
+    font-size: 2.7rem !important;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {
@@ -381,6 +433,10 @@ footer .text-footer span {
   .navbar {
     font-size: 1.19rem !important;
   }
+
+  h2 {
+    font-size: 2.7rem !important;
+  }
 }
 @media (min-width: 960px) and (max-width: 1199px) {
   html {
@@ -394,6 +450,10 @@ footer .text-footer span {
   .navbar {
     font-size: 1.19rem !important;
   }
+
+  h2 {
+    font-size: 2.7rem !important;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1599px) {
   html {
@@ -406,6 +466,10 @@ footer .text-footer span {
 
   .navbar {
     font-size: 1.36rem !important;
+  }
+
+  h2 {
+    font-size: 2.7rem !important;
   }
 }
 @media (min-width: 1600px) {
