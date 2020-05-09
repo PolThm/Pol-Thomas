@@ -243,10 +243,16 @@ header .downArrow .downArrowPath {
 .a-propos .picture-a-propos {
   width: 50%;
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .a-propos .picture-a-propos img {
   width: 75%;
   border: 0.4rem #fbb32c solid;
+}
+.a-propos .picture-a-propos .a-propos-title-forPhone {
+  display: none;
 }
 .a-propos .contactSection {
   padding-bottom: 5vh;
@@ -267,6 +273,11 @@ header .downArrow .downArrowPath {
   color: #333;
 }
 .a-propos .contactSection .buttonContact:focus {
+  box-shadow: none;
+}
+.a-propos .contactSection .buttonContact:not(:disabled):not(.disabled):active {
+  background-color: #fbb32c;
+  color: white;
   box-shadow: none;
 }
 .a-propos .contactSection .buttonContactForPhone {
@@ -306,6 +317,8 @@ header .downArrow .downArrowPath {
   box-shadow: none;
 }
 .contactForm .btnContactForm:not(:disabled):not(.disabled):active {
+  background-color: #fbb32c;
+  border-color: #fbb32c;
   color: white;
   box-shadow: none;
 }
@@ -314,6 +327,7 @@ header .downArrow .downArrowPath {
 }
 
 footer {
+  padding: 0 0.5rem 0 0.5rem;
   box-shadow: 0 0 10px black;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
@@ -370,6 +384,28 @@ footer .text-footer span {
   .buttonContactNotForPhone {
     display: none !important;
   }
+
+  .a-propos .a-propos-content {
+    flex-direction: column-reverse;
+  }
+  .a-propos .a-propos-title-forPhone {
+    display: block !important;
+    margin-bottom: 5vh;
+  }
+  .a-propos .a-propos-title-notForPhone {
+    display: none !important;
+  }
+  .a-propos .picture-a-propos {
+    align-items: center !important;
+    margin: auto;
+  }
+  .a-propos .picture-a-propos img {
+    width: 100% !important;
+  }
+
+  .text-footer {
+    font-size: 0.7rem;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   html {
@@ -411,6 +447,28 @@ footer .text-footer span {
   .buttonContactNotForPhone {
     display: none !important;
   }
+
+  .a-propos .a-propos-content {
+    flex-direction: column-reverse;
+  }
+  .a-propos .a-propos-title-forPhone {
+    display: block !important;
+    margin-bottom: 5vh;
+  }
+  .a-propos .a-propos-title-notForPhone {
+    display: none !important;
+  }
+  .a-propos .picture-a-propos {
+    align-items: center !important;
+    margin: auto;
+  }
+  .a-propos .picture-a-propos img {
+    width: 100% !important;
+  }
+
+  .text-footer {
+    font-size: 0.7rem;
+  }
 }
 @media (min-width: 481px) and (max-width: 652px) {
   html {
@@ -434,6 +492,24 @@ footer .text-footer span {
   h2 {
     font-size: 2.7rem !important;
   }
+
+  .a-propos .a-propos-content {
+    flex-direction: column-reverse;
+  }
+  .a-propos .a-propos-title-forPhone {
+    display: block !important;
+    margin-bottom: 5vh;
+  }
+  .a-propos .a-propos-title-notForPhone {
+    display: none !important;
+  }
+  .a-propos .picture-a-propos {
+    align-items: center !important;
+    margin: auto;
+  }
+  .a-propos .picture-a-propos img {
+    width: 100% !important;
+  }
 }
 @media (min-width: 653px) and (max-width: 767px) {
   html {
@@ -456,6 +532,24 @@ footer .text-footer span {
 
   h2 {
     font-size: 2.7rem !important;
+  }
+
+  .a-propos .a-propos-content {
+    flex-direction: column-reverse;
+  }
+  .a-propos .a-propos-title-forPhone {
+    display: block !important;
+    margin-bottom: 5vh;
+  }
+  .a-propos .a-propos-title-notForPhone {
+    display: none !important;
+  }
+  .a-propos .picture-a-propos {
+    align-items: center !important;
+    margin: auto;
+  }
+  .a-propos .picture-a-propos img {
+    width: 100% !important;
   }
 }
 @media (min-width: 768px) and (max-width: 959px) {

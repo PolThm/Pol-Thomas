@@ -212,10 +212,17 @@ header {
   .picture-a-propos {
     width: 50%;
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    //justify-content: space-evenly;
     img {
       width: 75%;
       //height: 100%;
       border: 0.4rem $tertiary solid;
+    }
+    .a-propos-title-forPhone {
+      display: none;
     }
   }
 
@@ -238,6 +245,11 @@ header {
         //box-shadow: 0 0 10px $primary;
       }
       &:focus {
+        box-shadow: none;
+      }
+      &:not(:disabled):not(.disabled):active {
+        background-color: $tertiary;
+        color: $primary;
         box-shadow: none;
       }
     }
@@ -280,7 +292,8 @@ header {
       box-shadow: none;
     }
     &:not(:disabled):not(.disabled):active {
-      //border-color: $secondary;
+      background-color: $tertiary;
+      border-color: $tertiary;
       color: $primary;
       box-shadow: none;
     }
@@ -292,6 +305,7 @@ header {
 
 footer {
   //margin-top: -40px;
+  padding: 0 0.5rem 0 0.5rem;
   box-shadow: 0 0 10px black;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;

@@ -34,6 +34,28 @@
   .buttonContactNotForPhone {
     display: none !important;
   }
+  .a-propos {
+    .a-propos-content {
+      flex-direction: column-reverse;
+    }
+    .a-propos-title-forPhone {
+      display: block !important;
+      margin-bottom: 5vh;
+    }
+    .a-propos-title-notForPhone {
+      display: none !important;
+    }
+    .picture-a-propos {
+      align-items: center !important;
+      margin: auto;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .text-footer {
+    font-size: 0.7rem;
+  }
 }
 
 //Smartphones
@@ -72,6 +94,28 @@
   .buttonContactNotForPhone {
     display: none !important;
   }
+  .a-propos {
+    .a-propos-content {
+      flex-direction: column-reverse;
+    }
+    .a-propos-title-forPhone {
+      display: block !important;
+      margin-bottom: 5vh;
+    }
+    .a-propos-title-notForPhone {
+      display: none !important;
+    }
+    .picture-a-propos {
+      align-items: center !important;
+      margin: auto;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .text-footer {
+    font-size: 0.7rem;
+  }
 }
 
 //Smartphones to Tablets 1
@@ -92,6 +136,25 @@
   }
   h2 {
     font-size: 2.7rem !important;
+  }
+  .a-propos {
+    .a-propos-content {
+      flex-direction: column-reverse;
+    }
+    .a-propos-title-forPhone {
+      display: block !important;
+      margin-bottom: 5vh;
+    }
+    .a-propos-title-notForPhone {
+      display: none !important;
+    }
+    .picture-a-propos {
+      align-items: center !important;
+      margin: auto;
+      img {
+        width: 100% !important;
+      }
+    }
   }
 }
 
@@ -114,6 +177,25 @@
   h2 {
     font-size: 2.7rem !important;
   }
+  .a-propos {
+    .a-propos-content {
+      flex-direction: column-reverse;
+    }
+    .a-propos-title-forPhone {
+      display: block !important;
+      margin-bottom: 5vh;
+    }
+    .a-propos-title-notForPhone {
+      display: none !important;
+    }
+    .picture-a-propos {
+      align-items: center !important;
+      margin: auto;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
 }
 
 //Tablets
@@ -134,9 +216,9 @@
 
 //Desktop
 @media (min-width: 960px) and (max-width: 1199px) {
- html {
-   font-size: 44%;
- }
+  html {
+    font-size: 44%;
+  }
   .text-name {
     font-size: 13.3rem !important;
   }
