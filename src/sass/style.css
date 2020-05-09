@@ -209,6 +209,24 @@ header .downArrow .downArrowPath {
   width: 100%;
   display: none;
 }
+.mes-realisations .pagination {
+  padding-top: 5vh;
+}
+.mes-realisations .pagination .col1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.mes-realisations .pagination .dots {
+  width: 1rem;
+  height: 1rem;
+  background-color: #333;
+  border: 1px #333 solid;
+  border-radius: 50px;
+  opacity: 0.9;
+}
+.mes-realisations .pagination .dot2 {
+  opacity: 0.4;
+}
 
 .a-propos {
   min-height: 100vh;
@@ -232,6 +250,7 @@ header .downArrow .downArrowPath {
   justify-content: space-evenly;
 }
 .a-propos h2 {
+  padding: 5vh 0 0 0;
   font-size: 2.02rem;
   letter-spacing: 0.585rem;
 }

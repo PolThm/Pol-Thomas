@@ -60,6 +60,14 @@ class MesRealisationsSitesVitrines extends React.Component {
             />
           </Col>
         </Row>
+        <Row className={"pagination"}>
+          <Col className={"col1"}>
+            <div className={"dots dot1"}/>
+          </Col>
+          <Col>
+            <div className={"dots dot2"}/>
+          </Col>
+        </Row>
       </Container>
     )
   }
