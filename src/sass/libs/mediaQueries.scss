@@ -28,6 +28,12 @@
       padding-bottom: 15vh !important;
     }
   }
+  .buttonContactForPhone {
+    display: block !important;
+  }
+  .buttonContactNotForPhone {
+    display: none !important;
+  }
 }
 
 //Smartphones
@@ -59,6 +65,12 @@
     .container-fluid {
       padding-bottom: 15vh !important;
     }
+  }
+  .buttonContactForPhone {
+    display: block !important;
+  }
+  .buttonContactNotForPhone {
+    display: none !important;
   }
 }
 

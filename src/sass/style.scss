@@ -226,12 +226,10 @@ header {
       background-color: $tertiary;
       font-size: 2.02rem;
       letter-spacing: 0.585rem;
-      //font-weight: 700;
       color: $primary;
       border: none;
       border-radius: 50px;
       padding: 1rem 6rem 1rem 6rem;
-      //box-shadow: 0 0 10px #333;
       transition: transform 100ms ease-in-out;
       &:hover {
         transform: scale(1.1);
@@ -243,6 +241,9 @@ header {
         //border: 10px white solid;
         //box-shadow: 0 0 10px $primary;
       }
+    }
+    .buttonContactForPhone {
+      display: none;
     }
     .scrollContactButton {
       transition: transform 100ms ease-in-out;

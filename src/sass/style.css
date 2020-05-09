@@ -266,6 +266,9 @@ header .downArrow .downArrowPath {
   background-color: #fbb32c;
   color: #333;
 }
+.a-propos .contactSection .buttonContactForPhone {
+  display: none;
+}
 .a-propos .contactSection .scrollContactButton {
   transition: transform 100ms ease-in-out;
 }
@@ -341,6 +344,14 @@ footer .text-footer span {
   .mes-realisations .container-fluid {
     padding-bottom: 15vh !important;
   }
+
+  .buttonContactForPhone {
+    display: block !important;
+  }
+
+  .buttonContactNotForPhone {
+    display: none !important;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   html {
@@ -373,6 +384,14 @@ footer .text-footer span {
 
   .mes-realisations .container-fluid {
     padding-bottom: 15vh !important;
+  }
+
+  .buttonContactForPhone {
+    display: block !important;
+  }
+
+  .buttonContactNotForPhone {
+    display: none !important;
   }
 }
 @media (min-width: 481px) and (max-width: 652px) {

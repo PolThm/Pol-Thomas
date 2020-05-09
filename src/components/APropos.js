@@ -29,8 +29,11 @@ class APropos extends Component {
 
           <section className={'contactSection'}>
             <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
-              <Button variant="secondary" className="buttonContact" onClick={this.showModalContact}>CONTACT</Button>
+              <Button variant="secondary" className="buttonContact buttonContactNotForPhone" onClick={this.showModalContact}>CONTACT</Button>
             </ScrollAnimation>
+            <Button variant="secondary" className="buttonContact buttonContactForPhone" onClick={this.showModalContact}>CONTACT</Button>
+
+
             {/*<ModalContact*/}
             {/*  showModalContact={this.state.showModalContact}*/}
             {/*  closeModalContact={this.closeModalContact}*/}
