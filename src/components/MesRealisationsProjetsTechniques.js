@@ -33,6 +33,9 @@ class MesRealisationsProjetsTechniques extends React.Component {
             />
           </Col>
         </Row>
+        <Row className={"pagination"}>
+          <div className={"dots dot-full"}/>
+        </Row>
       </Container>
     )
   }

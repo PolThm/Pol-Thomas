@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60af650a-ce5f-4cee-870d-5ccbdfd7c8cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/blogger.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/lingerie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mega-gym.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/simple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stylish-architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/yoga.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
@@ -101,7 +109,10 @@
       <workItem from="1588853433285" duration="347000" />
       <workItem from="1588930995781" duration="2484000" />
       <workItem from="1588940833841" duration="3252000" />
-      <workItem from="1589014412844" duration="16878000" />
+      <workItem from="1589014412844" duration="16942000" />
+      <workItem from="1589034921663" duration="3000" />
+      <workItem from="1589039258736" duration="830000" />
+      <workItem from="1589187284043" duration="3683000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -236,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589033581774</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Design de pagination ajouté">
+      <created>1589034835497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1589034835497</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +293,7 @@
     <MESSAGE value="Modale en place !" />
     <MESSAGE value="Mise en place du responsive pour la section à propos + le footer" />
     <MESSAGE value="Modale avec le contact du menu valide" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modale avec le contact du menu valide" />
+    <MESSAGE value="Design de pagination ajouté" />
+    <option name="LAST_COMMIT_MESSAGE" value="Design de pagination ajouté" />
   </component>
 </project>
