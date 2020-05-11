@@ -168,7 +168,7 @@ header .downArrow .downArrowPath {
   border-color: #fbb32c #fbb32c white;
 }
 .mes-realisations .container-fluid {
-  padding-bottom: 18.3vh;
+  padding-bottom: 12.3vh;
 }
 .mes-realisations .container-fluid .figure {
   margin-bottom: 2.5vh;
@@ -215,11 +215,11 @@ header .downArrow .downArrowPath {
   justify-content: center;
 }
 .mes-realisations .pagination .dots {
-  width: 1rem;
-  height: 1rem;
+  width: 12px;
+  height: 12px;
   border: 1px #333 solid;
   border-radius: 50px;
-  margin: 0 1rem 0 1rem;
+  margin: 0 24px 0 24px;
   cursor: pointer;
 }
 .mes-realisations .pagination .dot-full {
