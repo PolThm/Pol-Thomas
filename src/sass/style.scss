@@ -197,7 +197,7 @@ header {
       height: 12px;
       border: 1px $secondary solid;
       border-radius: 50px;
-      margin: 0 24px 0 24px;
+      margin: 0 22px 0 22px;
       cursor: pointer;
     }
     .dot-full {
@@ -312,9 +312,9 @@ header {
     background-color: $tertiary;
     border-color: $tertiary;
     //color: $secondary;
-    transition: transform 100ms ease-in-out;
+    //transition: transform 100ms ease-in-out;
     &:hover {
-      transform: scale(1.1);
+      //transform: scale(1.1);
       background-color: $tertiary;
       border-color: $tertiary;
       color: $secondary;
