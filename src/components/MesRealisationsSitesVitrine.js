@@ -135,12 +135,12 @@ class MesRealisationsSitesVitrines extends React.Component {
     const dotsConfig1 =
       <Row className={"pagination"}>
         <div className={"dots dot-full"}/>
-        <a className={"dots dot-empty"} href={"#mes-realisation-title"} onClick={this.changePage}/>
+        <a className={"dots dot-empty"} href={"#mes-realisation-title"} onClick={this.changePage}><div/></a>
       </Row>;
 
     const dotsConfig2 =
       <Row className={"pagination"}>
-        <a className={"dots dot-empty"} href={"#mes-realisation-title"} onClick={this.changePage}/>
+        <a className={"dots dot-empty"} href={"#mes-realisation-title"} onClick={this.changePage}><div/></a>
         <div className={"dots dot-full"}/>
       </Row>;
 

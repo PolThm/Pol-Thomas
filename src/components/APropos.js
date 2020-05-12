@@ -19,7 +19,7 @@ class APropos extends Component {
               <p>Diplômé d'une formation de développeur d'application frontend de niveau 6 (bac +3/4), j'utilise aujourd'hui
                 les compétences que j'aie acquises pour réaliser des projets divers et variés. Je me sers de nombreux langages
                 informatiques pour parvenir à mes fins (en particulier JavaScript et le framework React ou encore React Native
-                pour les applications mobiles). Il m'arrive aussi d'utiliser WordPress pour la réalisation de sites vitrines. <hr/>
+                pour les applications mobiles). Il m'arrive aussi d'utiliser WordPress pour la réalisation de sites vitrines.
                 Je vous invite à me contacter pour toute information, proposition ou projet à me partager.
               </p>
             </div>
