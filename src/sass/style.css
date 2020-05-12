@@ -225,6 +225,10 @@ header .downArrow .downArrowPath {
 .mes-realisations .pagination .dot-full {
   background-color: #333;
 }
+.mes-realisations .mes-realisations-empty {
+  display: none !important;
+}
+
 .a-propos {
   min-height: 100vh;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;

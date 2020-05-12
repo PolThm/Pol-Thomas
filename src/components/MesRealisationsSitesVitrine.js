@@ -34,7 +34,7 @@ class MesRealisationsSitesVitrines extends React.Component {
 
   render() {
     const page1 =
-      <Row>
+      <Row className={this.state.page === 1 ? null : "mes-realisations-empty"}>
         <Col md={6} lg={4}>
           <Realisation
             picture={lesFilmsDePleinAir}
@@ -106,7 +106,7 @@ class MesRealisationsSitesVitrines extends React.Component {
       </Row>
 
     const page2 =
-      <Row>
+      <Row className={this.state.page === 1 ? "mes-realisations-empty" : null}>
         <Col md={6} lg={4}>
           <Realisation
             picture={lingerie}

@@ -191,7 +191,6 @@ header {
     margin-top: 5vh;
     display: flex;
     justify-content: center;
-
     .dots {
       width: 12px;
       height: 12px;
@@ -206,7 +205,9 @@ header {
     .dot-empty {
     }
   }
-
+  .mes-realisations-empty {
+    display: none !important;
+  }
 }
 
 .a-propos {
