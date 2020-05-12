@@ -145,7 +145,7 @@ header .downArrow .downArrowPath {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .mes-realisations h2 {
   padding: 5vh 0 5vh 0;
@@ -238,9 +238,10 @@ header .downArrow .downArrowPath {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .a-propos .a-propos-content {
+  padding: 7.5vh 0 0 0;
   display: flex;
 }
 .a-propos .texts-a-propos {
@@ -248,10 +249,9 @@ header .downArrow .downArrowPath {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .a-propos h2 {
-  padding: 5vh 0 0 0;
   font-size: 2.02rem;
   letter-spacing: 0.585rem;
 }
