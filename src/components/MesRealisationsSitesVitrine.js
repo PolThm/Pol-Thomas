@@ -61,46 +61,46 @@ class MesRealisationsSitesVitrines extends React.Component {
         <Col md={6} lg={4}>
           <Realisation
             picture={personal}
-            description={'À venir'}
-            // link={'#'}
+            description={'Personal (démo Wordpress)'}
+            link={'http://personal.pol-thomas.com/'}
           />
         </Col>
         <Col md={6} lg={4}>
           <Realisation
             className={'figureInTheMiddle'}
             picture={seasonSale}
-            description={'À venir'}
-            // link={'#'}
+            description={'Season Sale (démo WordPress)'}
+            link={'http://season-sale.pol-thomas.com/'}
           />
         </Col>
         <Col md={6} lg={4}>
           <Realisation
             picture={architecture}
-            description={'À venir'}
-            // link={'#'}
+            description={'Architecture (démo WordPress)'}
+            link={'https://architecture.pol-thomas.com/'}
           />
         </Col>
 
         <Col md={6} lg={4}>
           <Realisation
             picture={simple}
-            description={'À venir'}
-            // link={'#'}
+            description={'Simple (démo WordPress)'}
+            link={'http://simple.pol-thomas.com/'}
           />
         </Col>
         <Col md={6} lg={4}>
           <Realisation
             className={'figureInTheMiddle'}
             picture={megaGym}
-            description={'À venir'}
-            // link={'#'}
+            description={'Mega Gym (démo WordPress)'}
+            link={'http://mega-gym.pol-thomas.com/'}
           />
         </Col>
         <Col md={6} lg={4}>
           <Realisation
             picture={yoga}
-            description={'À venir'}
-            // link={'#'}
+            description={'Yoga (démo WordPress)'}
+            link={'http://yoga.pol-thomas.com/'}
           />
         </Col>
       </Row>
@@ -110,23 +110,23 @@ class MesRealisationsSitesVitrines extends React.Component {
         <Col md={6} lg={4}>
           <Realisation
             picture={lingerie}
-            description={'À venir'}
-            // link={'#'}
+            description={'Lingerie (démo WordPress)'}
+            link={'http://lingerie.pol-thomas.com/'}
           />
         </Col>
         <Col md={6} lg={4}>
           <Realisation
             className={'figureInTheMiddle'}
             picture={blogger}
-            description={'À venir'}
-            // link={'#'}
+            description={'Blogger (démo WordPress)'}
+            link={'http://blogger.pol-thomas.com/'}
           />
         </Col>
         <Col md={6} lg={4}>
           <Realisation
             picture={stylishArchitecture}
-            description={'À venir'}
-            // link={'#'}
+            description={'Stylish Architecture (démo WordPress)'}
+            link={'http://stylish-architecture.pol-thomas.com/'}
           />
         </Col>
       </Row>
@@ -135,18 +135,14 @@ class MesRealisationsSitesVitrines extends React.Component {
     const dotsConfig1 =
       <Row className={"pagination"}>
         <div className={"dots dot-full"}/>
-        <a href={"#mes-realisation-title"}>
-          <div className={"dots dot-empty"} onClick={this.changePage}/>
-        </a>
-      </Row>
+        <a className={"dots dot-empty"} href={"#mes-realisation-title"} onClick={this.changePage}/>
+      </Row>;
 
     const dotsConfig2 =
       <Row className={"pagination"}>
-        <a href={"#mes-realisation-title"}>
-          <div className={"dots dot-empty"} onClick={this.changePage}/>
-        </a>
+        <a className={"dots dot-empty"} href={"#mes-realisation-title"} onClick={this.changePage}/>
         <div className={"dots dot-full"}/>
-      </Row>
+      </Row>;
 
     let content;
     let dots;
