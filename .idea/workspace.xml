@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60af650a-ce5f-4cee-870d-5ccbdfd7c8cd" name="Default Changelist" comment="">
+    <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pol-thomas.com.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pol-thomas.com.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendMail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sendMail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/APropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/APropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Realisation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Realisation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/batFiles/scssCompile.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/batFiles/scssCompile.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/batFiles/scssWatch.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/batFiles/scssWatch.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/keyframes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/keyframes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +100,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60af650a-ce5f-4cee-870d-5ccbdfd7c8cd" name="Default Changelist" comment="" />
+      <changelist id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="" />
       <created>1588581408682</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -112,6 +131,7 @@
       <workItem from="1589279943118" duration="7730000" />
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
+      <workItem from="1589299261139" duration="2413000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>

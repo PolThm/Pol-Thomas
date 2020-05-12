@@ -16,11 +16,14 @@ class APropos extends Component {
               <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
                 <h2 className={"a-propos-title-notForPhone"}>À PROPOS</h2>
               </ScrollAnimation>
-              <p>Diplômé d'une formation de développeur d'application frontend de niveau 6 (bac +3/4), j'utilise aujourd'hui
-                les compétences que j'aie acquises pour réaliser des projets divers et variés. Je me sers de nombreux langages
-                informatiques pour parvenir à mes fins (en particulier JavaScript et le framework React ou encore React Native
-                pour les applications mobiles). Il m'arrive aussi d'utiliser WordPress pour la réalisation de sites vitrines. <br/><br/>
-                Je vous invite à me contacter pour toute information, proposition ou projet à me partager.
+              <p>Diplômé d'une formation de développeur d'application frontend de niveau bac +4, je me sers aujourd'hui
+                des compétences que j'y aie acquises pour façonner des projets numériques variés.
+                <br/><br/>
+                J'utilise divers langages informatiques pour parvenir à mes fins (en particulier JavaScript avec
+                React JS ou encore React Native pour les applications mobiles).
+                <br/><br/>
+                Je vous invite vivement à me contacter si vous avez un besoin digital, une quelconque proposition ou tout
+                simplement une question, c'est avec grand plaisir que j'y répondrai !
               </p>
             </div>
             <div className={"picture-a-propos"}>

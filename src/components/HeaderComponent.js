@@ -19,8 +19,8 @@ class HeaderComponent extends Component {
           <h1 className="text-title">DÉVELOPPEUR WEB FRONTEND</h1>
           <div className="line-header"/>
           <h3 className="text-welcome">Bienvenue</h3>
-          <p className="text-introduction">Je vous propose de découvrir un aperçu de mes réalisations
-            dans le cadre de mon parcours de développeur web frontend.</p>
+          <p className="text-introduction">Je vous propose mes services dans la création de sites web ou d'applications informatiques,
+            vous trouverez ci-dessous un aperçu de mes réalisations.</p>
           <div className={"downArrow"}>
             <a href={"#mes-realisations"}>
               <svg className={"downArrowSvg"} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
