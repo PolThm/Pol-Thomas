@@ -56,6 +56,21 @@
   .text-footer {
     font-size: 0.7rem;
   }
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+  .text-introduction {
+    text-align: center !important;
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+  .text-a-propos {
+    text-align: center !important;
+  }
 }
 
 //Smartphones
@@ -116,6 +131,21 @@
   .text-footer {
     font-size: 0.7rem;
   }
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+  .text-introduction {
+    text-align: center !important;
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+  .text-a-propos {
+    text-align: center !important;
+  }
 }
 
 //Smartphones to Tablets 1
@@ -155,6 +185,21 @@
         width: 100% !important;
       }
     }
+  }
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+  .text-introduction {
+    text-align: center !important;
+    width: 43rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+  .text-a-propos {
+    text-align: center !important;
   }
 }
 
@@ -196,6 +241,21 @@
       }
     }
   }
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+  .text-introduction {
+    text-align: center !important;
+    width: 63rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+  .text-a-propos {
+    text-align: center !important;
+  }
 }
 
 //Tablets
@@ -211,6 +271,43 @@
   }
   h2 {
     font-size: 2.7rem !important;
+  }
+  .a-propos {
+    .a-propos-content {
+      flex-direction: column-reverse;
+    }
+    .a-propos-title-forPhone {
+      display: block !important;
+      margin-bottom: 5vh;
+    }
+    .a-propos-title-notForPhone {
+      display: none !important;
+    }
+    .picture-a-propos {
+      align-items: center !important;
+      margin: auto;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+  .text-introduction {
+    text-align: center !important;
+    width: 63rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+  .text-a-propos {
+    text-align: center !important;
+  }
+  .mr-auto {
+    margin: auto !important;
   }
 }
 

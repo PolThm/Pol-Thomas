@@ -256,6 +256,7 @@ header .downArrow .downArrowPath {
   letter-spacing: 0.585rem;
 }
 .a-propos p {
+  padding: 0 0 5vh 0;
   font-size: 1.5rem;
   margin-top: 5vh;
   text-align: justify;
@@ -275,7 +276,7 @@ header .downArrow .downArrowPath {
   display: none;
 }
 .a-propos .contactSection {
-  padding-bottom: 5vh;
+  padding: 0 0 5vh 0;
 }
 .a-propos .contactSection .buttonContact {
   background-color: #fbb32c;
@@ -426,6 +427,25 @@ footer .text-footer span {
   .text-footer {
     font-size: 0.7rem;
   }
+
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+
+  .text-introduction {
+    text-align: center !important;
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+
+  .text-a-propos {
+    text-align: center !important;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   html {
@@ -489,6 +509,25 @@ footer .text-footer span {
   .text-footer {
     font-size: 0.7rem;
   }
+
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+
+  .text-introduction {
+    text-align: center !important;
+    width: 100% !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+
+  .text-a-propos {
+    text-align: center !important;
+  }
 }
 @media (min-width: 481px) and (max-width: 652px) {
   html {
@@ -529,6 +568,25 @@ footer .text-footer span {
   }
   .a-propos .picture-a-propos img {
     width: 100% !important;
+  }
+
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+
+  .text-introduction {
+    text-align: center !important;
+    width: 43rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+
+  .text-a-propos {
+    text-align: center !important;
   }
 }
 @media (min-width: 653px) and (max-width: 767px) {
@@ -571,6 +629,25 @@ footer .text-footer span {
   .a-propos .picture-a-propos img {
     width: 100% !important;
   }
+
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+
+  .text-introduction {
+    text-align: center !important;
+    width: 63rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+
+  .text-a-propos {
+    text-align: center !important;
+  }
 }
 @media (min-width: 768px) and (max-width: 959px) {
   html {
@@ -587,6 +664,47 @@ footer .text-footer span {
 
   h2 {
     font-size: 2.7rem !important;
+  }
+
+  .a-propos .a-propos-content {
+    flex-direction: column-reverse;
+  }
+  .a-propos .a-propos-title-forPhone {
+    display: block !important;
+    margin-bottom: 5vh;
+  }
+  .a-propos .a-propos-title-notForPhone {
+    display: none !important;
+  }
+  .a-propos .picture-a-propos {
+    align-items: center !important;
+    margin: auto;
+  }
+  .a-propos .picture-a-propos img {
+    width: 100% !important;
+  }
+
+  .text-name, .text-title, .text-welcome {
+    text-align: center !important;
+  }
+
+  .text-introduction {
+    text-align: center !important;
+    width: 63rem !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .line-header {
+    margin: 5vh auto 0 auto !important;
+  }
+
+  .text-a-propos {
+    text-align: center !important;
+  }
+
+  .mr-auto {
+    margin: auto !important;
   }
 }
 @media (min-width: 960px) and (max-width: 1199px) {
