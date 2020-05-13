@@ -120,7 +120,8 @@
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="16805000" />
+      <workItem from="1589356125664" duration="17024000" />
+      <workItem from="1589397165413" duration="202000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -388,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589391761194</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Responsive iOS done done done !">
+      <created>1589392117236</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1589392117236</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +417,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Section &quot;à propos&quot; commencée" />
     <MESSAGE value="Petites retouches sur le design du Header" />
     <MESSAGE value="Retouches sur la section &quot;à propos&quot;" />
     <MESSAGE value="Systeme responsive de la partie &quot;Mes réalisations&quot; done !" />
@@ -434,6 +441,7 @@
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done !" />
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done done !" />
     <MESSAGE value="Uppercase aux textes réalisations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uppercase aux textes réalisations" />
+    <MESSAGE value="Responsive iOS done done done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive iOS done done done !" />
   </component>
 </project>

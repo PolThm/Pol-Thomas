@@ -845,6 +845,10 @@ footer .text-footer .text-mentions-legales:hover {
   header, .a-propos {
     background-attachment: scroll !important;
   }
+
+  footer {
+    background: black !important;
+  }
 }
 
 /*# sourceMappingURL=App.css.map */
