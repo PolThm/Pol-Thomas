@@ -9,6 +9,15 @@ $tertiary: #fbb32c;
 html {
   font-size: 16px;
 }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  //overflow-x: hidden;
+}
+
 * {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 4px;
@@ -18,6 +27,7 @@ header {
   min-height: 100vh;
   background: url("./img/background_header.jpg") no-repeat fixed;
   background-size: cover;
+  //background-attachment: scroll;
   color: $primary;
   padding: 0 14% 0 14%;
   .navbar {
@@ -83,8 +93,8 @@ header {
     width: 100%;
     min-height: 25px;
     text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1.8rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
 
     margin: 0 auto;
     position: absolute;
@@ -358,9 +368,11 @@ footer {
       color: $tertiary;
     }
     .text-mentions-legales {
+      color: $tertiary;
       cursor: pointer;
       &:hover {
-        text-decoration: underline;
+        color: darken($tertiary, 15%);
+        //text-decoration: underline;
       }
     }
   }

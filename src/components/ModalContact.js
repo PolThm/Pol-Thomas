@@ -3,10 +3,6 @@ import Modal from 'react-bootstrap/Modal';
 import ContactForm from "./ContactForm";
 
 class ModalContact extends React.Component {
-  closeModalContact = () => {
-    this.props.closeModalContact(true);
-  };
-
   render() {
     let modalContact = null;
     if (this.props.showModalContact) {

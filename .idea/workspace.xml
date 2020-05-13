@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalMentionsLegales.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalMentionsLegales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +124,7 @@
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="7582000" />
+      <workItem from="1589356125664" duration="11123000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -348,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589363739722</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add prefix css">
+      <created>1589363803571</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1589363803571</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +385,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Rectifications responsive header" />
     <MESSAGE value="Section mes réalisations peaufiner + tabs ajoutés" />
     <MESSAGE value="Rajout d'une marge en dessous de la section mes realisations" />
     <MESSAGE value="Peaufinage, ajout d'une animation sur le titre &quot;Mes realisations&quot; quand on scroll" />
@@ -394,6 +409,7 @@
     <MESSAGE value="Ajout de mentions légales" />
     <MESSAGE value="Modifications padding footer" />
     <MESSAGE value="Modifications footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications footer" />
+    <MESSAGE value="add prefix css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prefix css" />
   </component>
 </project>

@@ -84,6 +84,9 @@
   .realisedBy {
     display: none;
   }
+  header, .a-propos {
+    background-attachment: scroll;
+  }
 }
 
 //Smartphones
@@ -165,6 +168,9 @@
   .realisedBy {
     display: none;
   }
+  header, .a-propos {
+    background-attachment: scroll;
+  }
 }
 
 //Smartphones to Tablets 1
@@ -226,8 +232,8 @@
   .text-a-propos {
     text-align: center !important;
   }
-  .realisedBy {
-    display: none;
+  header, .a-propos {
+    background-attachment: scroll;
   }
 }
 
@@ -290,6 +296,9 @@
   .text-a-propos {
     text-align: center !important;
   }
+  header, .a-propos {
+    background-attachment: scroll;
+  }
 }
 
 //Tablets
@@ -348,6 +357,9 @@
   }
   .mr-auto {
     margin: auto !important;
+  }
+  header, .a-propos {
+    background-attachment: scroll;
   }
 }
 

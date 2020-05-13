@@ -2,10 +2,6 @@ import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 
 class ModalMentionsLegales extends React.Component {
-  closeModalMentionsLegales = () => {
-    this.props.closeModalMentionsLegales(true);
-  };
-
   render() {
     let modalMentionsLegales = null;
     if (this.props.showModalMentionsLegales) {
