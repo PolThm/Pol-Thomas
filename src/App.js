@@ -58,7 +58,7 @@ class App extends Component {
         />
 
         <footer>
-          <p className={'text-footer'}>Copyright 2020 - Site réalisé par <span className={'text-pol-thomas'}>Pol Thomas</span> - <span className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Mentions légales</span></p>
+          <p className={'text-footer'}>Copyright 2020 <span className={"realisedBy"}>- Site réalisé par <span className={'text-pol-thomas'}>Pol Thomas </span></span>- <span className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Mentions légales</span></p>
           <ModalMentionsLegales
             showModalMentionsLegales={this.state.showModalMentionsLegales}
             closeModalMentionsLegales={this.closeModalMentionsLegales}

@@ -426,6 +426,7 @@ footer .text-footer .text-mentions-legales:hover {
   .a-propos .a-propos-title-forPhone {
     display: block !important;
     margin-bottom: 5vh;
+    text-align: center !important;
   }
   .a-propos .a-propos-title-notForPhone {
     display: none !important;
@@ -463,6 +464,18 @@ footer .text-footer .text-mentions-legales:hover {
 
   .text-pol-thomas {
     padding: 0 1rem 0 1rem !important;
+  }
+
+  .mes-realisation-title {
+    text-align: center !important;
+  }
+
+  #mes-realisations-tabs-tab-projetsTechniques {
+    text-align: center !important;
+  }
+
+  .realisedBy {
+    display: none;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -549,6 +562,10 @@ footer .text-footer .text-mentions-legales:hover {
 
   .text-pol-thomas {
     padding: 0 2rem 0 2rem !important;
+  }
+
+  .realisedBy {
+    display: none;
   }
 }
 @media (min-width: 481px) and (max-width: 652px) {

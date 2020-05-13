@@ -41,6 +41,7 @@
     .a-propos-title-forPhone {
       display: block !important;
       margin-bottom: 5vh;
+      text-align: center !important;
     }
     .a-propos-title-notForPhone {
       display: none !important;
@@ -73,6 +74,15 @@
   }
   .text-pol-thomas {
     padding: 0 1rem 0 1rem !important;
+  }
+  .mes-realisation-title {
+    text-align: center !important;
+  }
+  #mes-realisations-tabs-tab-projetsTechniques {
+    text-align: center !important;
+  }
+  .realisedBy {
+    display: none;
   }
 }
 
@@ -151,6 +161,9 @@
   }
   .text-pol-thomas {
     padding: 0 2rem 0 2rem !important;
+  }
+  .realisedBy {
+    display: none;
   }
 }
 
