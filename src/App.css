@@ -1,9 +1,35 @@
-@keyframes fadeInUp {
+@-webkit-keyframes fadeInUp {
   0% {
     opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
   100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
     transform: translateY(0px);
     opacity: 1;
   }
@@ -11,23 +37,50 @@
 @keyframes fadeInDown {
   0% {
     opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
   100% {
+    -webkit-transform: translateY(0px);
     transform: translateY(0px);
     opacity: 1;
   }
 }
-@keyframes fadeInRightPol {
+@-webkit-keyframes fadeInRightPol {
   0% {
     opacity: 0;
+    -webkit-transform: translate3d(300%, 0, 0);
     transform: translate3d(300%, 0, 0);
   }
   67% {
     opacity: 0.5;
   }
   100% {
+    -webkit-transform: translateX(0px);
     transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeInRightPol {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(300%, 0, 0);
+    transform: translate3d(300%, 0, 0);
+  }
+  67% {
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
     opacity: 1;
   }
 }
@@ -76,12 +129,15 @@ header .navbar .nav-link:hover {
   color: #fbb32c !important;
 }
 header .navbar .navLink1 {
+  -webkit-animation: fadeIn 2000ms 2000ms both;
   animation: fadeIn 2000ms 2000ms both;
 }
 header .navbar .navLink2 {
+  -webkit-animation: fadeIn 2000ms 2500ms both;
   animation: fadeIn 2000ms 2500ms both;
 }
 header .navbar .navLink3 {
+  -webkit-animation: fadeIn 2000ms 3000ms both;
   animation: fadeIn 2000ms 3000ms both;
 }
 header .text-name {
@@ -95,18 +151,21 @@ header .text-title {
   font-size: 2.6rem;
   letter-spacing: 0.67rem;
   margin-top: 5vh;
+  -webkit-animation: fadeInUp 2000ms forwards;
   animation: fadeInUp 2000ms forwards;
 }
 header .line-header {
   margin-top: 5vh;
   width: 15.7rem;
   border-bottom: 0.4rem #fbb32c solid;
+  -webkit-animation: fadeInRightPol 2000ms forwards ease-out;
   animation: fadeInRightPol 2000ms forwards ease-out;
 }
 header .text-welcome {
   margin-top: 5vh;
   font-size: 2.4rem;
   letter-spacing: 0.335rem;
+  -webkit-animation: fadeIn 2000ms 1000ms both;
   animation: fadeIn 2000ms 1000ms both;
 }
 header .text-introduction {
@@ -115,6 +174,7 @@ header .text-introduction {
   margin-top: 5vh;
   text-align: justify;
   font-size: 1.5rem;
+  -webkit-animation: fadeIn 2000ms 1500ms both;
   animation: fadeIn 2000ms 1500ms both;
   padding-bottom: 5vh;
 }
@@ -130,6 +190,7 @@ header .downArrow {
   right: 0;
   bottom: 0;
   left: 0;
+  -webkit-animation: fadeInDown 2000ms 3500ms both;
   animation: fadeInDown 2000ms 3500ms both;
 }
 header .downArrow .downArrowSvg {
@@ -142,9 +203,17 @@ header .downArrow .downArrowPath {
 
 .mes-realisations {
   padding: 0 14% 0 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 .mes-realisations h2 {
@@ -173,11 +242,18 @@ header .downArrow .downArrowPath {
 .mes-realisations .container-fluid .figure {
   margin-bottom: 2.5vh;
   border: #333 1px solid;
+  -webkit-box-shadow: 0 0 1px #333;
   box-shadow: 0 0 1px #333;
+  -webkit-transition: -webkit-transform 100ms ease-in-out;
+  transition: -webkit-transform 100ms ease-in-out;
+  -o-transition: transform 100ms ease-in-out;
   transition: transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
   position: relative;
 }
 .mes-realisations .container-fluid .figure:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
 .mes-realisations .container-fluid .figure:hover::before {
@@ -205,13 +281,19 @@ header .downArrow .downArrowPath {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 100%;
   display: none;
 }
 .mes-realisations .pagination {
   margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .mes-realisations .pagination .dots {
@@ -235,20 +317,38 @@ header .downArrow .downArrowPath {
   background-size: cover;
   padding: 0 14% 0 14%;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 .a-propos .a-propos-content {
   padding: 7.5vh 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .a-propos .texts-a-propos {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 .a-propos h2 {
@@ -264,8 +364,15 @@ header .downArrow .downArrowPath {
 .a-propos .picture-a-propos {
   width: 50%;
   text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end;
 }
 .a-propos .picture-a-propos img {
@@ -286,19 +393,27 @@ header .downArrow .downArrowPath {
   border: none;
   border-radius: 50px;
   padding: 1rem 6rem 1rem 6rem;
+  -webkit-transition: -webkit-transform 100ms ease-in-out;
+  transition: -webkit-transform 100ms ease-in-out;
+  -o-transition: transform 100ms ease-in-out;
   transition: transform 100ms ease-in-out;
+  transition: transform 100ms ease-in-out, -webkit-transform 100ms ease-in-out;
 }
 .a-propos .contactSection .buttonContact:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
   transform: scale(1.1);
   background-color: #fbb32c;
   color: #333;
 }
 .a-propos .contactSection .buttonContact:focus {
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .a-propos .contactSection .buttonContact:not(:disabled):not(.disabled):active {
   background-color: #fbb32c;
   color: white;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .a-propos .contactSection .buttonContactForPhone {
@@ -335,12 +450,14 @@ header .downArrow .downArrowPath {
 .contactForm .btnContactForm:focus {
   background-color: #fbb32c;
   border-color: #fbb32c;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .contactForm .btnContactForm:not(:disabled):not(.disabled):active {
   background-color: #fbb32c;
   border-color: #fbb32c;
   color: white;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 .contactForm .form-control {
@@ -349,6 +466,7 @@ header .downArrow .downArrowPath {
 
 footer {
   padding: 0 2rem 0 2rem;
+  -webkit-box-shadow: 0 0 10px black;
   box-shadow: 0 0 10px black;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
@@ -356,8 +474,14 @@ footer {
 footer .text-footer {
   height: 40px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 0;
 }
@@ -389,6 +513,7 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .downArrow {
+    -webkit-animation: fadeInDown 2000ms 2000ms both !important;
     animation: fadeInDown 2000ms 2000ms both !important;
   }
 
@@ -399,7 +524,11 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .nav-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     border: none !important;
     font-size: 1.3rem;
@@ -421,6 +550,9 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .a-propos .a-propos-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
   .a-propos .a-propos-title-forPhone {
@@ -432,6 +564,8 @@ footer .text-footer .text-mentions-legales:hover {
     display: none !important;
   }
   .a-propos .picture-a-propos {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
     margin: auto;
   }
@@ -488,6 +622,7 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .downArrow {
+    -webkit-animation: fadeInDown 2000ms 2000ms both !important;
     animation: fadeInDown 2000ms 2000ms both !important;
   }
 
@@ -498,7 +633,11 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .nav-tabs {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     border: none !important;
     font-size: 1.3rem;
@@ -520,6 +659,9 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .a-propos .a-propos-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
   .a-propos .a-propos-title-forPhone {
@@ -530,6 +672,8 @@ footer .text-footer .text-mentions-legales:hover {
     display: none !important;
   }
   .a-propos .picture-a-propos {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
     margin: auto;
   }
@@ -578,6 +722,7 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .downArrow {
+    -webkit-animation: fadeInDown 2000ms 2000ms both !important;
     animation: fadeInDown 2000ms 2000ms both !important;
   }
 
@@ -600,6 +745,9 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .a-propos .a-propos-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
   .a-propos .a-propos-title-forPhone {
@@ -610,6 +758,8 @@ footer .text-footer .text-mentions-legales:hover {
     display: none !important;
   }
   .a-propos .picture-a-propos {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
     margin: auto;
   }
@@ -650,6 +800,7 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .downArrow {
+    -webkit-animation: fadeInDown 2000ms 2000ms both !important;
     animation: fadeInDown 2000ms 2000ms both !important;
   }
 
@@ -672,6 +823,9 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .a-propos .a-propos-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
   .a-propos .a-propos-title-forPhone {
@@ -682,6 +836,8 @@ footer .text-footer .text-mentions-legales:hover {
     display: none !important;
   }
   .a-propos .picture-a-propos {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
     margin: auto;
   }
@@ -734,6 +890,9 @@ footer .text-footer .text-mentions-legales:hover {
   }
 
   .a-propos .a-propos-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
   .a-propos .a-propos-title-forPhone {
@@ -744,6 +903,8 @@ footer .text-footer .text-mentions-legales:hover {
     display: none !important;
   }
   .a-propos .picture-a-propos {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
     align-items: center !important;
     margin: auto;
   }
@@ -818,5 +979,3 @@ footer .text-footer .text-mentions-legales:hover {
     display: none;
   }
 }
-
-/*# sourceMappingURL=App.css.map */
