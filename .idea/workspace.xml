@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ModalMentionsLegales.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ModalContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/pol-thomas-website.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pol-thomas-website.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
@@ -127,7 +121,7 @@
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="6266000" />
+      <workItem from="1589356125664" duration="6652000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -332,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589307680856</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Ajout de mentions légales">
+      <created>1589362474509</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1589362474509</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +354,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Header : done !" />
     <MESSAGE value="Section &quot;Mes réalisations&quot; : done !" />
     <MESSAGE value="Footer : done !" />
     <MESSAGE value="Rectifications responsive header" />
@@ -378,6 +378,7 @@
     <MESSAGE value="Modification des &quot;space-evenly&quot; pour la compatabilité avec microsoft edge et changement du systeme de la pagination" />
     <MESSAGE value="Modification du contenu des paragraphes" />
     <MESSAGE value="Repasse du responsive en mode tablette et smartphone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repasse du responsive en mode tablette et smartphone" />
+    <MESSAGE value="Ajout de mentions légales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de mentions légales" />
   </component>
 </project>

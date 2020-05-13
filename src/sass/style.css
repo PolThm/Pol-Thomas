@@ -348,7 +348,7 @@ header .downArrow .downArrowPath {
 }
 
 footer {
-  padding: 0 1rem 0 1rem;
+  padding: 0 2rem 0 2rem;
   box-shadow: 0 0 10px black;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
@@ -460,6 +460,10 @@ footer .text-footer .text-mentions-legales:hover {
   .text-a-propos {
     text-align: center !important;
   }
+
+  .text-pol-thomas {
+    padding: 0 1rem 0 1rem !important;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   html {
@@ -541,6 +545,10 @@ footer .text-footer .text-mentions-legales:hover {
 
   .text-a-propos {
     text-align: center !important;
+  }
+
+  .text-pol-thomas {
+    padding: 0 2rem 0 2rem !important;
   }
 }
 @media (min-width: 481px) and (max-width: 652px) {
