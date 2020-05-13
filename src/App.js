@@ -2,17 +2,17 @@ import React, {Component} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { configureAnchors } from 'react-scrollable-anchor'
-// import "animate.css/animate.min.css";
-// import ScrollAnimation from 'react-animate-on-scroll';
 import MesRealisations from "./components/MesRealisations";
 import HeaderComponent from "./components/HeaderComponent"
 import APropos from "./components/APropos";
+import ModalMentionsLegales from "./components/ModalMentionsLegales";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showModalContact: false
+      showModalContact: false,
+      showModalMentionsLegales: false
     }
   }
 
@@ -25,6 +25,18 @@ class App extends Component {
   closeModalContact = () => {
     this.setState({
       showModalContact: false
+    })
+  };
+
+  openModalMentionsLegales = () => {
+    this.setState({
+      showModalMentionsLegales: true
+    })
+  };
+
+  closeModalMentionsLegales = () => {
+    this.setState({
+      showModalMentionsLegales: false
     })
   };
 
@@ -46,7 +58,11 @@ class App extends Component {
         />
 
         <footer>
-          <p className={'text-footer'}>Copyright 2020 - Site réalisé par <span>Pol Thomas</span></p>
+          <p className={'text-footer'}>Copyright 2020 - Site réalisé par <span className={'text-pol-thomas'}>Pol Thomas</span> - <span className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Mentions légales</span></p>
+          <ModalMentionsLegales
+            showModalMentionsLegales={this.state.showModalMentionsLegales}
+            closeModalMentionsLegales={this.closeModalMentionsLegales}
+          />
         </footer>
       </div>
     );

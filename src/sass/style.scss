@@ -81,10 +81,11 @@ header {
   }
   .downArrow {
     width: 100%;
-    min-height: 30px;
+    min-height: 25px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1.8rem;
+
     margin: 0 auto;
     position: absolute;
     z-index: 3;
@@ -342,17 +343,10 @@ header {
 
 footer {
   //margin-top: -40px;
-  padding: 0 0.5rem 0 0.5rem;
+  padding: 0 1rem 0 1rem;
   box-shadow: 0 0 10px black;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
-  //  &::before {
-  //    background:rgba(0, 0, 0, 1);
-  //    content: '';
-  //    display: block;
-  //    position: absolute;
-  //    width: 100%;
-  //  }
   .text-footer {
     height: 40px;
     color: $primary;
@@ -360,10 +354,25 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0;
-    span {
+    .text-pol-thomas {
       color: $tertiary;
     }
+    .text-mentions-legales {
+      cursor: pointer;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
+}
+
+.mentions-legales-content {
+  text-align: left;
+  padding: 0 1rem 0 1rem;
+  h2, p, b, a, strong, ul, li, h3, p#text  {
+    letter-spacing: 1px;
+  }
+
 }
 
 @import "libs/mediaQueries";

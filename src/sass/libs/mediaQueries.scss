@@ -167,6 +167,12 @@
   h2 {
     font-size: 2.7rem !important;
   }
+  .buttonContactForPhone {
+    display: block !important;
+  }
+  .buttonContactNotForPhone {
+    display: none !important;
+  }
   .a-propos {
     .a-propos-content {
       flex-direction: column-reverse;
@@ -222,6 +228,12 @@
   h2 {
     font-size: 2.7rem !important;
   }
+  .buttonContactForPhone {
+    display: block !important;
+  }
+  .buttonContactNotForPhone {
+    display: none !important;
+  }
   .a-propos {
     .a-propos-content {
       flex-direction: column-reverse;
@@ -271,6 +283,12 @@
   }
   h2 {
     font-size: 2.7rem !important;
+  }
+  .buttonContactForPhone {
+    display: block !important;
+  }
+  .buttonContactNotForPhone {
+    display: none !important;
   }
   .a-propos {
     .a-propos-content {
@@ -347,5 +365,11 @@
 @media (min-width: 1600px) {
   html {
     font-size: 70%;
+  }
+}
+
+@media (max-width: 959px) and (orientation:landscape) {
+  .downArrow {
+    display: none;
   }
 }
