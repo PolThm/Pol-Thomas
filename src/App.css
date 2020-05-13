@@ -209,6 +209,7 @@ header .downArrow .downArrowPath {
   transform: translate(-50%, -50%);
   width: 100%;
   display: none;
+  text-transform: uppercase;
 }
 .mes-realisations .pagination {
   margin-top: 5vh;
@@ -840,7 +841,7 @@ footer .text-footer .text-mentions-legales:hover {
     background-attachment: scroll !important;
   }
 }
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   header, .a-propos {
     background-attachment: scroll !important;
   }

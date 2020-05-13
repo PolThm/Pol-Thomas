@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +120,7 @@
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="16580000" />
+      <workItem from="1589356125664" duration="16805000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -376,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589391730617</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Uppercase aux textes réalisations">
+      <created>1589391761194</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1589391761194</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +409,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Mise en place de la fleche blanche sur le header pour scroller vers le bas" />
     <MESSAGE value="Section &quot;à propos&quot; commencée" />
     <MESSAGE value="Petites retouches sur le design du Header" />
     <MESSAGE value="Retouches sur la section &quot;à propos&quot;" />
@@ -422,6 +433,7 @@
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : 01" />
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done !" />
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done done !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification pour virer l'image flou des iphones et ipads : done done !" />
+    <MESSAGE value="Uppercase aux textes réalisations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uppercase aux textes réalisations" />
   </component>
 </project>
