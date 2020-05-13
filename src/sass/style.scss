@@ -19,21 +19,8 @@ header {
   color: $primary;
   padding: 0 14% 0 14%;
   min-height: 100vh;
-  //background: url("./img/background_header.jpg") no-repeat center center fixed;
-  //background-size: cover;
-
-  &:after {
-    content: "";
-    position: fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    min-height: 100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url("./img/background_header.jpg") center center;
-    background-size: cover;
-  }
-
+  background: url("./img/background_header.jpg") no-repeat center center fixed;
+  background-size: cover;
   .navbar {
     padding-top: 5vh;
     padding-left: 0;
@@ -169,7 +156,7 @@ header {
         transform: scale(1.1);
 
         &::before {
-          background-color: rgba(251, 179, 44, 0.9);
+          background-color: rgba(0, 0, 0, 0.84);
           content: '';
           display: block;
           height: 100%;
@@ -190,7 +177,7 @@ header {
       }
 
       .text-realisation {
-        color: $secondary;
+        color: $tertiary;
         font-size: 1.5rem;
         padding: 9rem 1rem 9rem 1rem;
         text-align: center;
@@ -200,6 +187,7 @@ header {
         transform: translate(-50%, -50%);
         width: 100%;
         display: none;
+        //text-transform: uppercase;
       }
     }
   }

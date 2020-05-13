@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
@@ -120,7 +121,7 @@
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="14682000" />
+      <workItem from="1589356125664" duration="16435000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -367,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589373930926</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Modification pour virer l'image flou des iphones et ipads : done !">
+      <created>1589377488005</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1589377488005</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +396,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Rajout d'une marge en dessous de la section mes realisations" />
     <MESSAGE value="Peaufinage, ajout d'une animation sur le titre &quot;Mes realisations&quot; quand on scroll" />
     <MESSAGE value="Mise en place de la fleche blanche sur le header pour scroller vers le bas" />
     <MESSAGE value="Section &quot;à propos&quot; commencée" />
@@ -413,6 +420,7 @@
     <MESSAGE value="Modifications footer" />
     <MESSAGE value="add prefix css" />
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification pour virer l'image flou des iphones et ipads : 01" />
+    <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done !" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification pour virer l'image flou des iphones et ipads : done !" />
   </component>
 </project>

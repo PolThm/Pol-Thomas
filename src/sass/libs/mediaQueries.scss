@@ -406,4 +406,13 @@
   .downArrow {
     display: none;
   }
+  header, .a-propos {
+    background-attachment: scroll !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  header, .a-propos {
+    background-attachment: scroll !important;
+  }
 }
