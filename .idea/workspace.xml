@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +115,7 @@
       <workItem from="1589290860416" duration="354000" />
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="7433000" />
+      <workItem from="1589356125664" duration="7521000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -340,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589362876726</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Modifications footer">
+      <created>1589363657680</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1589363657680</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +362,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Footer : done !" />
     <MESSAGE value="Rectifications responsive header" />
     <MESSAGE value="Section mes réalisations peaufiner + tabs ajoutés" />
     <MESSAGE value="Rajout d'une marge en dessous de la section mes realisations" />
@@ -386,6 +386,7 @@
     <MESSAGE value="Repasse du responsive en mode tablette et smartphone" />
     <MESSAGE value="Ajout de mentions légales" />
     <MESSAGE value="Modifications padding footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifications padding footer" />
+    <MESSAGE value="Modifications footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifications footer" />
   </component>
 </project>

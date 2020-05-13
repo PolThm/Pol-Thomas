@@ -635,6 +635,10 @@ footer .text-footer .text-mentions-legales:hover {
   .text-a-propos {
     text-align: center !important;
   }
+
+  .realisedBy {
+    display: none;
+  }
 }
 @media (min-width: 653px) and (max-width: 767px) {
   html {
