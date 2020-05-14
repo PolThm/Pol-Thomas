@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +121,9 @@
       <workItem from="1589397165413" duration="501000" />
       <workItem from="1589442556897" duration="5234000" />
       <workItem from="1589452786309" duration="1132000" />
-      <workItem from="1589462376583" duration="250000" />
+      <workItem from="1589462376583" duration="389000" />
+      <workItem from="1589462936857" duration="173000" />
+      <workItem from="1589463152818" duration="125000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -409,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589449657413</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Peaufinage sur le index.html VF">
+      <created>1589462641578</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1589462641578</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Systeme responsive de la partie &quot;Mes réalisations&quot; done !" />
     <MESSAGE value="Modale en place !" />
     <MESSAGE value="Mise en place du responsive pour la section à propos + le footer" />
     <MESSAGE value="Modale avec le contact du menu valide" />
@@ -455,6 +464,7 @@
     <MESSAGE value="Responsive iOS done done done !" />
     <MESSAGE value="Footer responsive black done" />
     <MESSAGE value="Peaufinage sur le index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Peaufinage sur le index.html" />
+    <MESSAGE value="Peaufinage sur le index.html VF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Peaufinage sur le index.html VF" />
   </component>
 </project>

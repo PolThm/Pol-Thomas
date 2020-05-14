@@ -69,7 +69,7 @@ header {
   color: white;
   padding: 0 14% 0 14%;
   min-height: 100vh;
-  background: url("./img/background_header.jpg") no-repeat center center fixed;
+  background: url("./img/background_header.jpg") no-repeat fixed;
   background-size: cover;
 }
 header .navbar {
