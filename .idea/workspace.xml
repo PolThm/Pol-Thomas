@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/pol-profil-bw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pol-profil-bw.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/keyframes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/keyframes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +125,8 @@
       <workItem from="1589291683154" duration="209000" />
       <workItem from="1589299261139" duration="9148000" />
       <workItem from="1589356125664" duration="17024000" />
-      <workItem from="1589397165413" duration="202000" />
+      <workItem from="1589397165413" duration="501000" />
+      <workItem from="1589442556897" duration="4810000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -396,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589392117236</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Footer responsive black done">
+      <created>1589397618435</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1589397618435</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Petites retouches sur le design du Header" />
     <MESSAGE value="Retouches sur la section &quot;à propos&quot;" />
     <MESSAGE value="Systeme responsive de la partie &quot;Mes réalisations&quot; done !" />
     <MESSAGE value="Modale en place !" />
@@ -442,6 +453,7 @@
     <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done done !" />
     <MESSAGE value="Uppercase aux textes réalisations" />
     <MESSAGE value="Responsive iOS done done done !" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive iOS done done done !" />
+    <MESSAGE value="Footer responsive black done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer responsive black done" />
   </component>
 </project>

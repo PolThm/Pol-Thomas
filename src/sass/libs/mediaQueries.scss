@@ -87,6 +87,9 @@
   header, .a-propos {
     background-attachment: scroll;
   }
+  .line-header {
+    animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
+  }
 }
 
 //Smartphones
@@ -171,6 +174,9 @@
   header, .a-propos {
     background-attachment: scroll;
   }
+  .line-header {
+    animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
+  }
 }
 
 //Smartphones to Tablets 1
@@ -235,6 +241,9 @@
   header, .a-propos {
     background-attachment: scroll;
   }
+  .line-header {
+    animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
+  }
 }
 
 //Smartphones to Tablets 2
@@ -298,6 +307,9 @@
   }
   header, .a-propos {
     background-attachment: scroll;
+  }
+  .line-header {
+    animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
   }
 }
 

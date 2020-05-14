@@ -178,7 +178,7 @@ header {
 
       .text-realisation {
         color: $tertiary;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         padding: 9rem 1rem 9rem 1rem;
         text-align: center;
         position: absolute;
@@ -207,6 +207,9 @@ header {
       background-color: $secondary;
     }
     .dot-empty {
+      &:hover {
+        background-color: $secondary;
+      }
     }
   }
   .mes-realisations-empty {
