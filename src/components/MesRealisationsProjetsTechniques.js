@@ -4,6 +4,7 @@ import Realisation from "./Realisation";
 import shootMe from '../img/shoot-me.jpg';
 import smartPoint from '../img/smart-point.jpg';
 import textories from '../img/textories.jpg';
+import youtubeVideos from '../img/projet-youtube-videos.jpg';
 
 class MesRealisationsProjetsTechniques extends React.Component {
   render() {
@@ -30,6 +31,13 @@ class MesRealisationsProjetsTechniques extends React.Component {
               picture={shootMe}
               description={'Jeu de plateau (créé en JavaScript)'}
               link={'https://shootme.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={youtubeVideos}
+              description={'Projet youtube vidéos (créé avec React JS)'}
+              link={'https://youtube-videos.pol-thomas.com/'}
             />
           </Col>
         </Row>
