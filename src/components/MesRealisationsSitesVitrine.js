@@ -13,6 +13,7 @@ import megaGym from '../img/mega-gym.jpg';
 import stylishArchitecture from '../img/stylish-architecture.jpg'
 import yoga from '../img/yoga.jpg';
 import simple from '../img/simple.jpg';
+import jeuneNaturopathie from '../img/jeune-naturopathie.jpg';
 
 class MesRealisationsSitesVitrines extends React.Component {
   constructor(props) {
@@ -38,17 +39,23 @@ class MesRealisationsSitesVitrines extends React.Component {
         <Row className={this.state.page === 1 ? null : "mes-realisations-empty"}>
           <Col md={6} lg={4}>
             <Realisation
-              picture={lesFilmsDePleinAir}
-              description={'Festival de films en plein air'}
-              link={'https://les-films-de-plein-air.pol-thomas.com/'}
+              picture={chaletEtCaviar}
+              description={'Agence immobilière'}
+              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              className={'figureInTheMiddle'}
-              picture={chaletEtCaviar}
-              description={'Agence immobilière'}
-              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
+              picture={jeuneNaturopathie}
+              description={'Jeune et naturopathie'}
+              link={'https://jeune-naturopathie.fr/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={lesFilmsDePleinAir}
+              description={'Festival de films en plein air'}
+              link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -58,7 +65,13 @@ class MesRealisationsSitesVitrines extends React.Component {
               link={'https://therange.pol-thomas.com/'}
             />
           </Col>
-
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={seasonSale}
+              description={'Season Sale (démo WordPress)'}
+              link={'http://season-sale.pol-thomas.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={personal}
@@ -68,30 +81,13 @@ class MesRealisationsSitesVitrines extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              className={'figureInTheMiddle'}
-              picture={seasonSale}
-              description={'Season Sale (démo WordPress)'}
-              link={'http://season-sale.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
               picture={architecture}
               description={'Architecture (démo WordPress)'}
               link={'https://architecture.pol-thomas.com/'}
             />
           </Col>
-
           <Col md={6} lg={4}>
             <Realisation
-              picture={simple}
-              description={'Simple (démo WordPress)'}
-              link={'http://simple.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              className={'figureInTheMiddle'}
               picture={megaGym}
               description={'Mega Gym (démo WordPress)'}
               link={'http://mega-gym.pol-thomas.com/'}
@@ -116,7 +112,6 @@ class MesRealisationsSitesVitrines extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              className={'figureInTheMiddle'}
               picture={blogger}
               description={'Blogger (démo WordPress)'}
               link={'http://blogger.pol-thomas.com/'}
@@ -127,6 +122,13 @@ class MesRealisationsSitesVitrines extends React.Component {
               picture={stylishArchitecture}
               description={'Stylish Architecture (démo WordPress)'}
               link={'http://stylish-architecture.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={simple}
+              description={'Simple (démo WordPress)'}
+              link={'http://simple.pol-thomas.com/'}
             />
           </Col>
         </Row>
