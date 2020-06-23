@@ -1,10 +1,10 @@
 @import "libs/keyframes.scss";
 @import "libs/fonts.scss";
+@import "libs/mediaQueries";
 
 $primary: white;
 $secondary: #333;
 $tertiary: #fbb32c;
-//$tertiary: #cc7013;
 
 html {
   font-size: 16px;
@@ -111,12 +111,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  //justify-content: space-evenly;
   justify-content: space-around;
 
   h2 {
     padding: 5vh 0 5vh 0;
-    //font-size: 2.34rem;
     font-size: 2.02rem;
     letter-spacing: 0.585rem;
   }
@@ -129,7 +127,6 @@ header {
       color: $secondary;
 
       &:hover {
-        //border-color: $tertiary;
         color: $tertiary;
         border-color: $primary $primary $tertiary $primary;
       }
@@ -138,7 +135,6 @@ header {
     .nav-link.active {
       color: $tertiary;
       border-color: $tertiary $tertiary $primary;
-      //text-decoration: underline;
     }
   }
 
@@ -230,19 +226,15 @@ header {
   .a-propos-content {
     padding: 7.5vh 0 0 0;
     display: flex;
-    //align-items: flex-start;
-    //justify-content: space-evenly;
   }
   .texts-a-propos {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    //justify-content: space-evenly;
     justify-content: space-around;
   }
   h2 {
-    //padding: 2.5vh 0 0 0;
     font-size: 2.02rem;
     letter-spacing: 0.585rem;
   }
@@ -258,10 +250,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    //justify-content: space-evenly;
     img {
       width: 75%;
-      //height: 100%;
       border: 0.4rem $tertiary solid;
     }
     .a-propos-title-forPhone {
@@ -272,7 +262,6 @@ header {
   .contactSection {
     padding: 0 0 5vh 0;
     .buttonContact {
-      //width: 100%;
       background-color: $tertiary;
       font-size: 2.02rem;
       letter-spacing: 0.585rem;
@@ -285,7 +274,6 @@ header {
         transform: scale(1.1);
         background-color: $tertiary;
         color: $secondary;
-        //box-shadow: 0 0 10px $primary;
       }
       &:focus {
         box-shadow: none;
@@ -320,10 +308,7 @@ header {
     width: 30%;
     background-color: $tertiary;
     border-color: $tertiary;
-    //color: $secondary;
-    //transition: transform 100ms ease-in-out;
     &:hover {
-      //transform: scale(1.1);
       background-color: $tertiary;
       border-color: $tertiary;
       color: $secondary;
@@ -346,7 +331,6 @@ header {
 }
 
 footer {
-  //margin-top: -40px;
   padding: 0 2rem 0 2rem;
   box-shadow: 0 0 10px black;
   background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
@@ -366,7 +350,6 @@ footer {
       cursor: pointer;
       &:hover {
         color: darken($tertiary, 15%);
-        //text-decoration: underline;
       }
     }
   }
@@ -379,4 +362,4 @@ footer {
   }
 }
 
-@import "libs/mediaQueries";
+
