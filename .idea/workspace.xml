@@ -1,11 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/jeune-naturopathie.jpg" afterDir="false" />
+    <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/public/logo-PT.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/sendMail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/App.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/APropos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/ContactForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/HeaderComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/MesRealisations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/ModalContact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/ModalMentionsLegales.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/components/Realisation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/fonts/Bebas-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/architecture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/background_a-propos_filtre.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/background_header.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/blogger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/chalets-et-caviar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/jeune-naturopathie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/les-films-de-plein-air.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/lingerie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/mega-gym.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/personal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/pol-profil-bw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/pol-thomas-website.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/projet-youtube-videos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/season-sale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/shoot-me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/simple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/smart-point.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/stylish-architecture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/textories.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/the-range.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/img/yoga.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/fonts.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/fonts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/keyframes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/keyframes.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/keyframes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/mediaQueries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/mediaQueries.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/libs/mediaQueries.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio PolThomas/src/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +104,10 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
+      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\portfolio" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\components" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\fonts" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -130,7 +185,12 @@
       <workItem from="1590481092206" duration="1454000" />
       <workItem from="1590488134091" duration="1267000" />
       <workItem from="1590567158529" duration="154000" />
-      <workItem from="1590755047340" duration="1334000" />
+      <workItem from="1590755047340" duration="1573000" />
+      <workItem from="1592928996876" duration="67000" />
+      <workItem from="1592929093914" duration="2281000" />
+      <workItem from="1592931430343" duration="325000" />
+      <workItem from="1593509766853" duration="99000" />
+      <workItem from="1593531594314" duration="126000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1588582199630</created>
@@ -440,7 +500,42 @@
       <option name="project" value="LOCAL" />
       <updated>1590493994420</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Modification du favicon et ajout de la réalisation &quot;jeune-naturopathie&quot; + réorganisation des réalisations">
+      <created>1590756885683</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1590756885683</updated>
+    </task>
+    <task id="LOCAL-00046" summary="First commit">
+      <created>1592930061483</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1592930061483</updated>
+    </task>
+    <task id="LOCAL-00047" summary="First commit">
+      <created>1592930640749</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1592930640749</updated>
+    </task>
+    <task id="LOCAL-00048" summary="First commit">
+      <created>1592930846283</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1592930846283</updated>
+    </task>
+    <task id="LOCAL-00049" summary="First commit">
+      <created>1592931236834</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1592931236834</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,8 +556,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Modale avec le contact du menu valide" />
-    <MESSAGE value="Design de pagination ajouté" />
     <MESSAGE value="Pagination done !" />
     <MESSAGE value="marge bottom 'mes réalisations' + taille dots paginations modifié" />
     <MESSAGE value="Peaufinage sur le design" />
@@ -486,6 +579,8 @@
     <MESSAGE value="Peaufinage sur le index.html VF" />
     <MESSAGE value="Remove center center sur le background header" />
     <MESSAGE value="Modification du meta tag description et ajout d'une nouvelle réalisation projet technique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification du meta tag description et ajout d'une nouvelle réalisation projet technique" />
+    <MESSAGE value="Modification du favicon et ajout de la réalisation &quot;jeune-naturopathie&quot; + réorganisation des réalisations" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
