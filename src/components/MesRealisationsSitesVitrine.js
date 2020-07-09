@@ -14,6 +14,8 @@ import stylishArchitecture from '../img/stylish-architecture.jpg'
 import yoga from '../img/yoga.jpg';
 import simple from '../img/simple.jpg';
 import jeuneNaturopathie from '../img/jeune-naturopathie.jpg';
+import associationBabel from '../img/association-babel.jpg';
+import trim from '../img/trim.jpg';
 
 class MesRealisationsSitesVitrines extends React.Component {
   constructor(props) {
@@ -25,12 +27,12 @@ class MesRealisationsSitesVitrines extends React.Component {
 
   changePage = () => {
     if (this.state.page === 1) {
-    this.setState({
-      page: 2
-    })} else {
+      this.setState({
+        page: 2
+      })} else {
       this.setState({
         page: 1
-    })}
+      })}
   };
 
   render() {
@@ -39,44 +41,44 @@ class MesRealisationsSitesVitrines extends React.Component {
         <Row className={this.state.page === 1 ? null : "mes-realisations-empty"}>
           <Col md={6} lg={4}>
             <Realisation
-              picture={chaletEtCaviar}
-              description={'Agence immobilière'}
-              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
+              picture={trim}
+              description={'Trim (créé avec React JS)'}
+              link={'https://trim.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={associationBabel}
+              description={'Association Babel Grenoble'}
+              link={'https://association-babel-grenoble.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={jeuneNaturopathie}
-              description={'Jeune et naturopathie'}
+              description={'Jeune-naturopathie'}
               link={'https://jeune-naturopathie.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
+              picture={chaletEtCaviar}
+              description={'Chalets & Caviar'}
+              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
               picture={lesFilmsDePleinAir}
-              description={'Festival de films en plein air'}
+              description={'Les films de plein air'}
               link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={theRange}
-              description={'Promotion smartphone'}
+              description={'The Range'}
               link={'https://therange.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={seasonSale}
-              description={'Season Sale (démo WordPress)'}
-              link={'http://season-sale.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={personal}
-              description={'Personal (démo Wordpress)'}
-              link={'http://personal.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -129,6 +131,20 @@ class MesRealisationsSitesVitrines extends React.Component {
               picture={simple}
               description={'Simple (démo WordPress)'}
               link={'http://simple.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={seasonSale}
+              description={'Season Sale (démo WordPress)'}
+              link={'http://season-sale.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={personal}
+              description={'Personal (démo Wordpress)'}
+              link={'http://personal.pol-thomas.com/'}
             />
           </Col>
         </Row>
