@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/association-babel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/trim.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/moovies.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/sushi-parlour.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/APropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/APropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Realisation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Realisation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +53,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\favicon.ico" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\portfolio" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\components" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\fonts" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\fonts" />
+      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
+      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\favicon.ico" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,14 +155,14 @@
       <workItem from="1594042134031" duration="645000" />
       <workItem from="1594071641105" duration="83000" />
       <workItem from="1594205779557" duration="261000" />
-      <workItem from="1594289929343" duration="1126000" />
-    </task>
-    <task id="LOCAL-00002" summary="Structure html basique done !">
-      <created>1588586616219</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1588586616219</updated>
+      <workItem from="1594289929343" duration="1862000" />
+      <workItem from="1594806486982" duration="679000" />
+      <workItem from="1595494729198" duration="761000" />
+      <workItem from="1595887631378" duration="140000" />
+      <workItem from="1596198188858" duration="775000" />
+      <workItem from="1597528570514" duration="3125000" />
+      <workItem from="1598369642434" duration="6716000" />
+      <workItem from="1598432169445" duration="282000" />
     </task>
     <task id="LOCAL-00003" summary="La plus grande partie du header + responsive du header : done !">
       <created>1588617305197</created>
@@ -490,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593531751302</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Ajout de 2 nouveaux sites vitrines">
+      <created>1594291095361</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1594291095362</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +528,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="marge bottom 'mes réalisations' + taille dots paginations modifié" />
     <MESSAGE value="Peaufinage sur le design" />
     <MESSAGE value="&quot;Mes réalisations&quot; completé avec les liens" />
     <MESSAGE value="Modification du favicon" />
@@ -536,6 +552,7 @@
     <MESSAGE value="Modification du favicon et ajout de la réalisation &quot;jeune-naturopathie&quot; + réorganisation des réalisations" />
     <MESSAGE value="First commit" />
     <MESSAGE value="Ajout du logo-PT" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du logo-PT" />
+    <MESSAGE value="Ajout de 2 nouveaux sites vitrines" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de 2 nouveaux sites vitrines" />
   </component>
 </project>

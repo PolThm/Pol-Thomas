@@ -16,6 +16,7 @@ import simple from '../img/simple.jpg';
 import jeuneNaturopathie from '../img/jeune-naturopathie.jpg';
 import associationBabel from '../img/association-babel.jpg';
 import trim from '../img/trim.jpg';
+import sushiParlour from '../img/sushi-parlour.jpg';
 
 class MesRealisationsSitesVitrines extends React.Component {
   constructor(props) {
@@ -39,6 +40,13 @@ class MesRealisationsSitesVitrines extends React.Component {
     const content =
       <div>
         <Row className={this.state.page === 1 ? null : "mes-realisations-empty"}>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={sushiParlour}
+              description={'Sushi Parlour (créé avec React JS)'}
+              link={'https://sushi-parlour.pol-thomas.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={trim}
@@ -76,13 +84,6 @@ class MesRealisationsSitesVitrines extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={theRange}
-              description={'The Range'}
-              link={'https://therange.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
               picture={architecture}
               description={'Architecture (démo WordPress)'}
               link={'https://architecture.pol-thomas.com/'}
@@ -97,14 +98,21 @@ class MesRealisationsSitesVitrines extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={yoga}
-              description={'Yoga (démo WordPress)'}
-              link={'http://yoga.pol-thomas.com/'}
+              picture={theRange}
+              description={'The Range'}
+              link={'https://therange.pol-thomas.com/'}
             />
           </Col>
         </Row>
 
         <Row className={this.state.page === 1 ? "mes-realisations-empty" : null}>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={yoga}
+              description={'Yoga (démo WordPress)'}
+              link={'http://yoga.pol-thomas.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={lingerie}

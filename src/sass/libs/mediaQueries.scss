@@ -1,3 +1,7 @@
+$primary: white;
+$secondary: #333;
+$tertiary: #fbb32c;
+
 // Tiny Smartphones
 @media (max-width: 319px) {
   html {
@@ -32,6 +36,12 @@
     display: block !important;
   }
   .buttonContactNotForPhone {
+    display: none !important;
+  }
+  .fas-links-for-phone {
+    display: flex !important;
+  }
+  .fas-links-not-for-phone {
     display: none !important;
   }
   .a-propos {
@@ -90,6 +100,13 @@
   .line-header {
     animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
   }
+  .fas-links {
+    justify-content: center;
+    div {
+      margin-right: 1rem !important;
+      margin-left: 1rem !important;
+    }
+  }
 }
 
 //Smartphones
@@ -126,6 +143,12 @@
     display: block !important;
   }
   .buttonContactNotForPhone {
+    display: none !important;
+  }
+  .fas-links-for-phone {
+    display: flex !important;
+  }
+  .fas-links-not-for-phone {
     display: none !important;
   }
   .a-propos {
@@ -177,6 +200,13 @@
   .line-header {
     animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
   }
+  .fas-links {
+    justify-content: center;
+    div {
+      margin-right: 1rem !important;
+      margin-left: 1rem !important;
+    }
+  }
 }
 
 //Smartphones to Tablets 1
@@ -202,6 +232,12 @@
     display: block !important;
   }
   .buttonContactNotForPhone {
+    display: none !important;
+  }
+  .fas-links-for-phone {
+    display: flex !important;
+  }
+  .fas-links-not-for-phone {
     display: none !important;
   }
   .a-propos {
@@ -244,6 +280,13 @@
   .line-header {
     animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
   }
+  .fas-links {
+    justify-content: center;
+    div {
+      margin-right: 1rem !important;
+      margin-left: 1rem !important;
+    }
+  }
 }
 
 //Smartphones to Tablets 2
@@ -269,6 +312,12 @@
     display: block !important;
   }
   .buttonContactNotForPhone {
+    display: none !important;
+  }
+  .fas-links-for-phone {
+    display: flex !important;
+  }
+  .fas-links-not-for-phone {
     display: none !important;
   }
   .a-propos {
@@ -311,6 +360,13 @@
   .line-header {
     animation: fadeInRightPolSmartphone 2000ms forwards ease-out !important;
   }
+  .fas-links {
+    justify-content: center;
+    div {
+      margin-right: 1rem !important;
+      margin-left: 1rem !important;
+    }
+  }
 }
 
 //Tablets
@@ -331,6 +387,12 @@
     display: block !important;
   }
   .buttonContactNotForPhone {
+    display: none !important;
+  }
+  .fas-links-for-phone {
+    display: flex !important;
+  }
+  .fas-links-not-for-phone {
     display: none !important;
   }
   .a-propos {
@@ -372,6 +434,13 @@
   }
   header, .a-propos {
     background-attachment: scroll;
+  }
+  .fas-links {
+    justify-content: center;
+    div {
+      margin-right: 1rem !important;
+      margin-left: 1rem !important;
+    }
   }
 }
 

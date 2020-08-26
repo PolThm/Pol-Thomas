@@ -6,10 +6,6 @@ $primary: white;
 $secondary: #333;
 $tertiary: #fbb32c;
 
-html {
-  font-size: 16px;
-}
-
 * {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 4px;
@@ -258,6 +254,29 @@ header {
       display: none;
     }
   }
+  .fas-links {
+    display: flex;
+    padding: 0 0 5vh 0;
+    div {
+      margin-right: 2rem;
+      .fab {
+        font-size: 3rem;
+        color: $primary;
+        &:hover {
+          color: $tertiary
+        }
+      }
+      .fa-linkedin {
+        animation: fadeInUp 4000ms both;
+      }
+      .fa-github {
+        animation: fadeInUp 4000ms both;
+      }
+    }
+  }
+  .fas-links-for-phone {
+    display: none;
+  }
 
   .contactSection {
     padding: 0 0 5vh 0;
@@ -361,5 +380,3 @@ footer {
     letter-spacing: 1px;
   }
 }
-
-
