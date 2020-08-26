@@ -36,14 +36,14 @@ class APropos extends Component {
             </div>
             <div className="fas-links fas-links-not-for-phone">
               <div>
-                <a href="https://www.linkedin.com/in/pol-thomas/" target="_blank">
+                <a href="https://www.linkedin.com/in/pol-thomas/" target="_blank" rel="noopener noreferrer">
                   <ScrollAnimation animateIn={"fadeInUp"} animateOnce={true} duration={3} delay={50}>
                     <i className="fab fa-linkedin"/>
                   </ScrollAnimation>
                 </a>
               </div>
               <div>
-                <a href="https://github.com/PolThm" target="_blank">
+                <a href="https://github.com/PolThm" target="_blank" rel="noopener noreferrer">
                   <ScrollAnimation animateIn={"fadeInUp"} animateOnce={true} duration={3} delay={550}>
                     <i className="fab fa-github"/>
                   </ScrollAnimation>
@@ -52,10 +52,10 @@ class APropos extends Component {
             </div>
             <div className="fas-links fas-links-for-phone">
               <div>
-                <a href="https://www.linkedin.com/in/pol-thomas/" target="_blank"><i className="fab fa-linkedin"/></a>
+                <a href="https://www.linkedin.com/in/pol-thomas/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"/></a>
               </div>
               <div>
-                <a href="https://github.com/PolThm" target="_blank"><i className="fab fa-github"/></a>
+                <a href="https://github.com/PolThm" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"/></a>
               </div>
             </div>
           </div>
