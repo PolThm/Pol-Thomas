@@ -43,42 +43,42 @@ class MesRealisationsSitesVitrines extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={sushiParlour}
-              description={'Sushi Parlour (créé avec React JS)'}
+              description={'Sushi Parlour (créé avec React JS, SASS et Tailwind CSS)'}
               link={'https://sushi-parlour.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={trim}
-              description={'Trim (créé avec React JS)'}
+              description={'Trim (créé avec React JS, SASS et React-Bootstrap)'}
               link={'https://trim.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={associationBabel}
-              description={'Association Babel Grenoble'}
+              description={'Association Babel Grenoble (créé avec Wordpress)'}
               link={'https://association-babel-grenoble.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={jeuneNaturopathie}
-              description={'Jeune-naturopathie'}
+              description={'Jeune-naturopathie (créé avec Wordpress)'}
               link={'https://jeune-naturopathie.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={chaletEtCaviar}
-              description={'Chalets & Caviar'}
+              description={'Chalets & Caviar (créé avec Wordpress)'}
               link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={lesFilmsDePleinAir}
-              description={'Les films de plein air'}
+              description={'Les films de plein air (créé avec Wordpress)'}
               link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
@@ -99,7 +99,7 @@ class MesRealisationsSitesVitrines extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={theRange}
-              description={'The Range'}
+              description={'The Range (créé en HTML/CSS avec Bootstrap)'}
               link={'https://therange.pol-thomas.com/'}
             />
           </Col>

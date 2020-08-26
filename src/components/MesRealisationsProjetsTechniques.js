@@ -15,14 +15,14 @@ class MesRealisationsProjetsTechniques extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={moovies}
-              description={'Moovies - API IMDb (créé avec React JS, Redux, React Router, Firebase et Tailwind CSS)'}
+              description={'Moovies - Galerie de films (créé avec React JS, Redux, React Router, Firebase, l\'API IMDb, SASS et Tailwind CSS)'}
               link={'https://moovies.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={textories}
-              description={'Textories - Application mobile type "chat stories" (créé avec React Native)'}
+              description={'Textories - Application mobile type "chat stories" (créé avec React Native et Redux)'}
               link={'https://www.youtube.com/watch?v=dS7lIfNiHsY&t'}
             />
           </Col>
@@ -30,21 +30,21 @@ class MesRealisationsProjetsTechniques extends React.Component {
             <Realisation
               className={'figureInTheMiddle'}
               picture={smartPoint}
-              description={'Smart Point - Site d\'avis de restaurants (créé avec React JS)'}
+              description={'Smart Point - Site d\'avis de restaurants (créé avec React JS, l\'API Google Maps et Bootstrap)'}
               link={'https://smartpoint.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={shootMe}
-              description={'Shoot Me - Jeu de plateau (créé en JavaScript)'}
+              description={'Shoot Me - Jeu de plateau (créé en Vanilla JS)'}
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={youtubeVideos}
-              description={'Lecteur Vidéo - API Youtube (créé avec React JS)'}
+              description={'Youtube Vidéos - Lecteur vidéo (créé avec React JS, l\'API Youtube et Semantic UI)'}
               link={'https://youtube-videos.pol-thomas.com/'}
             />
           </Col>

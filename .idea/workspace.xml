@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/APropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/APropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -149,14 +151,9 @@
       <workItem from="1596198188858" duration="775000" />
       <workItem from="1597528570514" duration="3125000" />
       <workItem from="1598369642434" duration="6716000" />
-      <workItem from="1598432169445" duration="381000" />
-    </task>
-    <task id="LOCAL-00004" summary="Header : done !">
-      <created>1588667589309</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588667589309</updated>
+      <workItem from="1598432169445" duration="542000" />
+      <workItem from="1598455257256" duration="42000" />
+      <workItem from="1598455728852" duration="1077000" />
     </task>
     <task id="LOCAL-00005" summary="Section &quot;Mes réalisations&quot; : done !">
       <created>1588672494362</created>
@@ -494,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598432501464</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Ajout liens LinkedIn et Github (sous forme de Fas)">
+      <created>1598432572588</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1598432572588</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
