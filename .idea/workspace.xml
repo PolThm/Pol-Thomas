@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/club-member.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/do-it.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsSitesVitrine.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +25,10 @@
   <component name="ProjectId" id="1bR47wH1aNUKsBlk7M2eF58S6CY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -54,18 +58,6 @@
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
       <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\favicon.ico" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -153,14 +145,12 @@
       <workItem from="1598369642434" duration="6716000" />
       <workItem from="1598432169445" duration="542000" />
       <workItem from="1598455257256" duration="42000" />
-      <workItem from="1598455728852" duration="1077000" />
-    </task>
-    <task id="LOCAL-00005" summary="Section &quot;Mes réalisations&quot; : done !">
-      <created>1588672494362</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588672494362</updated>
+      <workItem from="1598455728852" duration="1493000" />
+      <workItem from="1598533825339" duration="58000" />
+      <workItem from="1598993508642" duration="1569000" />
+      <workItem from="1599031805704" duration="325000" />
+      <workItem from="1599058559176" duration="638000" />
+      <workItem from="1602791095096" duration="777000" />
     </task>
     <task id="LOCAL-00006" summary="Footer : done !">
       <created>1588672759086</created>
@@ -498,28 +488,33 @@
       <option name="project" value="LOCAL" />
       <updated>1598432572588</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Modification des descriptions des &quot;Réalisations&quot;">
+      <created>1598456872249</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1598456872250</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="&quot;Mes réalisations&quot; completé avec les liens" />
     <MESSAGE value="Modification du favicon" />
     <MESSAGE value="Peaufinage de la pagination" />
     <MESSAGE value="Modification des &quot;space-evenly&quot; pour la compatabilité avec microsoft edge et changement du systeme de la pagination" />
@@ -544,6 +539,7 @@
     <MESSAGE value="Ajout du logo-PT" />
     <MESSAGE value="Ajout de 2 nouveaux sites vitrines" />
     <MESSAGE value="Ajout liens LinkedIn et Github (sous forme de Fas)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout liens LinkedIn et Github (sous forme de Fas)" />
+    <MESSAGE value="Modification des descriptions des &quot;Réalisations&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification des descriptions des &quot;Réalisations&quot;" />
   </component>
 </project>

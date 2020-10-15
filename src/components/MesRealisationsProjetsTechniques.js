@@ -6,6 +6,8 @@ import smartPoint from '../img/smart-point.jpg';
 import textories from '../img/textories.jpg';
 import youtubeVideos from '../img/projet-youtube-videos.jpg';
 import moovies from '../img/moovies.jpg';
+import doIt from '../img/do-it.jpg';
+import clubMember from '../img/club-member.jpg';
 
 class MesRealisationsProjetsTechniques extends React.Component {
   render() {
@@ -14,8 +16,22 @@ class MesRealisationsProjetsTechniques extends React.Component {
         <Row>
           <Col md={6} lg={4}>
             <Realisation
+              picture={clubMember}
+              description={"Club Member - Système de test d'email (créé avec React JS, TypeScript, Hooks, Context, Axios, Tailwind CSS, Jest et React Testing Library)"}
+              link={'https://club-member.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={doIt}
+              description={'DO IT. - Todo List (créé avec React JS, TypeScript, Hooks, Context et Tailwind CSS)'}
+              link={'https://do-it.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
               picture={moovies}
-              description={'Moovies - Galerie de films (créé avec React JS, Redux, React Router, Firebase, l\'API IMDb, SASS et Tailwind CSS)'}
+              description={'Moovies - Galerie de films (créé avec React JS, Redux, React Router, Firebase, l\'API IMDb et Tailwind CSS)'}
               link={'https://moovies.pol-thomas.com/'}
             />
           </Col>
@@ -37,7 +53,7 @@ class MesRealisationsProjetsTechniques extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={shootMe}
-              description={'Shoot Me - Jeu de plateau (créé en Vanilla JS)'}
+              description={'Shoot Me - Jeu de plateau (créé en Vanilla JS, HTML et CSS)'}
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
