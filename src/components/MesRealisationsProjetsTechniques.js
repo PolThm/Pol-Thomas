@@ -17,7 +17,7 @@ class MesRealisationsProjetsTechniques extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={clubMember}
-              description={"Club Member - Système de test d'email (créé avec React JS, TypeScript, Hooks, Context, Axios, Tailwind CSS, Jest et React Testing Library)"}
+              description={"Club Member - Système de test d'emails (créé avec React JS, TypeScript, Hooks, Context, Axios, Tailwind CSS, Jest et React Testing Library)"}
               link={'https://club-member.pol-thomas.com/'}
             />
           </Col>

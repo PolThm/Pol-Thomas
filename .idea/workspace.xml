@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/club-member.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/do-it.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
     </list>
@@ -150,14 +148,7 @@
       <workItem from="1598993508642" duration="1569000" />
       <workItem from="1599031805704" duration="325000" />
       <workItem from="1599058559176" duration="638000" />
-      <workItem from="1602791095096" duration="777000" />
-    </task>
-    <task id="LOCAL-00006" summary="Footer : done !">
-      <created>1588672759086</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1588672759086</updated>
+      <workItem from="1602791095096" duration="1194000" />
     </task>
     <task id="LOCAL-00007" summary="Rectifications responsive header">
       <created>1588681740312</created>
@@ -495,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598456872250</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Add a new &quot;Réalisation Technique&quot;">
+      <created>1602792186900</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1602792186900</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,7 +513,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Modification du favicon" />
     <MESSAGE value="Peaufinage de la pagination" />
     <MESSAGE value="Modification des &quot;space-evenly&quot; pour la compatabilité avec microsoft edge et changement du systeme de la pagination" />
     <MESSAGE value="Modification du contenu des paragraphes" />
@@ -540,6 +537,17 @@
     <MESSAGE value="Ajout de 2 nouveaux sites vitrines" />
     <MESSAGE value="Ajout liens LinkedIn et Github (sous forme de Fas)" />
     <MESSAGE value="Modification des descriptions des &quot;Réalisations&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modification des descriptions des &quot;Réalisations&quot;" />
+    <MESSAGE value="Add a new &quot;Réalisation Technique&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a new &quot;Réalisation Technique&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="579" y="88" key="CommitChangelistDialog2" timestamp="1602792185690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602792185690" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602792192761">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602792192761" />
   </component>
 </project>
