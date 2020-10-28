@@ -8,12 +8,20 @@ import youtubeVideos from '../img/projet-youtube-videos.jpg';
 import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
 import clubMember from '../img/club-member.jpg';
+import myTrip from '../img/mytrip.jpg';
 
 class MesRealisationsProjetsTechniques extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={myTrip}
+              description={"MyTrip - Facturation de trajets (créé avec React JS, TS, Redux, React Router, Hooks, Firebase, Place Autocomplete, Distance Matrix, Stripe et Tailwind)"}
+              link={'https://mytrip.pol-thomas.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={clubMember}
