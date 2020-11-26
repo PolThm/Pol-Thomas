@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/mytrip.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,14 +150,10 @@
       <workItem from="1599058559176" duration="638000" />
       <workItem from="1602791095096" duration="1331000" />
       <workItem from="1602957662964" duration="636000" />
-      <workItem from="1603897155308" duration="976000" />
-    </task>
-    <task id="LOCAL-00008" summary="Section mes réalisations peaufiner + tabs ajoutés">
-      <created>1588758685085</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1588758685085</updated>
+      <workItem from="1603897155308" duration="1385000" />
+      <workItem from="1606309801166" duration="284000" />
+      <workItem from="1606310138475" duration="244000" />
+      <workItem from="1606396294232" duration="598000" />
     </task>
     <task id="LOCAL-00009" summary="Rajout d'une marge en dessous de la section mes realisations">
       <created>1588759208930</created>
@@ -496,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602792344942</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Add a new &quot;Projet Technique&quot;">
+      <created>1603898363654</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898363656</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +518,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Modification des &quot;space-evenly&quot; pour la compatabilité avec microsoft edge et changement du systeme de la pagination" />
     <MESSAGE value="Modification du contenu des paragraphes" />
     <MESSAGE value="Repasse du responsive en mode tablette et smartphone" />
     <MESSAGE value="Ajout de mentions légales" />
@@ -541,20 +542,21 @@
     <MESSAGE value="Modification des descriptions des &quot;Réalisations&quot;" />
     <MESSAGE value="Add a new &quot;Réalisation Technique&quot;" />
     <MESSAGE value="Change a description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change a description" />
+    <MESSAGE value="Add a new &quot;Projet Technique&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a new &quot;Projet Technique&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="88" key="CommitChangelistDialog2" timestamp="1602792344163">
+    <state x="579" y="88" key="CommitChangelistDialog2" timestamp="1603898361919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="579" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1602792344163" />
+    <state x="579" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603898361919" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602958304340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602958304340" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602792346122">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603898365829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602792346122" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603898365829" />
   </component>
 </project>
