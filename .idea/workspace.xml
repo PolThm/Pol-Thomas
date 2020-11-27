@@ -153,14 +153,8 @@
       <workItem from="1603897155308" duration="1385000" />
       <workItem from="1606309801166" duration="284000" />
       <workItem from="1606310138475" duration="244000" />
-      <workItem from="1606396294232" duration="598000" />
-    </task>
-    <task id="LOCAL-00009" summary="Rajout d'une marge en dessous de la section mes realisations">
-      <created>1588759208930</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1588759208930</updated>
+      <workItem from="1606396294232" duration="687000" />
+      <workItem from="1606486761888" duration="48000" />
     </task>
     <task id="LOCAL-00010" summary="Peaufinage, ajout d'une animation sur le titre &quot;Mes realisations&quot; quand on scroll">
       <created>1588770415536</created>
@@ -498,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603898363656</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="remove async from a link">
+      <created>1606400149170</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1606400149172</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Modification du contenu des paragraphes" />
     <MESSAGE value="Repasse du responsive en mode tablette et smartphone" />
     <MESSAGE value="Ajout de mentions légales" />
     <MESSAGE value="Modifications padding footer" />
@@ -543,20 +543,21 @@
     <MESSAGE value="Add a new &quot;Réalisation Technique&quot;" />
     <MESSAGE value="Change a description" />
     <MESSAGE value="Add a new &quot;Projet Technique&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a new &quot;Projet Technique&quot;" />
+    <MESSAGE value="remove async from a link" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove async from a link" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="88" key="CommitChangelistDialog2" timestamp="1603898361919">
+    <state x="579" y="88" key="CommitChangelistDialog2" timestamp="1606400147700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="579" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603898361919" />
+    <state x="579" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606400147700" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602958304340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602958304340" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603898365829">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606400152026">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603898365829" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606400152026" />
   </component>
 </project>
