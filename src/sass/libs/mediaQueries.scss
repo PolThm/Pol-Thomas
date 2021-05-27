@@ -3,7 +3,7 @@ $secondary: #333;
 $tertiary: #fbb32c;
 
 // Tiny Smartphones
-@media (max-width: 319px) {
+@media (max-width: 320px) {
   html {
     font-size: 30%;
   }
@@ -370,7 +370,7 @@ $tertiary: #fbb32c;
 }
 
 //Tablets
-@media (min-width: 768px) and (max-width: 959px) {
+@media (min-width: 767px) and (max-width: 959px) {
   html {
     font-size: 44%;
   }
@@ -445,7 +445,7 @@ $tertiary: #fbb32c;
 }
 
 //Desktop
-@media (min-width: 960px) and (max-width: 1199px) {
+@media (min-width: 959px) and (max-width: 1199px) {
   html {
     font-size: 44%;
   }
@@ -461,7 +461,7 @@ $tertiary: #fbb32c;
 }
 
 //Large Display
-@media (min-width: 1200px) and (max-width: 1599px) {
+@media (min-width: 1199px) and (max-width: 1599px) {
   html {
     font-size: 55%;
   }
@@ -477,7 +477,7 @@ $tertiary: #fbb32c;
 }
 
 //Very large Display
-@media (min-width: 1600px) {
+@media (min-width: 1599px) {
   html {
     font-size: 70%;
   }
