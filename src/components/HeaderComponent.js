@@ -16,7 +16,7 @@ class HeaderComponent extends Component {
             </Nav>
           </Navbar>
           <h1 className="text-name">Pol Thomas</h1>
-          <h1 className="text-title">DÉVELOPPEUR WEB FRONTEND</h1>
+          <h2 className="text-title">Développeur web frontend</h2>
           <div className="line-header"/>
           <h3 className="text-welcome">Bienvenue</h3>
           <p className="text-introduction">Je vous propose mes services dans la création de sites web ou d'applications informatiques,

@@ -1,67 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="">
+    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Fix bug media queries breakpoints">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/batFiles/scssWatch.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/batFiles/scssWatch.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bR47wH1aNUKsBlk7M2eF58S6CY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1t6uD3k6csSnUft5GEkgqBSSMaz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Projets Damien/projet2-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio-tristan-thomas" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\portfolio" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\components" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\fonts" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\src\fonts" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\public" />
-      <recent name="C:\Users\polth\Documents\GitHub\pol-thomas.com\favicon.ico" />
+      <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
-    <configuration name="npm start" type="js.build_tools.npm">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -71,493 +60,53 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6558bbe4-ff84-4f87-972e-801d5248eb5f" name="Default Changelist" comment="" />
-      <created>1588581408682</created>
+      <changelist id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="" />
+      <created>1622101736987</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588581408682</updated>
-      <workItem from="1588581410674" duration="16710000" />
-      <workItem from="1588606703348" duration="3727000" />
-      <workItem from="1588614406142" duration="417000" />
-      <workItem from="1588614871708" duration="2508000" />
-      <workItem from="1588664971534" duration="7782000" />
-      <workItem from="1588679302295" duration="2514000" />
-      <workItem from="1588752287556" duration="8433000" />
-      <workItem from="1588770326380" duration="216000" />
-      <workItem from="1588773853014" duration="187000" />
-      <workItem from="1588837734031" duration="8399000" />
-      <workItem from="1588846220384" duration="204000" />
-      <workItem from="1588853433285" duration="347000" />
-      <workItem from="1588930995781" duration="2484000" />
-      <workItem from="1588940833841" duration="3252000" />
-      <workItem from="1589014412844" duration="16942000" />
-      <workItem from="1589034921663" duration="3000" />
-      <workItem from="1589039258736" duration="830000" />
-      <workItem from="1589187284043" duration="4044000" />
-      <workItem from="1589191491745" duration="3151000" />
-      <workItem from="1589199274256" duration="8547000" />
-      <workItem from="1589218079889" duration="3360000" />
-      <workItem from="1589225913634" duration="255000" />
-      <workItem from="1589268502973" duration="3531000" />
-      <workItem from="1589279943118" duration="7730000" />
-      <workItem from="1589290860416" duration="354000" />
-      <workItem from="1589291683154" duration="209000" />
-      <workItem from="1589299261139" duration="9148000" />
-      <workItem from="1589356125664" duration="17024000" />
-      <workItem from="1589397165413" duration="501000" />
-      <workItem from="1589442556897" duration="5234000" />
-      <workItem from="1589452786309" duration="1132000" />
-      <workItem from="1589462376583" duration="389000" />
-      <workItem from="1589462936857" duration="173000" />
-      <workItem from="1589463152818" duration="396000" />
-      <workItem from="1589875441369" duration="42000" />
-      <workItem from="1590481092206" duration="1454000" />
-      <workItem from="1590488134091" duration="1267000" />
-      <workItem from="1590567158529" duration="154000" />
-      <workItem from="1590755047340" duration="1573000" />
-      <workItem from="1592928996876" duration="67000" />
-      <workItem from="1592929093914" duration="2281000" />
-      <workItem from="1592931430343" duration="325000" />
-      <workItem from="1593509766853" duration="99000" />
-      <workItem from="1593531594314" duration="612000" />
-      <workItem from="1593706312035" duration="2449000" />
-      <workItem from="1593859927612" duration="1000000" />
-      <workItem from="1593965519847" duration="626000" />
-      <workItem from="1593971092758" duration="958000" />
-      <workItem from="1593972297993" duration="1680000" />
-      <workItem from="1594042134031" duration="645000" />
-      <workItem from="1594071641105" duration="83000" />
-      <workItem from="1594205779557" duration="261000" />
-      <workItem from="1594289929343" duration="1862000" />
-      <workItem from="1594806486982" duration="679000" />
-      <workItem from="1595494729198" duration="761000" />
-      <workItem from="1595887631378" duration="140000" />
-      <workItem from="1596198188858" duration="775000" />
-      <workItem from="1597528570514" duration="3125000" />
-      <workItem from="1598369642434" duration="6716000" />
-      <workItem from="1598432169445" duration="542000" />
-      <workItem from="1598455257256" duration="42000" />
-      <workItem from="1598455728852" duration="1493000" />
-      <workItem from="1598533825339" duration="58000" />
-      <workItem from="1598993508642" duration="1569000" />
-      <workItem from="1599031805704" duration="325000" />
-      <workItem from="1599058559176" duration="638000" />
-      <workItem from="1602791095096" duration="1331000" />
-      <workItem from="1602957662964" duration="636000" />
-      <workItem from="1603897155308" duration="1385000" />
-      <workItem from="1606309801166" duration="284000" />
-      <workItem from="1606310138475" duration="244000" />
-      <workItem from="1606396294232" duration="687000" />
-      <workItem from="1606486761888" duration="48000" />
+      <updated>1622101736987</updated>
+      <workItem from="1622101738327" duration="1624000" />
+      <workItem from="1622103410551" duration="7000" />
+      <workItem from="1629875629256" duration="1256000" />
+      <workItem from="1629880379449" duration="856000" />
+      <workItem from="1630066958728" duration="843000" />
+      <workItem from="1630480507311" duration="306000" />
+      <workItem from="1631197503495" duration="14000" />
+      <workItem from="1631695730146" duration="544000" />
     </task>
-    <task id="LOCAL-00010" summary="Peaufinage, ajout d'une animation sur le titre &quot;Mes realisations&quot; quand on scroll">
-      <created>1588770415536</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
+      <created>1622103350132</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1588770415536</updated>
+      <updated>1622103350132</updated>
     </task>
-    <task id="LOCAL-00011" summary="Mise en place de la fleche blanche sur le header pour scroller vers le bas">
-      <created>1588841379188</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00002" summary="Replace the favicon and make the copyright date dynamic">
+      <created>1629881077306</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1588841379188</updated>
+      <updated>1629881077306</updated>
     </task>
-    <task id="LOCAL-00012" summary="Section &quot;à propos&quot; commencée">
-      <created>1588846174953</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1588846174953</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Petites retouches sur le design du Header">
-      <created>1588943076456</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1588943076456</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Retouches sur la section &quot;à propos&quot;">
-      <created>1588944000127</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1588944000127</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Systeme responsive de la partie &quot;Mes réalisations&quot; done !">
-      <created>1589019295781</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1589019295781</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Systeme responsive de la partie &quot;Mes réalisations&quot; done !">
-      <created>1589020333583</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1589020333584</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Modale en place !">
-      <created>1589023078817</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1589023078817</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Mise en place du responsive pour la section à propos + le footer">
-      <created>1589025195889</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1589025195889</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Modale avec le contact du menu valide">
-      <created>1589033581774</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1589033581774</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Design de pagination ajouté">
-      <created>1589034835497</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1589034835497</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Pagination done !">
-      <created>1589191105727</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1589191105727</updated>
-    </task>
-    <task id="LOCAL-00022" summary="marge bottom 'mes réalisations' + taille dots paginations modifié">
-      <created>1589191876819</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1589191876819</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Peaufinage sur le design">
-      <created>1589194634840</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1589194634840</updated>
-    </task>
-    <task id="LOCAL-00024" summary="&quot;Mes réalisations&quot; completé avec les liens">
-      <created>1589274917143</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1589274917145</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Modification du favicon">
-      <created>1589277292311</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1589277292311</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Peaufinage de la pagination">
-      <created>1589281665566</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1589281665566</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Modification des &quot;space-evenly&quot; pour la compatabilité avec microsoft edge et changement du systeme de la pagination">
-      <created>1589290261858</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1589290261858</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Modification du contenu des paragraphes">
-      <created>1589302923384</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1589302923384</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Repasse du responsive en mode tablette et smartphone">
-      <created>1589307680856</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1589307680856</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Ajout de mentions légales">
-      <created>1589362474509</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1589362474509</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Modifications padding footer">
-      <created>1589362876726</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1589362876726</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Modifications footer">
-      <created>1589363657680</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1589363657680</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Modifications footer">
-      <created>1589363739722</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1589363739722</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add prefix css">
-      <created>1589363803571</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1589363803571</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Modification pour virer l'image flou des iphones et ipads : 01">
-      <created>1589373930926</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1589373930926</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Modification pour virer l'image flou des iphones et ipads : done !">
-      <created>1589377488005</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1589377488005</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Modification pour virer l'image flou des iphones et ipads : done done !">
-      <created>1589391730617</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1589391730617</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Uppercase aux textes réalisations">
-      <created>1589391761194</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1589391761194</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Responsive iOS done done done !">
-      <created>1589392117236</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1589392117236</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Footer responsive black done">
-      <created>1589397618435</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1589397618435</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Peaufinage sur le index.html">
-      <created>1589449657413</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1589449657413</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Peaufinage sur le index.html VF">
-      <created>1589462641578</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1589462641578</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Remove center center sur le background header">
-      <created>1589463319621</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1589463319621</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Modification du meta tag description et ajout d'une nouvelle réalisation projet technique">
-      <created>1590493994420</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1590493994420</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Modification du favicon et ajout de la réalisation &quot;jeune-naturopathie&quot; + réorganisation des réalisations">
-      <created>1590756885683</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1590756885683</updated>
-    </task>
-    <task id="LOCAL-00046" summary="First commit">
-      <created>1592930061483</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1592930061483</updated>
-    </task>
-    <task id="LOCAL-00047" summary="First commit">
-      <created>1592930640749</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1592930640749</updated>
-    </task>
-    <task id="LOCAL-00048" summary="First commit">
-      <created>1592930846283</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1592930846283</updated>
-    </task>
-    <task id="LOCAL-00049" summary="First commit">
-      <created>1592931236834</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1592931236834</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Ajout du logo-PT">
-      <created>1593531751302</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1593531751302</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Ajout de 2 nouveaux sites vitrines">
-      <created>1594291095361</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1594291095362</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Ajout liens LinkedIn et Github (sous forme de Fas)">
-      <created>1598432501464</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1598432501464</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Ajout liens LinkedIn et Github (sous forme de Fas)">
-      <created>1598432572588</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1598432572588</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Modification des descriptions des &quot;Réalisations&quot;">
-      <created>1598456872249</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1598456872250</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Add a new &quot;Réalisation Technique&quot;">
-      <created>1602792186900</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1602792186900</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Change a description">
-      <created>1602792344942</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1602792344942</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Add a new &quot;Projet Technique&quot;">
-      <created>1603898363654</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1603898363656</updated>
-    </task>
-    <task id="LOCAL-00058" summary="remove async from a link">
-      <created>1606400149170</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1606400149172</updated>
-    </task>
-    <option name="localTasksCounter" value="59" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Repasse du responsive en mode tablette et smartphone" />
-    <MESSAGE value="Ajout de mentions légales" />
-    <MESSAGE value="Modifications padding footer" />
-    <MESSAGE value="Modifications footer" />
-    <MESSAGE value="add prefix css" />
-    <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : 01" />
-    <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done !" />
-    <MESSAGE value="Modification pour virer l'image flou des iphones et ipads : done done !" />
-    <MESSAGE value="Uppercase aux textes réalisations" />
-    <MESSAGE value="Responsive iOS done done done !" />
-    <MESSAGE value="Footer responsive black done" />
-    <MESSAGE value="Peaufinage sur le index.html" />
-    <MESSAGE value="Peaufinage sur le index.html VF" />
-    <MESSAGE value="Remove center center sur le background header" />
-    <MESSAGE value="Modification du meta tag description et ajout d'une nouvelle réalisation projet technique" />
-    <MESSAGE value="Modification du favicon et ajout de la réalisation &quot;jeune-naturopathie&quot; + réorganisation des réalisations" />
-    <MESSAGE value="First commit" />
-    <MESSAGE value="Ajout du logo-PT" />
-    <MESSAGE value="Ajout de 2 nouveaux sites vitrines" />
-    <MESSAGE value="Ajout liens LinkedIn et Github (sous forme de Fas)" />
-    <MESSAGE value="Modification des descriptions des &quot;Réalisations&quot;" />
-    <MESSAGE value="Add a new &quot;Réalisation Technique&quot;" />
-    <MESSAGE value="Change a description" />
-    <MESSAGE value="Add a new &quot;Projet Technique&quot;" />
-    <MESSAGE value="remove async from a link" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove async from a link" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="579" y="88" key="CommitChangelistDialog2" timestamp="1606400147700">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="579" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1606400147700" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602958304340">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602958304340" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1606400152026">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606400152026" />
+    <MESSAGE value="Fix bug media queries breakpoints" />
+    <MESSAGE value="Replace the favicon and make the copyright date dynamic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace the favicon and make the copyright date dynamic" />
   </component>
 </project>
