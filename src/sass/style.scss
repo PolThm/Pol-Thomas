@@ -215,8 +215,10 @@ header {
     }
     .dot-full {
       background-color: $secondary;
+
     }
     .dot-empty {
+      transition: background-color 200ms ease-in-out;
       &:hover, &:focus {
         background-color: $secondary;
         outline: none;
