@@ -39,7 +39,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -62,8 +62,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +83,8 @@
       <workItem from="1630480507311" duration="306000" />
       <workItem from="1631197503495" duration="14000" />
       <workItem from="1631695730146" duration="5493000" />
-      <workItem from="1631707936287" duration="4865000" />
+      <workItem from="1631707936287" duration="5151000" />
+      <workItem from="1631719936945" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631712572866</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Small updates">
+      <created>1631712861706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631712861706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +148,7 @@
     <MESSAGE value="Upgrade accessibility" />
     <MESSAGE value="Small fixes" />
     <MESSAGE value="Small update on pagination dot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update on pagination dot" />
+    <MESSAGE value="Small updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small updates" />
   </component>
 </project>
