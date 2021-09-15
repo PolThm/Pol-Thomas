@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +83,7 @@
       <workItem from="1630480507311" duration="306000" />
       <workItem from="1631197503495" duration="14000" />
       <workItem from="1631695730146" duration="5493000" />
-      <workItem from="1631707936287" duration="4580000" />
+      <workItem from="1631707936287" duration="4865000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -119,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631712319466</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Small update on pagination dot">
+      <created>1631712572866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631712572866</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +139,7 @@
     <MESSAGE value="Small update (h1 to h2, fix meta description)" />
     <MESSAGE value="Upgrade accessibility" />
     <MESSAGE value="Small fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small fixes" />
+    <MESSAGE value="Small update on pagination dot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update on pagination dot" />
   </component>
 </project>

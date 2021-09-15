@@ -17,15 +17,18 @@ header {
   min-height: 100vh;
   background: url("img/background_header.jpg") no-repeat fixed;
   background-size: cover;
+
   .navbar {
     padding-top: 5vh;
     padding-left: 0;
     padding-right: 0;
     font-size: 1.5rem;
     letter-spacing: 0.585rem;
+
     .navLinkMargin {
       margin-left: 8.54rem !important;
     }
+
     .nav-link {
       color: $primary !important;
       transition: color 200ms ease-in-out;
@@ -35,21 +38,26 @@ header {
         color: $tertiary !important;
       }
     }
+
     .navLink1 {
       animation: fadeIn 2000ms 2000ms both;
     }
+
     .navLink2 {
       animation: fadeIn 2000ms 2500ms both;
     }
+
     .navLink3 {
       animation: fadeIn 2000ms 3000ms both;
     }
   }
+
   .text-name {
     font-family: 'Bebas', sans-serif;
     font-size: 13.73rem;
     margin-top: 5vh;
   }
+
   .text-title {
     font-weight: 700;
     text-transform: uppercase;
@@ -58,18 +66,21 @@ header {
     margin-top: 5vh;
     animation: fadeInUp 2000ms forwards;
   }
+
   .line-header {
     margin-top: 5vh;
     width: 15.7rem;
     border-bottom: 0.4rem $tertiary solid;
     animation: fadeInRightPol 2000ms forwards ease-out;
   }
+
   .text-welcome{
     margin-top: 5vh;
     font-size: 2.4rem;
     letter-spacing: 0.335rem;
     animation: fadeIn 2000ms 1000ms both;
   }
+
   .text-introduction {
     max-width: 100%;
     width: 60rem;
@@ -79,13 +90,13 @@ header {
     animation: fadeIn 2000ms 1500ms both;
     padding-bottom: 5vh;
   }
+
   .downArrow {
     width: 100%;
     min-height: 25px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 20px;
-
     margin: 0 auto;
     position: absolute;
     z-index: 3;
@@ -93,16 +104,17 @@ header {
     bottom: 0;
     left: 0;
     animation: fadeInDown 2000ms 3500ms both;
+
     .downArrowSvg {
       height: 5vh;
       min-height: 30px;
     }
+
     .downArrowPath {
       fill: white;
     }
   }
 }
-
 
 .mes-realisations {
   background-color: white;
@@ -205,6 +217,7 @@ header {
     margin-top: 5vh;
     display: flex;
     justify-content: center;
+
     .dots {
       width: 12px;
       height: 12px;
@@ -213,18 +226,21 @@ header {
       margin: 0 22px 0 22px;
       cursor: pointer;
     }
+
     .dot-full {
       background-color: $secondary;
-
     }
+
     .dot-empty {
       transition: background-color 200ms ease-in-out;
+
       &:hover, &:focus {
         background-color: $secondary;
         outline: none;
       }
     }
   }
+
   .mes-realisations-empty {
     display: none !important;
   }
@@ -240,10 +256,12 @@ header {
   min-height: 100vh;
   background: url("img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
+
   .a-propos-content {
     padding: 7.5vh 0 0 0;
     display: flex;
   }
+
   .texts-a-propos {
     width: 100%;
     display: flex;
@@ -251,58 +269,71 @@ header {
     align-items: flex-start;
     justify-content: space-around;
   }
+
   h2 {
     font-size: 2.02rem;
     letter-spacing: 0.585rem;
     text-transform: uppercase;
   }
+
   p {
     padding: 0 0 5vh 0;
     font-size: 1.5rem;
     margin-top: 5vh;
     text-align: justify;
   }
+
   .picture-a-propos {
     width: 50%;
     text-align: right;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
     img {
       width: 75%;
       border: 0.4rem $tertiary solid;
     }
+
     .a-propos-title-forPhone {
       display: none;
     }
   }
+
   .fas-links {
     display: flex;
     padding: 0 0 5vh 0;
+
     div {
       margin-right: 2rem;
+
       .fab {
         font-size: 3rem;
         color: $primary;
         transition: color 200ms ease-in-out;
+
         &:hover, &:focus {
           color: $tertiary
         }
       }
+
       .fa-linkedin {
         animation: fadeInUp 4000ms both;
       }
+
       .fa-github {
         animation: fadeInUp 4000ms both;
       }
     }
   }
+
   .fas-links-for-phone {
     display: none;
   }
 
   .contactSection {
     padding: 0 0 5vh 0;
+
     .buttonContact {
       background-color: $tertiary;
       font-size: 2.02rem;
@@ -312,54 +343,66 @@ header {
       border-radius: 50px;
       padding: 1rem 6rem 1rem 6rem;
       transition: transform 200ms ease-in-out, color 400ms ease-in-out;
+
       &:hover, &:focus {
         transform: scale(1.1);
         background-color: $tertiary;
         color: $secondary;
       }
+
       &:focus {
         box-shadow: none;
       }
+
       &:not(:disabled):not(.disabled):active {
         background-color: $tertiary;
         color: $primary;
         box-shadow: none;
       }
     }
+
     .buttonContactForPhone {
       display: none;
     }
   }
 }
+
 .modalContact {
   text-align: center;
+
   .modal-title {
     margin: auto;
   }
+
   .close {
     position: absolute;
     right: 10px;
   }
 }
+
 .contactForm {
   padding: 20px;
   color: $secondary;
   border-color: $tertiary;
+
   .btnContactForm {
     border-radius: 50px;
     width: 30%;
     background-color: $tertiary;
     border-color: $tertiary;
+
     &:hover {
       background-color: $tertiary;
       border-color: $tertiary;
       color: $secondary;
     }
+
     &:focus {
       background-color: $tertiary;
       border-color: $tertiary;
       box-shadow: none;
     }
+
     &:not(:disabled):not(.disabled):active {
       background-color: $tertiary;
       border-color: $tertiary;
@@ -367,6 +410,7 @@ header {
       box-shadow: none;
     }
   }
+
   .form-control {
     letter-spacing: 1px;
   }
@@ -375,8 +419,9 @@ header {
 footer {
   padding: 0 2rem 0 2rem;
   box-shadow: 0 0 10px black;
-  background: url("./img/background_a-propos_filtre.jpg") no-repeat fixed;
+  background: url("img/background_a-propos_filtre.jpg") no-repeat fixed;
   background-size: cover;
+
   .text-footer {
     height: 40px;
     color: $primary;
@@ -384,24 +429,29 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0;
+
     .text-pol-thomas {
       color: $tertiary;
     }
+
     .text-mentions-legales {
       background: unset;
       border: unset;
       color: $tertiary;
       cursor: pointer;
       transition: color 200ms ease-in-out;
+
       &:hover, &:focus {
         color: darken($tertiary, 15%);
       }
     }
   }
 }
+
 .mentions-legales-content {
   text-align: left;
   padding: 0 1rem 0 1rem;
+
   h2, p, b, a, strong, ul, li, h3, p#text  {
     letter-spacing: 1px;
   }
