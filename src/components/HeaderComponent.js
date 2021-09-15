@@ -11,8 +11,8 @@ class HeaderComponent extends Component {
           <Navbar>
             <Nav className="mr-auto">
               <Nav.Link className={"navLink1"} href="#mes-realisations">MES RÉALISATIONS</Nav.Link>
-              <Nav.Link className={"navLink2 navLinkPadding"} href="#a-propos">À PROPOS</Nav.Link>
-              <Nav.Link className={"navLink3 navLinkPadding"} onClick={this.props.openModalContact}>CONTACT</Nav.Link>
+              <Nav.Link className={"navLink2 navLinkMargin"} href="#a-propos">À PROPOS</Nav.Link>
+              <Nav.Link className={"navLink3 navLinkMargin"} onClick={this.props.openModalContact}>CONTACT</Nav.Link>
             </Nav>
           </Navbar>
           <h1 className="text-name">Pol Thomas</h1>

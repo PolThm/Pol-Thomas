@@ -19,7 +19,7 @@ class MesRealisations extends React.Component {
             <Tab eventKey="sitesVitrines" title="Sites vitrines">
               <MesRealisationsSitesVitrines/>
             </Tab>
-            <Tab eventKey="projetsTechniques" title="Projets techniques">
+            <Tab eventKey="projetsTechniques" title="Projets techniques" tabIndex={1}>
               <MesRealisationsProjetsTechniques />
             </Tab>
           </Tabs>
