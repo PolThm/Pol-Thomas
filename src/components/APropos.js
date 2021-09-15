@@ -15,7 +15,7 @@ class APropos extends Component {
             <div className={"a-propos-content"}>
               <div className={"texts-a-propos"}>
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
-                  <h2 className={"a-propos-title-notForPhone"}>À PROPOS</h2>
+                  <h2 className={"a-propos-title-notForPhone"}>À propos</h2>
                 </ScrollAnimation>
                 <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'application frontend de niveau bac +4, je me sers aujourd'hui
                   des compétences que j'y ai acquises pour façonner des projets numériques variés.
