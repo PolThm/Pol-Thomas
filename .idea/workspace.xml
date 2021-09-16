@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Realisation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Realisation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,8 @@
       <workItem from="1631197503495" duration="14000" />
       <workItem from="1631695730146" duration="5493000" />
       <workItem from="1631707936287" duration="5151000" />
-      <workItem from="1631719936945" duration="172000" />
+      <workItem from="1631719936945" duration="337000" />
+      <workItem from="1631816420885" duration="396000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631712861706</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Small change on project text transition">
+      <created>1631720141744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631720141744</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="Small fixes" />
     <MESSAGE value="Small update on pagination dot" />
     <MESSAGE value="Small updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small updates" />
+    <MESSAGE value="Small change on project text transition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small change on project text transition" />
   </component>
 </project>
