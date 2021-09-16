@@ -390,16 +390,12 @@ header {
     width: 30%;
     background-color: $tertiary;
     border-color: $tertiary;
+    transition: color 200ms ease-in-out;
 
-    &:hover {
+    &:hover, &:focus {
       background-color: $tertiary;
       border-color: $tertiary;
       color: $secondary;
-    }
-
-    &:focus {
-      background-color: $tertiary;
-      border-color: $tertiary;
       box-shadow: none;
     }
 
