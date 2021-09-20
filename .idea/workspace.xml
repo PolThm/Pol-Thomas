@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Add box-shadow on realisation hover">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
@@ -90,7 +89,8 @@
       <workItem from="1631719936945" duration="337000" />
       <workItem from="1631816420885" duration="720000" />
       <workItem from="1631817203845" duration="423000" />
-      <workItem from="1632118121772" duration="805000" />
+      <workItem from="1632118121772" duration="1001000" />
+      <workItem from="1632162012878" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631817016629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add box-shadow on realisation hover">
+      <created>1632118965676</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632118965676</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +186,7 @@
     <MESSAGE value="Small change on project text transition" />
     <MESSAGE value="Fix accessibility on &quot;Realisation&quot;" />
     <MESSAGE value="Remove unused css files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove unused css files" />
+    <MESSAGE value="Add box-shadow on realisation hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add box-shadow on realisation hover" />
   </component>
 </project>
