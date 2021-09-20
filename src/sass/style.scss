@@ -176,6 +176,8 @@ header {
 
       &:hover, &:focus-within {
         transform: scale(1.1);
+        box-shadow: 0 0 14px $secondary ;
+
 
         &::before {
           opacity: 1;
