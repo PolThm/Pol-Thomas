@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1631982404" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/frontend" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectId" id="1t6uD3k6csSnUft5GEkgqBSSMaz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio-tristan-thomas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../open-classrooms/go-fullstack" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -69,7 +90,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="" />
@@ -88,6 +112,9 @@
       <workItem from="1631707936287" duration="5151000" />
       <workItem from="1631719936945" duration="337000" />
       <workItem from="1631816420885" duration="555000" />
+      <workItem from="1631982321146" duration="112000" />
+      <workItem from="1631982453787" duration="35000" />
+      <workItem from="1632867589276" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -156,7 +183,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix bug media queries breakpoints" />
@@ -169,5 +196,15 @@
     <MESSAGE value="Small change on project text transition" />
     <MESSAGE value="Fix accessibility on &quot;Realisation&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="Fix accessibility on &quot;Realisation&quot;" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1631982432186">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="549" y="215" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1631982432186" />
+    <state x="492" y="181" key="RollbackChangesDialog" timestamp="1631982420470">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="492" y="181" key="RollbackChangesDialog/0.0.1536.920@0.0.1536.920" timestamp="1631982420470" />
   </component>
 </project>
