@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Add box-shadow on realisation hover">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/batFiles/scssWatch.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +19,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1t6uD3k6csSnUft5GEkgqBSSMaz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,8 +35,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../portfolio-tristan-thomas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../trim" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -41,12 +48,22 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.sass-watch">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="sass-watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="sass-watch" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -64,12 +81,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.sass-watch" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="" />
@@ -91,6 +112,7 @@
       <workItem from="1631817203845" duration="423000" />
       <workItem from="1632118121772" duration="1001000" />
       <workItem from="1632162012878" duration="143000" />
+      <workItem from="1632868784611" duration="645000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -173,7 +195,10 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix bug media queries breakpoints" />
@@ -188,5 +213,27 @@
     <MESSAGE value="Remove unused css files" />
     <MESSAGE value="Add box-shadow on realisation hover" />
     <option name="LAST_COMMIT_MESSAGE" value="Add box-shadow on realisation hover" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1632868134013">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="549" y="215" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1632868134013" />
+    <state width="1515" height="242" key="GridCell.Tab.0.bottom" timestamp="1632869216376">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1515" height="242" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
+    <state width="1515" height="242" key="GridCell.Tab.0.center" timestamp="1632869216376">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1515" height="242" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
+    <state width="1515" height="242" key="GridCell.Tab.0.left" timestamp="1632869216376">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1515" height="242" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
+    <state width="1515" height="242" key="GridCell.Tab.0.right" timestamp="1632869216376">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state width="1515" height="242" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
   </component>
 </project>

@@ -174,15 +174,16 @@ header {
         transition: opacity 200ms ease-in-out;
       }
 
-      &:hover, &:focus-within {
+      &:hover, &:focus-visible {
+        outline: none;
         transform: scale(1.1);
-        box-shadow: 0 0 14px $secondary ;
+        box-shadow: 0 0 14px $secondary;
 
         &::before {
           opacity: 1;
         }
 
-        :is(&:hover, &:focus-within) .text-realisation {
+        :is(&:hover, &:focus-visible) .text-realisation {
           opacity: 1;
         }
       }
