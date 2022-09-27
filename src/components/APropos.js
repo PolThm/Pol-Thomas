@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from "react-scrollable-anchor";
 import ScrollAnimation from "react-animate-on-scroll";
-import polProfil from "../img/pol-profil-bw.jpg"
+import polProfil from "../img/pol-profil-bw-2022.jpg"
 import {Button, Image} from "react-bootstrap";
 import ModalContact from "./ModalContact";
 
@@ -17,14 +17,14 @@ class APropos extends Component {
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
                   <h2 className={"a-propos-title-notForPhone"}>À propos</h2>
                 </ScrollAnimation>
-                <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'application frontend de niveau bac +4, je me sers aujourd'hui
-                  des compétences que j'y ai acquises pour façonner des projets numériques variés.
+                <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'application frontend,
+                  renforcée par plusieurs années d'experiences, j'exerce aujourd'hui mon activité en freelance.
                   <br/><br/>
-                  J'utilise divers langages informatiques pour parvenir à mes fins (en particulier JavaScript avec
-                  React JS ou encore React Native pour les applications mobiles).
+                  Adepte du clean code, voici aujourd'hui un aperçu des technologies que j'utilise :
+                  Vue.js (2, 3, +Nuxt), React.js (+Next), React Native, Typescript, Jest, SASS (+BEM), Tailwind, Git...
                   <br/><br/>
-                  Je vous invite vivement à me contacter si vous avez un besoin digital, une quelconque proposition ou tout
-                  simplement une question, c'est avec grand plaisir que j'y répondrai !
+                  Je vous invite à me contacter si vous avez un besoin digital, une quelconque proposition ou tout
+                  simplement une question, c'est avec plaisir que j'y répondrai !
                 </p>
               </div>
               <div className={"picture-a-propos"}>

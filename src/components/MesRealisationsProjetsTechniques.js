@@ -9,12 +9,20 @@ import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
 import clubMember from '../img/club-member.jpg';
 import myTrip from '../img/mytrip.jpg';
+import skinGenius from "../img/skin-genius.jpg";
 
 class MesRealisationsProjetsTechniques extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={skinGenius}
+              description={"L'Oréal Skin Genius (Web app mobile créée avec Vue JS)"}
+              link={'https://dsf-cdn.loreal.io/standalone.html?tenant=lorealsa&application=skindrv2&customer=lorealparis&country=gbr&environment=production&touchpoint=web&type=std'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={myTrip}

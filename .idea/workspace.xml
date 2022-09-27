@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Add box-shadow on realisation hover">
+    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Change profile picture, texts and add a new Realisation">
+      <change afterPath="$PROJECT_DIR$/src/img/pol-profil-bw-2022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/skin-genius.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/batFiles/scssWatch.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/APropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/APropos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitToolBoxStore">
-    <option name="projectConfigVersion" value="2" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1t6uD3k6csSnUft5GEkgqBSSMaz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -31,39 +32,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../trim" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src\img" />
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.sass-watch">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
         <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="sass-watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="sass-watch" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -81,16 +70,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.sass-watch" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="" />
@@ -111,8 +96,8 @@
       <workItem from="1631816420885" duration="720000" />
       <workItem from="1631817203845" duration="423000" />
       <workItem from="1632118121772" duration="1001000" />
-      <workItem from="1632162012878" duration="143000" />
-      <workItem from="1632868784611" duration="645000" />
+      <workItem from="1632162012878" duration="350000" />
+      <workItem from="1664263892143" duration="3072000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -191,14 +176,18 @@
       <option name="project" value="LOCAL" />
       <updated>1632118965676</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add transition box-shadow on realisation hover">
+      <created>1632162212104</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632162212104</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix bug media queries breakpoints" />
@@ -212,28 +201,7 @@
     <MESSAGE value="Fix accessibility on &quot;Realisation&quot;" />
     <MESSAGE value="Remove unused css files" />
     <MESSAGE value="Add box-shadow on realisation hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add box-shadow on realisation hover" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="215" key="FileChooserDialogImpl" timestamp="1632868134013">
-      <screen x="0" y="0" width="1536" height="920" />
-    </state>
-    <state x="549" y="215" key="FileChooserDialogImpl/0.0.1536.920@0.0.1536.920" timestamp="1632868134013" />
-    <state width="1515" height="242" key="GridCell.Tab.0.bottom" timestamp="1632869216376">
-      <screen x="0" y="0" width="1536" height="920" />
-    </state>
-    <state width="1515" height="242" key="GridCell.Tab.0.bottom/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
-    <state width="1515" height="242" key="GridCell.Tab.0.center" timestamp="1632869216376">
-      <screen x="0" y="0" width="1536" height="920" />
-    </state>
-    <state width="1515" height="242" key="GridCell.Tab.0.center/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
-    <state width="1515" height="242" key="GridCell.Tab.0.left" timestamp="1632869216376">
-      <screen x="0" y="0" width="1536" height="920" />
-    </state>
-    <state width="1515" height="242" key="GridCell.Tab.0.left/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
-    <state width="1515" height="242" key="GridCell.Tab.0.right" timestamp="1632869216376">
-      <screen x="0" y="0" width="1536" height="920" />
-    </state>
-    <state width="1515" height="242" key="GridCell.Tab.0.right/0.0.1536.920@0.0.1536.920" timestamp="1632869216376" />
+    <MESSAGE value="Add transition box-shadow on realisation hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add transition box-shadow on realisation hover" />
   </component>
 </project>
