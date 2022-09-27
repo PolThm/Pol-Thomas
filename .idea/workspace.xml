@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
+    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Update Skin Genius link">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/skin-genius.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/skin-genius.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -69,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +98,7 @@
       <workItem from="1632118121772" duration="1001000" />
       <workItem from="1632162012878" duration="350000" />
       <workItem from="1664263892143" duration="3576000" />
-      <workItem from="1664273412217" duration="52000" />
+      <workItem from="1664273412217" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -190,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664267019258</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update Skin Genius link">
+      <created>1664273497559</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1664273497559</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +218,7 @@
     <MESSAGE value="Add box-shadow on realisation hover" />
     <MESSAGE value="Add transition box-shadow on realisation hover" />
     <MESSAGE value="Change profile picture, texts and add a new Realisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change profile picture, texts and add a new Realisation" />
+    <MESSAGE value="Update Skin Genius link" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Skin Genius link" />
   </component>
 </project>
