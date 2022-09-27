@@ -20,7 +20,7 @@ class MesRealisationsProjetsTechniques extends React.Component {
             <Realisation
               picture={skinGenius}
               description={"L'Oréal Skin Genius (Web app mobile créée avec Vue JS)"}
-              link={'https://dsf-cdn.loreal.io/standalone.html?tenant=lorealsa&application=skindrv2&customer=lorealparis&country=gbr&environment=production&touchpoint=web&type=std'}
+              link={'https://www.loreal-paris.co.uk/skin-genius'}
             />
           </Col>
           <Col md={6} lg={4}>

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="Change profile picture, texts and add a new Realisation">
-      <change afterPath="$PROJECT_DIR$/src/img/pol-profil-bw-2022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/skin-genius.jpg" afterDir="false" />
+    <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/APropos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/APropos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsProjetsTechniques.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +15,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +46,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -70,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +96,8 @@
       <workItem from="1631817203845" duration="423000" />
       <workItem from="1632118121772" duration="1001000" />
       <workItem from="1632162012878" duration="350000" />
-      <workItem from="1664263892143" duration="3072000" />
+      <workItem from="1664263892143" duration="3576000" />
+      <workItem from="1664273412217" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="Fix bug media queries breakpoints">
       <created>1622103350132</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632162212104</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Change profile picture, texts and add a new Realisation">
+      <created>1664267019258</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1664267019258</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +209,7 @@
     <MESSAGE value="Remove unused css files" />
     <MESSAGE value="Add box-shadow on realisation hover" />
     <MESSAGE value="Add transition box-shadow on realisation hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add transition box-shadow on realisation hover" />
+    <MESSAGE value="Change profile picture, texts and add a new Realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change profile picture, texts and add a new Realisation" />
   </component>
 </project>
