@@ -8,12 +8,20 @@ import lingerie from '../img/lingerie.jpg';
 import stylishArchitecture from '../img/stylish-architecture.jpg'
 import yoga from '../img/yoga.jpg';
 import simple from '../img/simple.jpg';
+import youtubeVideos from "../img/projet-youtube-videos.jpg";
 
 class MesRealisationsPage3 extends React.Component {
   render() {
     const content =
       <div>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={youtubeVideos}
+              description={'Youtube Vidéos - Lecteur vidéo (créé avec React JS, l\'API Youtube et Semantic UI)'}
+              link={'https://youtube-videos.pol-thomas.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={yoga}

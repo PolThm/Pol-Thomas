@@ -10,12 +10,20 @@ import doIt from '../img/do-it.jpg';
 import clubMember from '../img/club-member.jpg';
 import myTrip from '../img/mytrip.jpg';
 import theRange from "../img/the-range.jpg";
+import megaGym from "../img/mega-gym.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={megaGym}
+              description={'Mega Gym (démo WordPress)'}
+              link={'http://mega-gym.pol-thomas.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={theRange}
@@ -71,13 +79,6 @@ class MesRealisationsPage2 extends React.Component {
               picture={shootMe}
               description={'Shoot Me - Jeu de plateau (créé en Vanilla JS, HTML et CSS)'}
               link={'https://shootme.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={youtubeVideos}
-              description={'Youtube Vidéos - Lecteur vidéo (créé avec React JS, l\'API Youtube et Semantic UI)'}
-              link={'https://youtube-videos.pol-thomas.com/'}
             />
           </Col>
         </Row>
