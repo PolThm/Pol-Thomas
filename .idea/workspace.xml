@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="275539d3-ab25-4d33-8dd1-9accc666d0c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/demapp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/demapp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/demapp.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664348591761</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add a new realisation">
+      <created>1664349309659</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664349309659</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +244,7 @@
     <MESSAGE value="Update Skin Genius link" />
     <MESSAGE value="Update Skin Genius image" />
     <MESSAGE value="Big refacto on MesRealisations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Big refacto on MesRealisations" />
+    <MESSAGE value="Add a new realisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a new realisation" />
   </component>
 </project>
