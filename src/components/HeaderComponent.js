@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {Container, Navbar, Nav} from "react-bootstrap";
 import ModalContact from "./ModalContact";
 
-
 class HeaderComponent extends Component {
   render() {
     return (

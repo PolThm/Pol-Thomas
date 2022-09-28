@@ -134,6 +134,7 @@ header {
   .nav-tabs {
     margin-bottom: 5vh;
     border-color: $tertiary;
+    font-size: 1.25rem;
 
     .nav-link {
       color: $secondary;
@@ -214,37 +215,6 @@ header {
         transition: opacity 200ms ease-in-out;
       }
     }
-  }
-  .pagination {
-    margin-top: 5vh;
-    display: flex;
-    justify-content: center;
-
-    .dots {
-      width: 12px;
-      height: 12px;
-      border: 1px $secondary solid;
-      border-radius: 50px;
-      margin: 0 22px 0 22px;
-      cursor: pointer;
-    }
-
-    .dot-full {
-      background-color: $secondary;
-    }
-
-    .dot-empty {
-      transition: background-color 200ms ease-in-out;
-
-      &:hover, &:focus {
-        background-color: $secondary;
-        outline: none;
-      }
-    }
-  }
-
-  .mes-realisations-empty {
-    display: none !important;
   }
 }
 

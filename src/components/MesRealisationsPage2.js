@@ -9,18 +9,18 @@ import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
 import clubMember from '../img/club-member.jpg';
 import myTrip from '../img/mytrip.jpg';
-import skinGenius from "../img/skin-genius.jpg";
+import theRange from "../img/the-range.jpg";
 
-class MesRealisationsProjetsTechniques extends React.Component {
+class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
           <Col md={6} lg={4}>
             <Realisation
-              picture={skinGenius}
-              description={"L'Oréal Skin Genius (Web app mobile créée avec Vue JS)"}
-              link={'https://www.loreal-paris.co.uk/skin-genius'}
+              picture={theRange}
+              description={'The Range (créé en HTML/CSS avec Bootstrap)'}
+              link={'https://therange.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -81,12 +81,9 @@ class MesRealisationsProjetsTechniques extends React.Component {
             />
           </Col>
         </Row>
-        <Row className={"pagination"}>
-          <div className={"dots dot-full"}/>
-        </Row>
       </Container>
     )
   }
 }
 
-export default MesRealisationsProjetsTechniques;
+export default MesRealisationsPage2;
