@@ -4,7 +4,6 @@ import Realisation from "./Realisation";
 import shootMe from '../img/shoot-me.jpg';
 import smartPoint from '../img/smart-point.jpg';
 import textories from '../img/textories.jpg';
-import youtubeVideos from '../img/projet-youtube-videos.jpg';
 import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
 import clubMember from '../img/club-member.jpg';
