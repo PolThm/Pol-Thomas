@@ -11,6 +11,10 @@ $tertiary: #fbb32c;
   letter-spacing: 4px;
 }
 
+p {
+  letter-spacing: 0.3rem;
+}
+
 header {
   color: $primary;
   padding: 0 14% 0 14%;
@@ -23,10 +27,9 @@ header {
     padding-left: 0;
     padding-right: 0;
     font-size: 1.5rem;
-    letter-spacing: 0.585rem;
 
     .navLinkMargin {
-      margin-left: 8.54rem !important;
+      margin-left: 8rem !important;
     }
 
     .nav-link {
@@ -62,7 +65,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 2.6rem;
-    letter-spacing: 0.67rem;
+    letter-spacing: 0.6rem;
     margin-top: 5vh;
     animation: fadeInUp 2000ms forwards;
   }
@@ -89,6 +92,7 @@ header {
     font-size: 1.5rem;
     animation: fadeIn 2000ms 1500ms both;
     padding-bottom: 5vh;
+    line-height: 2.5rem;
   }
 
   .downArrow {
@@ -139,6 +143,7 @@ header {
     .nav-link {
       color: $secondary;
       transition: color 200ms ease-in-out;
+      letter-spacing: 0.3rem;
 
       &:hover, &:focus {
         color: $tertiary;
@@ -240,6 +245,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
+    line-height: 2.5rem;
   }
 
   h2 {
@@ -363,6 +369,7 @@ header {
     background-color: $tertiary;
     border-color: $tertiary;
     transition: color 200ms ease-in-out;
+    letter-spacing: 0.3rem;
 
     &:hover, &:focus {
       background-color: $tertiary;
@@ -377,6 +384,10 @@ header {
       color: $primary;
       box-shadow: none;
     }
+  }
+
+  label {
+    letter-spacing: 0.3rem;
   }
 
   .form-control {
@@ -398,6 +409,10 @@ footer {
     align-items: center;
     margin: 0;
 
+    span, button {
+      letter-spacing: 0.3rem;
+    }
+
     .text-pol-thomas {
       color: $tertiary;
     }
@@ -414,6 +429,10 @@ footer {
       }
     }
   }
+}
+
+.modal-title {
+  letter-spacing: 0.4rem;
 }
 
 .mentions-legales-content {
