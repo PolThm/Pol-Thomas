@@ -3,13 +3,13 @@ import {Col, Row, Container} from "react-bootstrap";
 import Realisation from "./Realisation";
 import chaletEtCaviar from '../img/chalets-et-caviar.jpg';
 import lesFilmsDePleinAir from '../img/les-films-de-plein-air.jpg';
-import architecture from '../img/architecture.jpg';
 import jeuneNaturopathie from '../img/jeune-naturopathie.jpg';
 import associationBabel from '../img/association-babel.jpg';
 import trim from '../img/trim.jpg';
 import sushiParlour from '../img/sushi-parlour.jpg';
 import skinGenius from "../img/skin-genius.jpg";
 import demapp from "../img/demapp.jpg";
+import lingerie from "../img/lingerie.jpg";
 
 class MesRealisationsPage1 extends React.Component {
   render() {
@@ -46,16 +46,16 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={associationBabel}
-              description={'Association Babel Grenoble (créé avec Wordpress)'}
-              link={'https://association-babel-grenoble.com/'}
+              picture={jeuneNaturopathie}
+              description={'Jeune-naturopathie (créé avec Wordpress)'}
+              link={'https://jeune-naturopathie.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={jeuneNaturopathie}
-              description={'Jeune-naturopathie (créé avec Wordpress)'}
-              link={'https://jeune-naturopathie.fr/'}
+              picture={associationBabel}
+              description={'Association Babel Grenoble (créé avec Wordpress)'}
+              link={'https://association-babel-grenoble.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -72,11 +72,12 @@ class MesRealisationsPage1 extends React.Component {
               link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
+          {/*TODO: To replace and clean*/}
           <Col md={6} lg={4}>
             <Realisation
-              picture={architecture}
-              description={'Architecture (démo WordPress)'}
-              link={'https://architecture.pol-thomas.com/'}
+              picture={lingerie}
+              description={'Lingerie (démo WordPress)'}
+              link={'http://lingerie.pol-thomas.com/'}
             />
           </Col>
         </Row>

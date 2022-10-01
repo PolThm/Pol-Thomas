@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/demapp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/demapp.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/jeune-naturopathie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/jeune-naturopathie.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +47,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src\img" />
+      <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -99,9 +110,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664616650468</updated>
-      <workItem from="1664616658975" duration="744000" />
+      <workItem from="1664616658975" duration="3439000" />
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Remove dead code">
+      <created>1664617439176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664617439176</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +129,7 @@
     <MESSAGE value="Small update on design" />
     <MESSAGE value="Small update on design #2" />
     <MESSAGE value="Small update on design #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update on design #3" />
+    <MESSAGE value="Remove dead code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove dead code" />
   </component>
 </project>

@@ -17,15 +17,17 @@ class MesRealisations extends React.Component {
           </ScrollAnimation>
 
           <Tabs defaultActiveKey="page1" id="mes-realisations-tabs">
-            <Tab eventKey="page1" title="Page 1" tabIndex={0}>
+            <Tab eventKey="page1" title="Vitrine" tabIndex={0}>
               <MesRealisationsPage1 />
             </Tab>
-            <Tab eventKey="page2" title="Page 2" tabIndex={1}>
+            <Tab eventKey="page2" title="Bac à sable" tabIndex={1}>
               <MesRealisationsPage2 />
             </Tab>
-            <Tab eventKey="page3" title="Page 3" tabIndex={2}>
-              <MesRealisationsPage3 />
-            </Tab>
+
+            {/*TODO: TO update*/}
+            {/*<Tab eventKey="page3" title="Page 3" tabIndex={2}>*/}
+            {/*  <MesRealisationsPage3 />*/}
+            {/*</Tab>*/}
           </Tabs>
 
         </div>
