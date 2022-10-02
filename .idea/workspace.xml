@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.sass-watch">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -118,7 +119,7 @@
       <updated>1664616650468</updated>
       <workItem from="1664616658975" duration="3542000" />
       <workItem from="1664705327080" duration="1425000" />
-      <workItem from="1664707034417" duration="614000" />
+      <workItem from="1664707034417" duration="1068000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664706513950</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Small update">
+      <created>1664707682119</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664707682119</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,8 +176,8 @@
     <MESSAGE value="Remove dead code" />
     <MESSAGE value="Big cleaning !" />
     <MESSAGE value="Add 2 new Realisations + do some cleaning" />
-    <MESSAGE value="Small update" />
     <MESSAGE value="Update TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update TODO" />
+    <MESSAGE value="Small update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update" />
   </component>
 </project>
