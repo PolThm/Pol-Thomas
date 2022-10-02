@@ -75,7 +75,7 @@ class MesRealisationsPage2 extends React.Component {
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
-          {/*TODO: To fix !*/}
+          {/*TODO: To fix (facebook login) !*/}
           <Col md={6} lg={4}>
             <Realisation
               picture={myTrip}
