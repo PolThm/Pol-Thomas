@@ -75,14 +75,6 @@ class MesRealisationsPage2 extends React.Component {
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
-          {/*TODO: To clean*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={lesFilmsDePleinAir}*/}
-          {/*    description={'Les films de plein air (Wordpress)'}*/}
-          {/*    link={'https://les-films-de-plein-air.pol-thomas.com/'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
           {/*TODO: To fix !*/}
           <Col md={6} lg={4}>
             <Realisation
@@ -91,6 +83,14 @@ class MesRealisationsPage2 extends React.Component {
               link={'https://mytrip.pol-thomas.com/'}
             />
           </Col>
+          {/*TODO: See if I keep it, else clean it*/}
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={lesFilmsDePleinAir}*/}
+          {/*    description={'Les films de plein air (Wordpress)'}*/}
+          {/*    link={'https://les-films-de-plein-air.pol-thomas.com/'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
         </Row>
       </Container>
     )
