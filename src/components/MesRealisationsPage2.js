@@ -6,11 +6,11 @@ import smartPoint from '../img/smart-point.jpg';
 import textories from '../img/textories.jpg';
 import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
-import clubMember from '../img/club-member.jpg';
 import myTrip from '../img/mytrip.jpg';
-import theRange from "../img/the-range.jpg";
 import youtubeVideos from "../img/projet-youtube-videos.jpg";
+import clubMember from '../img/club-member.jpg';
 import lesFilmsDePleinAir from "../img/les-films-de-plein-air.jpg";
+import theRange from "../img/the-range.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
@@ -30,6 +30,13 @@ class MesRealisationsPage2 extends React.Component {
           {/*    picture={clubMember}*/}
           {/*    description={"Club Member - Système de test d'emails (React JS, TypeScript, Hooks, Context, Axios, Tailwind CSS, Jest et React Testing Library)"}*/}
           {/*    link={'https://club-member.pol-thomas.com/'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={lesFilmsDePleinAir}*/}
+          {/*    description={'Les films de plein air (Wordpress)'}*/}
+          {/*    link={'https://les-films-de-plein-air.pol-thomas.com/'}*/}
           {/*  />*/}
           {/*</Col>*/}
           <Col md={6} lg={4}>
@@ -75,7 +82,6 @@ class MesRealisationsPage2 extends React.Component {
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
-          {/*TODO: To fix (facebook login) !*/}
           <Col md={6} lg={4}>
             <Realisation
               picture={myTrip}
@@ -83,14 +89,6 @@ class MesRealisationsPage2 extends React.Component {
               link={'https://mytrip.pol-thomas.com/'}
             />
           </Col>
-          {/*TODO: See if I keep it, else clean it*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={lesFilmsDePleinAir}*/}
-          {/*    description={'Les films de plein air (Wordpress)'}*/}
-          {/*    link={'https://les-films-de-plein-air.pol-thomas.com/'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
         </Row>
       </Container>
     )
