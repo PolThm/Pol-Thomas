@@ -6,7 +6,7 @@ import associationBabel from '../img/association-babel.jpg';
 import trim from '../img/trim.jpg';
 import sushiParlour from '../img/sushi-parlour.jpg';
 import skinGenius from "../img/skin-genius.jpg";
-import demapp from "../img/demapp.jpg";
+import demapp from "../img/demapp2.jpg";
 import lucatelli from "../img/lucatelli.jpg";
 import ravize from "../img/ravize.jpg";
 import faceArchitect from "../img/face-architect.jpg";
@@ -63,16 +63,16 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={demapp}
-              description={"Demapp (Nuxt)"}
-              link={'https://www.demapp.fr/'}
+              picture={trim}
+              description={'Trim (React JS, SASS et React-Bootstrap)'}
+              link={'https://trim.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={trim}
-              description={'Trim (React JS, SASS et React-Bootstrap)'}
-              link={'https://trim.pol-thomas.com/'}
+              picture={demapp}
+              description={"Demapp (Nuxt)"}
+              link={'https://www.demapp.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -84,16 +84,16 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={associationBabel}
-              description={'Association Babel Grenoble (Wordpress)'}
-              link={'https://association-babel-grenoble.com/'}
+              picture={lucatelli}
+              description={'Lucatelli (Wix)'}
+              link={'https://www.jl-lucatelli-artiste-peintre.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={lucatelli}
-              description={'Lucatelli (Wix)'}
-              link={'https://www.jl-lucatelli-artiste-peintre.com/'}
+              picture={associationBabel}
+              description={'Association Babel Grenoble (Wordpress)'}
+              link={'https://association-babel-grenoble.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
