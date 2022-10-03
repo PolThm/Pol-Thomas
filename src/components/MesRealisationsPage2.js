@@ -78,16 +78,16 @@ class MesRealisationsPage2 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={chaletEtCaviar}
-              description={'Chalets & Caviar (Wordpress)'}
-              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
+              picture={shootMe}
+              description={'Shoot Me - Jeu de plateau (Vanilla JS, HTML et CSS)'}
+              link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={shootMe}
-              description={'Shoot Me - Jeu de plateau (Vanilla JS, HTML et CSS)'}
-              link={'https://shootme.pol-thomas.com/'}
+              picture={chaletEtCaviar}
+              description={'Chalets & Caviar (Wordpress)'}
+              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
