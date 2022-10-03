@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/face-architect.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/hair-care.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/shade-finder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/spotscan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.sass-watch">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -98,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +133,7 @@
       <workItem from="1664730963413" duration="17356000" />
       <workItem from="1664802922400" duration="2690000" />
       <workItem from="1664806432138" duration="438000" />
-      <workItem from="1664825047110" duration="4278000" />
+      <workItem from="1664825047110" duration="4633000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -253,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664825457201</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add 4 Realisations (L'Oreal)">
+      <created>1664830824765</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1664830824765</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +279,7 @@
     <MESSAGE value="Update contact form style" />
     <MESSAGE value="Fix ReactDOM error due to React update" />
     <MESSAGE value="Fix margin in the bottom of body" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix margin in the bottom of body" />
+    <MESSAGE value="Add 4 Realisations (L'Oreal)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 4 Realisations (L'Oreal)" />
   </component>
 </project>
