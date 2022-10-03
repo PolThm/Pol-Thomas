@@ -6,7 +6,7 @@ import associationBabel from '../img/association-babel.jpg';
 import trim from '../img/trim.jpg';
 import sushiParlour from '../img/sushi-parlour.jpg';
 import skinGenius from "../img/skin-genius.jpg";
-import demapp from "../img/demapp2.jpg";
+import demapp from "../img/demapp.jpg";
 import lucatelli from "../img/lucatelli.jpg";
 import ravize from "../img/ravize.jpg";
 import faceArchitect from "../img/face-architect.jpg";
