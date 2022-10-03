@@ -13,6 +13,6 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path='*' element={<Navigate to='/' />} />
       </Routes>
-    </BrowserRouter>,
+    </BrowserRouter>
   </React.StrictMode>
 );
