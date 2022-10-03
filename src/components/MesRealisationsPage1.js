@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Row, Container} from "react-bootstrap";
 import Realisation from "./Realisation";
-import chaletEtCaviar from '../img/chalets-et-caviar.jpg';
 import jeuneNaturopathie from '../img/jeune-naturopathie.jpg';
 import associationBabel from '../img/association-babel.jpg';
 import trim from '../img/trim.jpg';
@@ -10,6 +9,10 @@ import skinGenius from "../img/skin-genius.jpg";
 import demapp from "../img/demapp.jpg";
 import lucatelli from "../img/lucatelli.jpg";
 import ravize from "../img/ravize.jpg";
+import faceArchitect from "../img/face-architect.jpg";
+import hairCare from "../img/hair-care.jpg";
+import shadeFinder from "../img/shade-finder.jpg";
+import spotscan from "../img/spotscan.jpg";
 
 class MesRealisationsPage1 extends React.Component {
   render() {
@@ -21,6 +24,34 @@ class MesRealisationsPage1 extends React.Component {
               picture={skinGenius}
               description={"L'Oréal Skin Genius (Vue JS)"}
               link={'https://www.loreal-paris.co.uk/skin-genius'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={shadeFinder}
+              description={"Lancôme e-Shade Finder (Vue JS)"}
+              link={'https://www.lancome-usa.com/e-shade-finder.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={faceArchitect}
+              description={"Armani Face Maestro (Vue JS)"}
+              link={'https://www.armanibeauty.fr/face-maestro-armani-beauty/face-maestro.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={hairCare}
+              description={"Kerastase Hair Quiz (Vue JS)"}
+              link={'https://www.kerastase-usa.com/hair-quiz.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={spotscan}
+              description={"La Roche Posay Spotscan (Vue JS)"}
+              link={'https://www.laroche-posay.com.au/spotscan.html'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -63,13 +94,6 @@ class MesRealisationsPage1 extends React.Component {
               picture={ravize}
               description={'Ravizé (Webflow)'}
               link={'https://ravize.webflow.io//'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={chaletEtCaviar}
-              description={'Chalets & Caviar (Wordpress)'}
-              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>

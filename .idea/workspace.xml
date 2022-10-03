@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="Fix margin">
+    <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/face-architect.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/hair-care.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/shade-finder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/spotscan.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pthomas/Documents/Github/my-trip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/pthomas/Documents/Github/pol-thomas/src/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src\img" />
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
@@ -131,7 +139,7 @@
       <workItem from="1664730963413" duration="17356000" />
       <workItem from="1664802922400" duration="2690000" />
       <workItem from="1664806432138" duration="438000" />
-      <workItem from="1664825047110" duration="384000" />
+      <workItem from="1664825047110" duration="4278000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -238,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664806851436</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fix margin in the bottom of body">
+      <created>1664825457201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1664825457201</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +277,7 @@
     <MESSAGE value="Update button border-radius" />
     <MESSAGE value="Update contact form style" />
     <MESSAGE value="Fix ReactDOM error due to React update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix ReactDOM error due to React update" />
+    <MESSAGE value="Fix margin in the bottom of body" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix margin in the bottom of body" />
   </component>
 </project>

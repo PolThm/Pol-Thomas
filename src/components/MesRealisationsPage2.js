@@ -11,6 +11,7 @@ import youtubeVideos from "../img/projet-youtube-videos.jpg";
 import clubMember from '../img/club-member.jpg';
 import lesFilmsDePleinAir from "../img/les-films-de-plein-air.jpg";
 import theRange from "../img/the-range.jpg";
+import chaletEtCaviar from "../img/chalets-et-caviar.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
@@ -32,18 +33,18 @@ class MesRealisationsPage2 extends React.Component {
           {/*    link={'https://club-member.pol-thomas.com/'}*/}
           {/*  />*/}
           {/*</Col>*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={lesFilmsDePleinAir}*/}
-          {/*    description={'Les films de plein air (Wordpress)'}*/}
-          {/*    link={'https://les-films-de-plein-air.pol-thomas.com/'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
           <Col md={6} lg={4}>
             <Realisation
               picture={doIt}
               description={'DO IT. - Todo List (React JS, TypeScript, Hooks, Context et Tailwind CSS)'}
               link={'https://do-it.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={myTrip}
+              description={"MyTrip - Facturation de trajets (React JS, TS, Redux, React Router, Hooks, Firebase, Place Autocomplete, Distance Matrix, Stripe et Tailwind)"}
+              link={'https://mytrip.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -77,6 +78,13 @@ class MesRealisationsPage2 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
+              picture={chaletEtCaviar}
+              description={'Chalets & Caviar (Wordpress)'}
+              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
               picture={shootMe}
               description={'Shoot Me - Jeu de plateau (Vanilla JS, HTML et CSS)'}
               link={'https://shootme.pol-thomas.com/'}
@@ -84,9 +92,9 @@ class MesRealisationsPage2 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={myTrip}
-              description={"MyTrip - Facturation de trajets (React JS, TS, Redux, React Router, Hooks, Firebase, Place Autocomplete, Distance Matrix, Stripe et Tailwind)"}
-              link={'https://mytrip.pol-thomas.com/'}
+              picture={lesFilmsDePleinAir}
+              description={'Les films de plein air (Wordpress)'}
+              link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
         </Row>
