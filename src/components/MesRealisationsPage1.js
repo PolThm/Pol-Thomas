@@ -56,6 +56,13 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
+              picture={demapp}
+              description={"Demapp (Nuxt)"}
+              link={'https://www.demapp.fr/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
               picture={sushiParlour}
               description={'Sushi Parlour (React JS, SASS et Tailwind CSS)'}
               link={'https://sushi-parlour.pol-thomas.com/'}
@@ -70,16 +77,9 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={demapp}
-              description={"Demapp (Nuxt)"}
-              link={'https://www.demapp.fr/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={jeuneNaturopathie}
-              description={'Jeune-naturopathie (Wordpress)'}
-              link={'https://jeune-naturopathie.fr/'}
+              picture={ravize}
+              description={'Ravizé (Webflow)'}
+              link={'https://ravize.webflow.io//'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -98,9 +98,9 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
-              picture={ravize}
-              description={'Ravizé (Webflow)'}
-              link={'https://ravize.webflow.io//'}
+              picture={jeuneNaturopathie}
+              description={'Jeune-naturopathie (Wordpress)'}
+              link={'https://jeune-naturopathie.fr/'}
             />
           </Col>
         </Row>
