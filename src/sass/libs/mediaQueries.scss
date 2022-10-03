@@ -107,6 +107,15 @@ $tertiary: #fbb32c;
       margin-left: 1rem !important;
     }
   }
+  .modal-contact {
+    text-align: center !important;
+    .name-mail {
+      display: unset !important;
+    }
+    .btnContactForm {
+      width: 100% !important;
+    }
+  }
 }
 
 //Smartphones
@@ -205,6 +214,15 @@ $tertiary: #fbb32c;
     div {
       margin-right: 1rem !important;
       margin-left: 1rem !important;
+    }
+  }
+  .modal-contact {
+    text-align: center !important;
+    .name-mail {
+      display: unset !important;
+    }
+    .btnContactForm {
+      width: 100% !important;
     }
   }
 }

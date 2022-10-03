@@ -360,18 +360,22 @@ header {
 }
 
 .modal-contact {
-  text-align: center;
+  text-align: left;
   padding: 7vw !important;
 
-  .modal-title {
-    margin: auto;
-    letter-spacing: 0.3rem;
+  .modal-header {
+    padding: 1rem 20px;
+    .modal-title {
+      margin: auto;
+      letter-spacing: 0.3rem;
+    }
+
+    .close {
+      position: absolute;
+      right: 10px;
+    }
   }
 
-  .close {
-    position: absolute;
-    right: 10px;
-  }
 
   .modal-header, .contactForm {
     max-width: 90vw;
@@ -384,7 +388,26 @@ header {
   color: $secondary;
   border-color: $tertiary;
 
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .name-mail {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    width: 100%;
+  }
+
   .btnContactForm {
+    text-align: center;
+    margin-top: 1.5rem;
     width: 30%;
     background-color: $tertiary;
     border-color: $tertiary;

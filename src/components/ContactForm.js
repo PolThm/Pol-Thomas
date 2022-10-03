@@ -41,13 +41,17 @@ class ContactForm extends React.Component{
     return(
       <div className="contactForm">
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-          <div className="form-group">
-            <label htmlFor="name">Nom</label>
-            <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-          </div>
-          <div className="form-group">
-            <label htmlFor="exampleInputEmail1">Adresse email</label>
-            <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+          <div className="name-mail">
+            <div className="form-group">
+              <label htmlFor="name">Nom</label>
+              <input type="text" className="form-control" id="name" value={this.state.name}
+                     onChange={this.onNameChange.bind(this)}/>
+            </div>
+            <div className="form-group">
+              <label htmlFor="exampleInputEmail1">Adresse email</label>
+              <input type="email" className="form-control" id="email" aria-describedby="emailHelp"
+                     value={this.state.email} onChange={this.onEmailChange.bind(this)}/>
+            </div>
           </div>
           <div className="form-group">
             <label htmlFor="message">Message</label>

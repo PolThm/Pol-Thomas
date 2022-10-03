@@ -4,6 +4,8 @@
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +59,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.sass-watch">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -129,7 +131,7 @@
       <workItem from="1664707034417" duration="1388000" />
       <workItem from="1664708828388" duration="6000" />
       <workItem from="1664730963413" duration="17356000" />
-      <workItem from="1664802922400" duration="302000" />
+      <workItem from="1664802922400" duration="2405000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -215,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664793802136</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update button border-radius">
+      <created>1664803244461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1664803244461</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +245,7 @@
     <MESSAGE value="Fix media queries bugs and modals" />
     <MESSAGE value="Fix wrong url" />
     <MESSAGE value="Redirection WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redirection WIP" />
+    <MESSAGE value="Update button border-radius" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update button border-radius" />
   </component>
 </project>
