@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +128,8 @@
       <workItem from="1664707034417" duration="1388000" />
       <workItem from="1664708828388" duration="6000" />
       <workItem from="1664730963413" duration="17356000" />
-      <workItem from="1664802922400" duration="2405000" />
+      <workItem from="1664802922400" duration="2690000" />
+      <workItem from="1664806432138" duration="306000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -224,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664803244461</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update contact form style">
+      <created>1664805441386</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1664805441386</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +251,7 @@
     <MESSAGE value="Fix wrong url" />
     <MESSAGE value="Redirection WIP" />
     <MESSAGE value="Update button border-radius" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update button border-radius" />
+    <MESSAGE value="Update contact form style" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update contact form style" />
   </component>
 </project>
