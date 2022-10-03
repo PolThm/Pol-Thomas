@@ -6,7 +6,7 @@ class ModalMentionsLegales extends React.Component {
     let modalMentionsLegales = null;
     if (this.props.showModalMentionsLegales) {
       modalMentionsLegales =
-        <Modal className={'modalContact'} show={this.props.showModalMentionsLegales} onHide={this.props.closeModalMentionsLegales}>
+        <Modal className={'modal-mentions-legales'} show={this.props.showModalMentionsLegales} onHide={this.props.closeModalMentionsLegales}>
           <Modal.Header className={'title'} closeButton>
             <Modal.Title>Mentions légales</Modal.Title>
           </Modal.Header>

@@ -5,7 +5,7 @@ $tertiary: #fbb32c;
 // Tiny Smartphones
 @media (max-width: 320px) {
   html {
-    font-size: 30%;
+    font-size: 40%;
   }
   .navbar {
     display: none !important;
@@ -112,7 +112,7 @@ $tertiary: #fbb32c;
 //Smartphones
 @media (min-width: 320px) and (max-width: 480px) {
   html {
-    font-size: 40%;
+    font-size: 42%;
   }
   .navbar {
     display: none !important;
@@ -372,13 +372,17 @@ $tertiary: #fbb32c;
 //Tablets
 @media (min-width: 767px) and (max-width: 959px) {
   html {
-    font-size: 44%;
+    font-size: 50%;
   }
   .text-name {
     font-size: 13.3rem !important;
   }
   .navbar {
     font-size: 1.19rem !important;
+
+    .navLinkMargin {
+      margin-left: 9.1rem !important;
+    }
   }
   h2 {
     font-size: 2.7rem !important;
@@ -447,13 +451,17 @@ $tertiary: #fbb32c;
 //Desktop
 @media (min-width: 959px) and (max-width: 1199px) {
   html {
-    font-size: 44%;
+    font-size: 50%;
   }
   .text-name {
     font-size: 13.3rem !important;
   }
   .navbar {
     font-size: 1.19rem !important;
+
+    .navLinkMargin {
+      margin-left: 9.1rem !important;
+    }
   }
   h2 {
     font-size: 2.7rem !important;
@@ -480,6 +488,14 @@ $tertiary: #fbb32c;
 @media (min-width: 1599px) {
   html {
     font-size: 70%;
+  }
+
+  .navbar {
+    font-size: 1.51rem !important;
+  }
+
+  .text-title {
+    font-size: 2.7rem !important;
   }
 }
 

@@ -4,6 +4,9 @@
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalMentionsLegales.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalMentionsLegales.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -83,8 +86,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +124,7 @@
       <workItem from="1664705327080" duration="1425000" />
       <workItem from="1664707034417" duration="1388000" />
       <workItem from="1664708828388" duration="6000" />
-      <workItem from="1664730963413" duration="3747000" />
+      <workItem from="1664730963413" duration="9412000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -179,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664735393781</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Custom scrollbar done">
+      <created>1664779407449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1664779407449</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +206,7 @@
     <MESSAGE value="Small update" />
     <MESSAGE value="Increase paragraph line-height" />
     <MESSAGE value="Update scrollbar style" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update scrollbar style" />
+    <MESSAGE value="Custom scrollbar done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom scrollbar done" />
   </component>
 </project>

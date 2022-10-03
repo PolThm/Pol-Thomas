@@ -15,6 +15,7 @@ $tertiary: #fbb32c;
 body {
   &::-webkit-scrollbar {
     width: 0.4rem;
+
   }
 
   &::-webkit-scrollbar-track {
@@ -44,7 +45,7 @@ header {
     padding-right: 0;
 
     .navLinkMargin {
-      margin-left: 8rem !important;
+      margin-left: 8rem;
     }
 
     .nav-link {
@@ -213,7 +214,6 @@ header {
         margin-bottom: 0;
         display: block;
         width: 100%;
-        height: auto;
       }
 
       .text-realisation-container {
@@ -360,16 +360,23 @@ header {
   }
 }
 
-.modalContact {
+.modal-contact {
   text-align: center;
+  padding: 7vw !important;
 
   .modal-title {
     margin: auto;
+    letter-spacing: 0.3rem;
   }
 
   .close {
     position: absolute;
     right: 10px;
+  }
+
+  .modal-header, .contactForm {
+    max-width: 90vw;
+    width: 100%;
   }
 }
 
@@ -423,6 +430,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0;
+    font-size: 9px; // fixed value
 
     span, button {
       letter-spacing: 0.3rem;
@@ -446,18 +454,29 @@ footer {
   }
 }
 
-.modal-title {
-  letter-spacing: 0.4rem;
-}
+.modal-mentions-legales {
+  padding: 1rem 0 !important;
 
-.mentions-legales-content {
-  text-align: left;
-  padding: 0 1rem 0 1rem;
+  .modal-dialog {
+    max-width: 75%;
+  }
 
-  h2, p, b, a, strong, ul, li, h3, p#text  {
-    letter-spacing: 1px;
+  .modal-title {
+    letter-spacing: 0.4rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mentions-legales-content {
+    text-align: left;
+    padding: 0 1rem 0 1rem;
+
+    h2, p, b, a, strong, ul, li, h3, p#text  {
+      letter-spacing: 1px;
+    }
   }
 }
+
 
 
 

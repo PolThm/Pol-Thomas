@@ -7,7 +7,7 @@ class ModalContact extends React.Component {
     let modalContact = null;
     if (this.props.showModalContact) {
       modalContact =
-        <Modal className={'modalContact'} show={this.props.showModalContact} onHide={this.props.closeModalContact}>
+        <Modal className={'modal-contact'} show={this.props.showModalContact} onHide={this.props.closeModalContact}>
           <Modal.Header className={'title'} closeButton>
             <Modal.Title>Laissez-moi un message</Modal.Title>
           </Modal.Header>
