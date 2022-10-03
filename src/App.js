@@ -6,6 +6,10 @@ import MesRealisations from "./components/MesRealisations";
 import HeaderComponent from "./components/HeaderComponent"
 import APropos from "./components/APropos";
 import ModalMentionsLegales from "./components/ModalMentionsLegales";
+import {
+  BrowserRouter as Router,
+  Route, Routes,
+} from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
@@ -44,29 +48,35 @@ class App extends Component {
     console.log('%c Message to devs: this is an old portfolio that I need to completely refacto, please don\'t judge me on this code 🤓', 'color: #bada55');
 
     return (
-      <div>
-        <HeaderComponent
-          showModalContact={this.state.showModalContact}
-          openModalContact={this.openModalContact}
-          closeModalContact={this.closeModalContact}
-        />
-
-        <MesRealisations/>
-
-        <APropos
-          showModalContact={this.state.showModalContact}
-          openModalContact={this.openModalContact}
-          closeModalContact={this.closeModalContact}
-        />
-
-        <footer>
-          <p className={'text-footer'}>Copyright {new Date().getFullYear()} <span className={"realisedBy"}>par Pol Thomas </span>- <button className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Mentions légales</button></p>
-          <ModalMentionsLegales
-            showModalMentionsLegales={this.state.showModalMentionsLegales}
-            closeModalMentionsLegales={this.closeModalMentionsLegales}
+      <Router>
+        <div>
+          <HeaderComponent
+            showModalContact={this.state.showModalContact}
+            openModalContact={this.openModalContact}
+            closeModalContact={this.closeModalContact}
           />
-        </footer>
-      </div>
+
+          <MesRealisations/>
+
+          <APropos
+            showModalContact={this.state.showModalContact}
+            openModalContact={this.openModalContact}
+            closeModalContact={this.closeModalContact}
+          />
+
+          <footer>
+            <p className={'text-footer'}>Copyright {new Date().getFullYear()} <span className={"realisedBy"}>par Pol Thomas </span>- <button className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Mentions légales</button></p>
+            <ModalMentionsLegales
+              showModalMentionsLegales={this.state.showModalMentionsLegales}
+              closeModalMentionsLegales={this.closeModalMentionsLegales}
+            />
+          </footer>
+
+          <Routes>
+            <Route path='*' element={'/'} />
+          </Routes>
+        </div>
+      </Router>
     );
   }
 }
