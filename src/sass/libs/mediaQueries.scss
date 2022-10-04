@@ -70,6 +70,12 @@ $tertiary: #fbb32c;
   .text-name, .text-title, .text-welcome {
     text-align: center !important;
   }
+  .text-name {
+    font-size: 5.7rem !important;
+  }
+  .text-title {
+    font-size: 2.4rem !important;
+  }
   .text-introduction {
     text-align: center !important;
     width: 100% !important;
@@ -114,6 +120,13 @@ $tertiary: #fbb32c;
     }
     .btnContactForm {
       width: 100% !important;
+    }
+  }
+
+  .modal-mentions-legales {
+    font-size: 9px !important;
+    .modal-dialog {
+      max-width: 80% !important;
     }
   }
 }
@@ -185,6 +198,12 @@ $tertiary: #fbb32c;
   .text-name, .text-title, .text-welcome {
     text-align: center !important;
   }
+  .text-name {
+    font-size: 5.7rem !important;
+  }
+  .text-title {
+    font-size: 2.4rem !important;
+  }
   .text-introduction {
     text-align: center !important;
     width: 100% !important;
@@ -223,6 +242,13 @@ $tertiary: #fbb32c;
     }
     .btnContactForm {
       width: 100% !important;
+    }
+  }
+
+  .modal-mentions-legales {
+    font-size: 9px !important;
+    .modal-dialog {
+      max-width: 80% !important;
     }
   }
 }
