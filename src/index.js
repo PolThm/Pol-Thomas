@@ -6,6 +6,8 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
+console.log('%c Message to devs: this is an old portfolio that I need to completely refacto, please don\'t judge me on this code 🤓', 'color: #bada55');
+
 root.render(
   <React.StrictMode>
     <BrowserRouter>

@@ -42,8 +42,6 @@ class App extends Component {
   };
 
   render() {
-    console.log('%c Message to devs: this is an old portfolio that I need to completely refacto, please don\'t judge me on this code 🤓', 'color: #bada55');
-
     return (
       <div>
         <HeaderComponent
