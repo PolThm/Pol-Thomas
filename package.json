@@ -21,7 +21,8 @@
     "react-responsive-carousel": "^3.2.7",
     "react-router-dom": "^6.4.1",
     "react-scripts": "3.4.1",
-    "react-scrollable-anchor": "^0.6.1"
+    "react-scrollable-anchor": "^0.6.1",
+    "react-toastify": "^8.1.0"
   },
   "scripts": {
     "sass-watch": "sass --watch src/sass/style.scss src/App.css --style compressed  --no-source-map",

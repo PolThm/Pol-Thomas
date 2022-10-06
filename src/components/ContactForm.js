@@ -1,14 +1,14 @@
 import React from 'react';
 import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
 
 class ContactForm extends React.Component{
-
   constructor(props) {
     super(props);
     this.state = {
       name: '',
       email: '',
-      message: ''
+      message: '',
     }
   }
 
@@ -18,13 +18,12 @@ class ContactForm extends React.Component{
       method: "POST",
       url: "https://pol-thomas.com/sendMail.php",
       data: this.state
-    }).then((response)=>{
-      if (response.data.status === 'success'){
-        alert("Message envoyé");
-        this.resetForm();
+    }).then((response)=> {
+      if (response.data.status === 'success') {
         this.closeModalContact();
-      }else if(response.data.status === 'fail'){
-        alert("Le message n'est pas parti, il semble y avoir un problème")
+        this.resetForm();
+      } else if (response.data.status === 'fail'){
+        toast.error("Le message n'est pas parti, il semble y avoir un problème");
       }
     })
   }
@@ -34,6 +33,7 @@ class ContactForm extends React.Component{
   }
 
   closeModalContact = () => {
+    this.props.sendSuccessNotification();
     this.props.closeModalContact(true);
   };
 
@@ -59,6 +59,7 @@ class ContactForm extends React.Component{
           </div>
           <button type="submit" className="btn btn-secondary btnContactForm">Envoyer</button>
         </form>
+        <ToastContainer />
       </div>
     );
   }

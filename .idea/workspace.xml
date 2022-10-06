@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/libs/mediaQueries.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +66,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -94,8 +99,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +141,8 @@
       <workItem from="1664802922400" duration="2690000" />
       <workItem from="1664806432138" duration="438000" />
       <workItem from="1664825047110" duration="5982000" />
-      <workItem from="1664868913327" duration="898000" />
+      <workItem from="1664868913327" duration="1290000" />
+      <workItem from="1665054606437" duration="5792000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -292,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664832517420</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fix legal popin + mobile title">
+      <created>1664869995235</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1664869995236</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +336,7 @@
     <MESSAGE value="Remove image" />
     <MESSAGE value="Reorder Realisations #3" />
     <MESSAGE value="Reorder #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorder #4" />
+    <MESSAGE value="Fix legal popin + mobile title" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix legal popin + mobile title" />
   </component>
 </project>

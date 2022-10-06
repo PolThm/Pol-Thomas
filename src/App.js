@@ -6,6 +6,7 @@ import MesRealisations from "./components/MesRealisations";
 import HeaderComponent from "./components/HeaderComponent"
 import APropos from "./components/APropos";
 import ModalMentionsLegales from "./components/ModalMentionsLegales";
+import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
   constructor(props) {
