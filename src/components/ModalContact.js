@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import ContactForm from "./ContactForm";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 class ModalContact extends React.Component {
   render() {
@@ -14,14 +14,13 @@ class ModalContact extends React.Component {
           </Modal.Header>
           <ContactForm
             closeModalContact={this.props.closeModalContact}
-            sendSuccessNotification={() => toast.success("Message envoyé")}
+            sendSuccessNotification={() => toast.success("Message envoyé", { theme: "dark" })}
           />
         </Modal>
     }
     return(
       <div>
         {modalContact}
-        <ToastContainer theme="colored" />
       </div>
     )
   }

@@ -6,6 +6,7 @@ import MesRealisations from "./components/MesRealisations";
 import HeaderComponent from "./components/HeaderComponent"
 import APropos from "./components/APropos";
 import ModalMentionsLegales from "./components/ModalMentionsLegales";
+import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
 class App extends Component {
@@ -65,6 +66,8 @@ class App extends Component {
             closeModalMentionsLegales={this.closeModalMentionsLegales}
           />
         </footer>
+
+        <ToastContainer />
       </div>
     );
   }

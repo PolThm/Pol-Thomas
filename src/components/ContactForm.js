@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 class ContactForm extends React.Component{
   constructor(props) {
@@ -59,7 +59,6 @@ class ContactForm extends React.Component{
           </div>
           <button type="submit" className="btn btn-secondary btnContactForm">Envoyer</button>
         </form>
-        <ToastContainer theme="colored" />
       </div>
     );
   }
