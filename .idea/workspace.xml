@@ -4,6 +4,7 @@
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ModalContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ModalContact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.sass-watch">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -135,7 +136,7 @@
       <workItem from="1664806432138" duration="438000" />
       <workItem from="1664825047110" duration="5982000" />
       <workItem from="1664868913327" duration="1290000" />
-      <workItem from="1665054606437" duration="9244000" />
+      <workItem from="1665054606437" duration="10192000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -319,14 +320,20 @@
       <option name="project" value="LOCAL" />
       <updated>1665065842833</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Update error notification sur le contact form">
+      <created>1665066191523</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1665066191523</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove dead code" />
     <MESSAGE value="Big cleaning !" />
     <MESSAGE value="Add 2 new Realisations + do some cleaning" />
     <MESSAGE value="Update TODO" />
@@ -351,6 +358,7 @@
     <MESSAGE value="Add toast notifications in ModalContact" />
     <MESSAGE value="Move console.log" />
     <MESSAGE value="Update react toastify version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update react toastify version" />
+    <MESSAGE value="Update error notification sur le contact form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update error notification sur le contact form" />
   </component>
 </project>

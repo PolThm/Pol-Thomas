@@ -21,7 +21,7 @@ class ModalContact extends React.Component {
     return(
       <div>
         {modalContact}
-        <ToastContainer />
+        <ToastContainer theme="colored" />
       </div>
     )
   }

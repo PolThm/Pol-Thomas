@@ -59,7 +59,7 @@ class ContactForm extends React.Component{
           </div>
           <button type="submit" className="btn btn-secondary btnContactForm">Envoyer</button>
         </form>
-        <ToastContainer />
+        <ToastContainer theme="colored" />
       </div>
     );
   }
