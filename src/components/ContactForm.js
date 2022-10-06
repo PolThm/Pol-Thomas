@@ -23,7 +23,7 @@ class ContactForm extends React.Component{
         this.closeModalContact();
         this.resetForm();
       } else if (response.data.status === 'fail'){
-        toast.error("Le message n'est pas parti, il semble y avoir un problème");
+        toast.error("Oups, le message n'est pas parti...");
       }
     })
   }
