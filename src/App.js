@@ -67,7 +67,7 @@ class App extends Component {
           />
         </footer>
 
-        <ToastContainer />
+        <ToastContainer theme="colored" />
       </div>
     );
   }

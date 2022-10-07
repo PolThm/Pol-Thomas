@@ -14,7 +14,7 @@ class ModalContact extends React.Component {
           </Modal.Header>
           <ContactForm
             closeModalContact={this.props.closeModalContact}
-            sendSuccessNotification={() => toast.success("Message envoyé", { theme: "dark" })}
+            sendSuccessNotification={() => toast.success("Message envoyé")}
           />
         </Modal>
     }
