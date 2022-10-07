@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,7 @@
       <workItem from="1664868913327" duration="1290000" />
       <workItem from="1665054606437" duration="12200000" />
       <workItem from="1665074199972" duration="3557000" />
-      <workItem from="1665131567369" duration="41000" />
+      <workItem from="1665131567369" duration="737000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -349,14 +349,20 @@
       <option name="project" value="LOCAL" />
       <updated>1665128641523</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Remove a space">
+      <created>1665131637260</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1665131637260</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Small update" />
     <MESSAGE value="Increase paragraph line-height" />
     <MESSAGE value="Update scrollbar style" />
     <MESSAGE value="Custom scrollbar done" />
@@ -381,6 +387,7 @@
     <MESSAGE value="Change toast notification theme" />
     <MESSAGE value="Fix notification closing" />
     <MESSAGE value="Change toast notif theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change toast notif theme" />
+    <MESSAGE value="Remove a space" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove a space" />
   </component>
 </project>

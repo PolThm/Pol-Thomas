@@ -37,6 +37,18 @@ class ContactForm extends React.Component{
     this.props.closeModalContact(true);
   };
 
+  onNameChange(event) {
+    this.setState({name: event.target.value})
+  }
+
+  onEmailChange(event) {
+    this.setState({email: event.target.value})
+  }
+
+  onMessageChange(event) {
+    this.setState({message: event.target.value})
+  }
+
   render() {
     return(
       <div className="contactForm">
@@ -61,18 +73,6 @@ class ContactForm extends React.Component{
         </form>
       </div>
     );
-  }
-
-  onNameChange(event) {
-    this.setState({name: event.target.value})
-  }
-
-  onEmailChange(event) {
-    this.setState({email: event.target.value})
-  }
-
-  onMessageChange(event) {
-    this.setState({message: event.target.value})
   }
 }
 
