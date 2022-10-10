@@ -8,9 +8,7 @@ import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
 import myTrip from '../img/mytrip.jpg';
 import youtubeVideos from "../img/projet-youtube-videos.jpg";
-import clubMember from '../img/club-member.jpg';
 import lesFilmsDePleinAir from "../img/les-films-de-plein-air.jpg";
-import theRange from "../img/the-range.jpg";
 import chaletEtCaviar from "../img/chalets-et-caviar.jpg";
 
 class MesRealisationsPage2 extends React.Component {
@@ -18,21 +16,6 @@ class MesRealisationsPage2 extends React.Component {
     return(
       <Container fluid>
         <Row>
-          {/*TODO: To remove and clean (maybe on Github too)*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={theRange}*/}
-          {/*    description={'The Range (HTML/CSS avec Bootstrap)'}*/}
-          {/*    link={'https://therange.pol-thomas.com/'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={clubMember}*/}
-          {/*    description={"Club Member - Système de test d'emails (React JS, TypeScript, Hooks, Context, Axios, Tailwind CSS, Jest et React Testing Library)"}*/}
-          {/*    link={'https://club-member.pol-thomas.com/'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
           <Col md={6} lg={4}>
             <Realisation
               picture={doIt}

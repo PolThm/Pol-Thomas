@@ -2,7 +2,6 @@ import React from 'react';
 import {Tab, Tabs} from "react-bootstrap";
 import MesRealisationsPage1 from "./MesRealisationsPage1";
 import MesRealisationsPage2 from "./MesRealisationsPage2";
-import MesRealisationsPage3 from "./MesRealisationsPage3";
 import "animate.css/animate.min.css";
 import ScrollAnimation from 'react-animate-on-scroll';
 import ScrollableAnchor from "react-scrollable-anchor";
@@ -23,11 +22,6 @@ class MesRealisations extends React.Component {
             <Tab eventKey="page2" title="Bac à sable" tabIndex={1}>
               <MesRealisationsPage2 />
             </Tab>
-
-            {/*TODO: TO update*/}
-            {/*<Tab eventKey="page3" title="Page 3" tabIndex={2}>*/}
-            {/*  <MesRealisationsPage3 />*/}
-            {/*</Tab>*/}
           </Tabs>
 
         </div>

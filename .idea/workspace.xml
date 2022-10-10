@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -92,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +138,9 @@
       <workItem from="1664868913327" duration="1290000" />
       <workItem from="1665054606437" duration="12200000" />
       <workItem from="1665074199972" duration="3557000" />
-      <workItem from="1665131567369" duration="737000" />
+      <workItem from="1665131567369" duration="1553000" />
+      <workItem from="1665134050498" duration="598000" />
+      <workItem from="1665381452307" duration="669000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -356,14 +359,20 @@
       <option name="project" value="LOCAL" />
       <updated>1665131637260</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Small update">
+      <created>1665132430536</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1665132430536</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Increase paragraph line-height" />
     <MESSAGE value="Update scrollbar style" />
     <MESSAGE value="Custom scrollbar done" />
     <MESSAGE value="Fix media queries bugs and modals" />
@@ -388,6 +397,7 @@
     <MESSAGE value="Fix notification closing" />
     <MESSAGE value="Change toast notif theme" />
     <MESSAGE value="Remove a space" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove a space" />
+    <MESSAGE value="Small update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small update" />
   </component>
 </project>
