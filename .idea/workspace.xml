@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8129fc2-0770-4832-bd3c-1f2a4b113062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/enjoy-sushi.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MesRealisationsPage1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/enjoy-sushi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/enjoy-sushi.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
       <recent name="C:\Users\pthomas\Documents\Github\pol-thomas\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -93,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +141,8 @@
       <workItem from="1665134050498" duration="598000" />
       <workItem from="1665381452307" duration="1720000" />
       <workItem from="1665427981828" duration="1148000" />
-      <workItem from="1665832258359" duration="250000" />
+      <workItem from="1665832258359" duration="650000" />
+      <workItem from="1665938884980" duration="253000" />
     </task>
     <task id="LOCAL-00004" summary="Remove dead code">
       <created>1664617439176</created>
@@ -382,14 +382,20 @@
       <option name="project" value="LOCAL" />
       <updated>1665428503056</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Add new realisation and remove old pictures">
+      <created>1665832657064</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1665832657064</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fix media queries bugs and modals" />
     <MESSAGE value="Fix wrong url" />
     <MESSAGE value="Redirection WIP" />
     <MESSAGE value="Update button border-radius" />
@@ -414,6 +420,7 @@
     <MESSAGE value="Small update" />
     <MESSAGE value="Remove unused code" />
     <MESSAGE value="Update meta tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update meta tags" />
+    <MESSAGE value="Add new realisation and remove old pictures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new realisation and remove old pictures" />
   </component>
 </project>
