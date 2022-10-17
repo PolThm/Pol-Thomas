@@ -17,8 +17,8 @@ class APropos extends Component {
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
                   <h2 className={"a-propos-title-notForPhone"}>À propos</h2>
                 </ScrollAnimation>
-                <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'application frontend,
-                  renforcée par plusieurs années d'experiences, j'exerce aujourd'hui mon activité en freelance.
+                <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'applications frontend,
+                  renforcée par plusieurs années d'experience, j'exerce aujourd'hui mon activité en freelance.
                   <br/><br/>
                   Adepte du clean code, voici aujourd'hui un aperçu des technologies que j'utilise :
                   Vue.js (2, 3, +Nuxt), React.js (+Next), React Native, Typescript, Jest, SASS (+BEM), Tailwind, Git...
