@@ -13,45 +13,53 @@ import hairCare from "../img/hair-care.jpg";
 import shadeFinder from "../img/shade-finder.jpg";
 import spotscan from "../img/spotscan.jpg";
 import enjoySushi from "../img/enjoy-sushi.jpg";
+import chouquetteBet from "../img/chouquette-bet.jpg";
 
 class MesRealisationsPage1 extends React.Component {
   render() {
     const content =
       <div>
         <Row>
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={skinGenius}*/}
+          {/*    description={"L'Oréal Skin Genius (Vue JS)"}*/}
+          {/*    link={'https://www.loreal-paris.co.uk/skin-genius'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={shadeFinder}*/}
+          {/*    description={"Lancôme e-Shade Finder (Vue JS)"}*/}
+          {/*    link={'https://www.lancome-usa.com/e-shade-finder.html'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={faceArchitect}*/}
+          {/*    description={"Armani Face Maestro (Vue JS)"}*/}
+          {/*    link={'https://www.armanibeauty.fr/face-maestro-armani-beauty/face-maestro.html'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={hairCare}*/}
+          {/*    description={"Kerastase Hair Quiz (Vue JS)"}*/}
+          {/*    link={'https://www.kerastase-usa.com/hair-quiz.html'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
+          {/*<Col md={6} lg={4}>*/}
+          {/*  <Realisation*/}
+          {/*    picture={spotscan}*/}
+          {/*    description={"La Roche Posay Spotscan (Vue JS)"}*/}
+          {/*    link={'https://www.laroche-posay.com.au/spotscan.html'}*/}
+          {/*  />*/}
+          {/*</Col>*/}
           <Col md={6} lg={4}>
             <Realisation
-              picture={skinGenius}
-              description={"L'Oréal Skin Genius (Vue JS)"}
-              link={'https://www.loreal-paris.co.uk/skin-genius'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={shadeFinder}
-              description={"Lancôme e-Shade Finder (Vue JS)"}
-              link={'https://www.lancome-usa.com/e-shade-finder.html'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={faceArchitect}
-              description={"Armani Face Maestro (Vue JS)"}
-              link={'https://www.armanibeauty.fr/face-maestro-armani-beauty/face-maestro.html'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={hairCare}
-              description={"Kerastase Hair Quiz (Vue JS)"}
-              link={'https://www.kerastase-usa.com/hair-quiz.html'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={spotscan}
-              description={"La Roche Posay Spotscan (Vue JS)"}
-              link={'https://www.laroche-posay.com.au/spotscan.html'}
+              picture={chouquetteBet}
+              description={"Chouquette Bet MVP (Vue 3, Pinia, Supabase, PrimeVue)"}
+              link={'https://chouquette-bet.netlify.app/'}
             />
           </Col>
           <Col md={6} lg={4}>
