@@ -20,11 +20,14 @@ class APropos extends Component {
                 <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'applications frontend,
                   renforcée par plusieurs années d'expérience, j'exerce aujourd'hui mon activité en freelance.
                   <br/><br/>
-                  Adepte du clean code, voici aujourd'hui un aperçu des technologies que j'utilise :
+                  Adepte du clean code, voici aujourd'hui un aperçu des technologies que <span>j'utilise :‎ </span>
                   Vue.js (2, 3, +Nuxt), React.js (+Next), React Native, Typescript, Jest, SASS (+BEM), Tailwind, Git...
                   <br/><br/>
                   Je vous invite à me contacter si vous avez un besoin digital, une quelconque proposition ou tout
                   simplement une question, c'est avec plaisir que j'y répondrai !
+                  <br/><br/>
+                  Ps : Je ne suis pas autorisé à montrer tous les projets sur lesquels j'ai travaillé, vous pouvez
+                  visiter mon profil Linkedin pour en découvrir plus.
                 </p>
               </div>
               <div className={"picture-a-propos"}>
