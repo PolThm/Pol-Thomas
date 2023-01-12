@@ -58,8 +58,8 @@ class MesRealisationsPage1 extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={chouquetteBet}
-              description={"Chouquette Bet MVP (Vue 3, Pinia, Supabase, PrimeVue)"}
-              link={'https://chouquette-bet.netlify.app/'}
+              description={"Chouquette Bet (Vue 3, Pinia, Supabase, PrimeVue)"}
+              link={'https://chouquettebet.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>
