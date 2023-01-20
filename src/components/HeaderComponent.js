@@ -9,7 +9,7 @@ class HeaderComponent extends Component {
         <Container fluid className={"header-width"}>
           <Navbar>
             <Nav className="mr-auto">
-              <Nav.Link className={"navLink1"} href="#mes-realisations">Mes réalisations</Nav.Link>
+              <Nav.Link className={"navLink1"} href="#mes-realisations">Portfolio</Nav.Link>
               <Nav.Link className={"navLink2 navLinkMargin"} href="#a-propos">À propos</Nav.Link>
               <Nav.Link className={"navLink3 navLinkMargin"} onClick={this.props.openModalContact}>Contact</Nav.Link>
             </Nav>
@@ -19,7 +19,7 @@ class HeaderComponent extends Component {
           <div className="line-header"/>
           <h3 className="text-welcome">Bienvenue</h3>
           <p className="text-introduction">Je vous propose mes services dans la création de sites ou d'applications web et mobile,
-            vous trouverez ci-dessous un aperçu de mes réalisations.</p>
+            vous trouverez ci-dessous un aperçu de mon travail.</p>
         </Container>
         <div className={"downArrow"}>
           <a href={"#mes-realisations"}>

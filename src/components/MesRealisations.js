@@ -12,8 +12,9 @@ class MesRealisations extends React.Component {
       <ScrollableAnchor id={"mes-realisations"}>
         <div className={"mes-realisations"}>
           <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
-            <h2 className={"mes-realisation-title"} id={"mes-realisation-title"}>Mes réalisations</h2>
+            <h2 className={"mes-realisation-title"} id={"mes-realisation-title"}>Portfolio</h2>
           </ScrollAnimation>
+          <p className={"mes-realisation-description"}>Quelques projets sur lesquels j'ai travaillé</p>
 
           <Tabs defaultActiveKey="page1" id="mes-realisations-tabs">
             <Tab eventKey="page1" title="Vitrine" tabIndex={0}>
