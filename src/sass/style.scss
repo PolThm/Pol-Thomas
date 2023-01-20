@@ -183,6 +183,7 @@ header {
       position: relative;
       cursor: pointer;
       transform: scale(1.001);
+      width: 100%;
 
       &::before {
         background-color: rgba(0, 0, 0, 0.84);
@@ -213,6 +214,8 @@ header {
         margin-bottom: 0;
         display: block;
         width: 100%;
+        aspect-ratio: 720 / 366;
+        object-fit: cover;
       }
 
       .text-realisation-container {
