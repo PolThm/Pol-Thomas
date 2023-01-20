@@ -10,6 +10,7 @@ import myTrip from '../img/mytrip.jpg';
 import youtubeVideos from "../img/projet-youtube-videos.jpg";
 import lesFilmsDePleinAir from "../img/les-films-de-plein-air.jpg";
 import chaletEtCaviar from "../img/chalets-et-caviar.jpg";
+import trim from "../img/trim.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
@@ -64,6 +65,13 @@ class MesRealisationsPage2 extends React.Component {
               picture={shootMe}
               description={'Shoot Me - Jeu de plateau (Vanilla JS, HTML et CSS)'}
               link={'https://shootme.pol-thomas.com/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={trim}
+              description={'Trim (React JS, SASS et React-Bootstrap)'}
+              link={'https://trim.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>

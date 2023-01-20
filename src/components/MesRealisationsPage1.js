@@ -2,7 +2,6 @@ import React from 'react';
 import {Col, Row, Container} from "react-bootstrap";
 import Realisation from "./Realisation";
 import associationBabel from '../img/association-babel.jpg';
-import trim from '../img/trim.jpg';
 import sushiParlour from '../img/sushi-parlour.jpg';
 import skinGenius from "../img/skin-genius.jpg";
 import demapp from "../img/demapp.jpg";
@@ -20,41 +19,41 @@ class MesRealisationsPage1 extends React.Component {
     const content =
       <div>
         <Row>
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={skinGenius}*/}
-          {/*    description={"L'Oréal Skin Genius (Vue JS)"}*/}
-          {/*    link={'https://www.loreal-paris.co.uk/skin-genius'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={shadeFinder}*/}
-          {/*    description={"Lancôme e-Shade Finder (Vue JS)"}*/}
-          {/*    link={'https://www.lancome-usa.com/e-shade-finder.html'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={faceArchitect}*/}
-          {/*    description={"Armani Face Maestro (Vue JS)"}*/}
-          {/*    link={'https://www.armanibeauty.fr/face-maestro-armani-beauty/face-maestro.html'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={hairCare}*/}
-          {/*    description={"Kerastase Hair Quiz (Vue JS)"}*/}
-          {/*    link={'https://www.kerastase-usa.com/hair-quiz.html'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
-          {/*<Col md={6} lg={4}>*/}
-          {/*  <Realisation*/}
-          {/*    picture={spotscan}*/}
-          {/*    description={"La Roche Posay Spotscan (Vue JS)"}*/}
-          {/*    link={'https://www.laroche-posay.com.au/spotscan.html'}*/}
-          {/*  />*/}
-          {/*</Col>*/}
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={skinGenius}
+              description={"L'Oréal Skin Genius (Vue JS)"}
+              link={'https://www.loreal-paris.co.uk/skin-genius'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={shadeFinder}
+              description={"Lancôme e-Shade Finder (Vue JS)"}
+              link={'https://www.lancome-usa.com/e-shade-finder.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={faceArchitect}
+              description={"Armani Face Maestro (Vue JS)"}
+              link={'https://www.armanibeauty.fr/face-maestro-armani-beauty/face-maestro.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={hairCare}
+              description={"Kerastase Hair Quiz (Vue JS)"}
+              link={'https://www.kerastase-usa.com/hair-quiz.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={spotscan}
+              description={"La Roche Posay Spotscan (Vue JS)"}
+              link={'https://www.laroche-posay.com.au/spotscan.html'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={chouquetteBet}
@@ -81,13 +80,6 @@ class MesRealisationsPage1 extends React.Component {
               picture={sushiParlour}
               description={'Sushi Parlour (React JS, SASS et Tailwind CSS)'}
               link={'https://sushi-parlour.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={trim}
-              description={'Trim (React JS, SASS et React-Bootstrap)'}
-              link={'https://trim.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
