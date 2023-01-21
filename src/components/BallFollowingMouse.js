@@ -68,7 +68,7 @@ class BallFollowingMouse extends React.Component {
     this.ctx.arc(this.state.ballX, this.state.ballY, 14, 0, 2 * Math.PI);
     this.ctx.fillStyle = this.state.myColor;
     this.ctx.fill();
-    this.ctx.lineWidth = 2.5;
+    this.ctx.lineWidth = 3;
     this.ctx.strokeStyle = "#fbb32c";
     this.ctx.stroke();
   }
