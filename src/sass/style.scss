@@ -15,7 +15,6 @@ $tertiary: #fbb32c;
 body {
   &::-webkit-scrollbar {
     width: 0.4rem;
-
   }
 
   &::-webkit-scrollbar-track {
@@ -51,6 +50,7 @@ header {
       color: $primary !important;
       transition: color 200ms ease-in-out;
       text-transform: uppercase;
+      z-index: 3;
 
       &:hover {
         color: $tertiary !important;
@@ -131,6 +131,13 @@ header {
 
     .downArrowPath {
       fill: white;
+      transition: fill 200ms ease-in-out;
+    }
+
+    &:hover {
+      .downArrowPath {
+        fill: $tertiary;
+      }
     }
   }
 }
@@ -164,15 +171,17 @@ header {
       color: $secondary;
       transition: color 200ms ease-in-out;
       letter-spacing: 0.3rem;
+      z-index: 3;
 
       &:hover, &:focus {
         color: $tertiary;
-        border-color: $primary $primary $tertiary $primary;
+        border-color: transparent transparent $tertiary transparent;
       }
     }
 
     .nav-link.active {
       color: $tertiary;
+      background: transparent;
       border-color: $tertiary $tertiary $primary;
     }
   }
@@ -189,6 +198,7 @@ header {
       cursor: pointer;
       transform: scale(1.001);
       width: 100%;
+      z-index: 3;
 
       &::before {
         background-color: rgba(0, 0, 0, 0.84);
@@ -306,6 +316,7 @@ header {
 
     div {
       margin-right: 2rem;
+      z-index: 3;
 
       .fab {
         font-size: 3rem;
@@ -333,6 +344,7 @@ header {
 
   .contactSection {
     padding: 0 0 5vh 0;
+    z-index: 3;
 
     .buttonContact {
       background-color: $tertiary;
@@ -474,6 +486,7 @@ footer {
       color: $tertiary;
       cursor: pointer;
       transition: color 200ms ease-in-out;
+      z-index: 3;
 
       &:hover, &:focus {
         color: darken($tertiary, 15%);
@@ -506,6 +519,8 @@ footer {
   }
 }
 
-
-
-
+#myCanvas {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+}

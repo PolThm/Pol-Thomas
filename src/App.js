@@ -8,6 +8,7 @@ import APropos from "./components/APropos";
 import ModalMentionsLegales from "./components/ModalMentionsLegales";
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import BallFollowingMouse from "./components/BallFollowingMouse";
 
 class App extends Component {
   constructor(props) {
@@ -45,6 +46,8 @@ class App extends Component {
   render() {
     return (
       <div>
+        <BallFollowingMouse />
+
         <HeaderComponent
           showModalContact={this.state.showModalContact}
           openModalContact={this.openModalContact}
