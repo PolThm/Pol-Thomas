@@ -10,7 +10,7 @@ class BallFollowingMouse extends React.Component {
       ballX: 0,
       ballY: 0,
       myColor: 'transparent',
-      spd: 10,
+      spd: 21, // it's a bit too speed on local but it's ok on the server
       easeAmt: 0.11,
       myCanvasX: 0,
       myCanvasY: 0
