@@ -3,7 +3,7 @@ import React from 'react';
 class BallFollowingMouse extends React.Component {
   constructor(props) {
     super(props);
-    this.myCanvasRef = React.createRef();
+    this.ballFollowingMouseCanvasRef = React.createRef();
     this.state = {
       mouseX: 0,
       mouseY: 0,
@@ -18,7 +18,7 @@ class BallFollowingMouse extends React.Component {
   }
 
   componentDidMount() {
-    this.myCanvas = this.myCanvasRef.current;
+    this.myCanvas = this.ballFollowingMouseCanvasRef.current;
     this.ctx = this.myCanvas.getContext("2d");
     this.myCanvas.width = window.innerWidth;
     this.myCanvas.height = window.innerHeight;
@@ -75,7 +75,7 @@ class BallFollowingMouse extends React.Component {
 
   render() {
     return (
-      <canvas id="myCanvas" ref={this.myCanvasRef} />
+      <canvas id="ballFollowingMouseCanvas" ref={this.ballFollowingMouseCanvasRef} />
     )
   }
 }

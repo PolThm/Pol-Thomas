@@ -122,12 +122,14 @@ $tertiary: #fbb32c;
       width: 100% !important;
     }
   }
-
   .modal-mentions-legales {
     font-size: 9px !important;
     .modal-dialog {
       max-width: 80% !important;
     }
+  }
+  #ballFollowingMouseCanvas {
+    display: none !important;
   }
 }
 
@@ -244,12 +246,14 @@ $tertiary: #fbb32c;
       width: 100% !important;
     }
   }
-
   .modal-mentions-legales {
     font-size: 9px !important;
     .modal-dialog {
       max-width: 80% !important;
     }
+  }
+  #ballFollowingMouseCanvas {
+    display: none !important;
   }
 }
 
@@ -331,6 +335,9 @@ $tertiary: #fbb32c;
       margin-left: 1rem !important;
     }
   }
+  #ballFollowingMouseCanvas {
+    display: none !important;
+  }
 }
 
 //Smartphones to Tablets 2
@@ -411,6 +418,9 @@ $tertiary: #fbb32c;
       margin-left: 1rem !important;
     }
   }
+  #ballFollowingMouseCanvas {
+    display: none !important;
+  }
 }
 
 //Tablets
@@ -489,6 +499,9 @@ $tertiary: #fbb32c;
       margin-right: 1rem !important;
       margin-left: 1rem !important;
     }
+  }
+  #ballFollowingMouseCanvas {
+    display: none !important;
   }
 }
 
