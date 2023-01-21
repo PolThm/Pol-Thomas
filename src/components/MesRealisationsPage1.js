@@ -2,13 +2,13 @@ import React from 'react';
 import {Col, Row, Container} from "react-bootstrap";
 import Realisation from "./Realisation";
 import associationBabel from '../img/association-babel.jpg';
-import sushiParlour from '../img/sushi-parlour.jpg';
 import skinGenius from "../img/skin-genius.jpg";
 import demapp from "../img/demapp.jpg";
 import lucatelli from "../img/lucatelli.jpg";
 import ravize from "../img/ravize.jpg";
 import faceArchitect from "../img/face-architect.jpg";
 import hairCare from "../img/hair-care.jpg";
+import hairColor from "../img/hair-color.jpg";
 import shadeFinder from "../img/shade-finder.jpg";
 import spotscan from "../img/spotscan.jpg";
 import enjoySushi from "../img/enjoy-sushi.jpg";
@@ -31,6 +31,13 @@ class MesRealisationsPage1 extends React.Component {
               picture={shadeFinder}
               description={"Lancôme e-Shade Finder (Vue JS)"}
               link={'https://www.lancome-usa.com/e-shade-finder.html'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={hairColor}
+              description={"Garnier Color Match (Vue JS)"}
+              link={'https://www.garnier.ca/en-ca/tools-and-services/color-match'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -66,13 +73,6 @@ class MesRealisationsPage1 extends React.Component {
               picture={enjoySushi}
               description={"Enjoy Sushi (React Native)"}
               link={'https://www.youtube.com/watch?v=cv4yXD17giE/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={sushiParlour}
-              description={'Sushi Parlour (React JS, SASS et Tailwind CSS)'}
-              link={'https://sushi-parlour.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
