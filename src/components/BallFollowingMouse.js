@@ -19,6 +19,11 @@ class BallFollowingMouse extends React.Component {
     this.loop();
   }
 
+  componentWillUnmount() {
+    document.removeEventListener('mousemove', this.mouseMove.bind(this));
+    window.removeEventListener('scroll', this.mouseScroll.bind(this));
+  }
+
   loop() {
     this.moveBall();
     requestAnimationFrame(this.loop.bind(this));
@@ -54,6 +59,7 @@ class BallFollowingMouse extends React.Component {
       dx *= speed / distance;
       dy *= speed / distance;
     }
+
     this.setState(prevState => {
       return {
         ballX: prevState.ballX + dx,
