@@ -4,11 +4,11 @@ class BallFollowingMouse extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      mouseX: 0,
-      mouseY: 0,
       prevScrollY: 0,
-      ballX: 0,
-      ballY: 0,
+      mouseX: window.innerWidth / 2,
+      mouseY: window.innerHeight / 2,
+      ballX: window.innerWidth / 2,
+      ballY: window.innerHeight / 2,
       hasMoved: false
     }
   }
