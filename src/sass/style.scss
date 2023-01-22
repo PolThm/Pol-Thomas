@@ -13,6 +13,8 @@ $tertiary: #fbb32c;
 
 
 body {
+  overflow-x: hidden;
+
   &::-webkit-scrollbar {
     width: 0.4rem;
   }
@@ -517,12 +519,4 @@ footer {
       letter-spacing: 1px;
     }
   }
-}
-
-#ballFollowingMouseCanvas {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  inset: 0;
-  z-index: 1;
 }

@@ -46,8 +46,6 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BallFollowingMouse />
-
         <HeaderComponent
           showModalContact={this.state.showModalContact}
           openModalContact={this.openModalContact}
@@ -71,6 +69,8 @@ class App extends Component {
         </footer>
 
         <ToastContainer theme="colored" />
+
+        <BallFollowingMouse />
       </div>
     );
   }
