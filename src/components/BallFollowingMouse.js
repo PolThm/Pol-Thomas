@@ -45,7 +45,7 @@ class BallFollowingMouse extends React.Component {
   }
 
   moveBall() {
-    const speed = 10
+    const speed = 21 // quite fast on local but slower online
     const easeAmt = 0.11
     let dx = (this.state.mouseX - this.state.ballX) * easeAmt;
     let dy = (this.state.mouseY - this.state.ballY) * easeAmt;
