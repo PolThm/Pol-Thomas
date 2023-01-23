@@ -25,9 +25,6 @@ class APropos extends Component {
                   <br/><br/>
                   Je vous invite à me contacter si vous avez un besoin digital, une quelconque proposition ou tout
                   simplement une question, c'est avec plaisir que j'y répondrai !
-                  <br/><br/>
-                  Ps : Je ne suis pas autorisé à montrer tous les projets sur lesquels j'ai travaillé, vous pouvez
-                  visiter mon profil Linkedin pour en découvrir plus.
                 </p>
               </div>
               <div className={"picture-a-propos"}>
