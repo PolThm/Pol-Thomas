@@ -12,12 +12,20 @@ import lesFilmsDePleinAir from "../img/les-films-de-plein-air.jpg";
 import chaletEtCaviar from "../img/chalets-et-caviar.jpg";
 import trim from "../img/trim.jpg";
 import sushiParlour from "../img/sushi-parlour.jpg";
+import recense from "../img/recense.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={recense}
+              description={'Recense - Appli de recensement (React JS, TypeScript, Redux Toolkit, Vitest, MUI, Formik, PWA, Firebase)'}
+              link={'https://recense.netlify.app/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={doIt}

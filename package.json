@@ -27,8 +27,8 @@
   },
   "scripts": {
     "sass-watch": "sass --watch src/sass/style.scss src/App.css --style compressed  --no-source-map",
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "start": "react-app-rewired --openssl-legacy-provider start",
+    "build": "react-app-rewired --openssl-legacy-provider build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
