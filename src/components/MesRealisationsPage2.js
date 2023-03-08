@@ -22,7 +22,7 @@ class MesRealisationsPage2 extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={recense}
-              description={'Recense - Appli de recensement (React JS, TypeScript, Redux Toolkit, Vitest, MUI, Formik, PWA, Firebase)'}
+              description={'Recense - Appli de recensement (Vite, React JS, TypeScript, Redux Toolkit, Vitest (Jest), Material UI, Formik, PWA, Firebase)'}
               link={'https://recense.netlify.app/'}
             />
           </Col>
