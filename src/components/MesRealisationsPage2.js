@@ -8,8 +8,6 @@ import moovies from '../img/moovies.jpg';
 import doIt from '../img/do-it.jpg';
 import myTrip from '../img/mytrip.jpg';
 import youtubeVideos from "../img/projet-youtube-videos.jpg";
-import lesFilmsDePleinAir from "../img/les-films-de-plein-air.jpg";
-import chaletEtCaviar from "../img/chalets-et-caviar.jpg";
 import trim from "../img/trim.jpg";
 import sushiParlour from "../img/sushi-parlour.jpg";
 import recense from "../img/recense.jpg";
@@ -88,20 +86,6 @@ class MesRealisationsPage2 extends React.Component {
               picture={sushiParlour}
               description={'Sushi Parlour (React JS, SASS et Tailwind CSS)'}
               link={'https://sushi-parlour.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={chaletEtCaviar}
-              description={'Chalets & Caviar (Wordpress)'}
-              link={'https://agence-chaletsetcaviar.pol-thomas.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={lesFilmsDePleinAir}
-              description={'Les films de plein air (Wordpress)'}
-              link={'https://les-films-de-plein-air.pol-thomas.com/'}
             />
           </Col>
         </Row>
