@@ -9,6 +9,7 @@ import ModalMentionsLegales from "./components/ModalMentionsLegales";
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import BallFollowingMouse from "./components/BallFollowingMouse";
+import cvPdf from './pdf/pol-thomas_cv.pdf';
 
 class App extends Component {
   constructor(props) {
@@ -43,6 +44,10 @@ class App extends Component {
     })
   };
 
+  openCvPdf = () => {
+    window.open(cvPdf, '_blank');
+  }
+
   render() {
     return (
       <div>
@@ -50,6 +55,7 @@ class App extends Component {
           showModalContact={this.state.showModalContact}
           openModalContact={this.openModalContact}
           closeModalContact={this.closeModalContact}
+          openCvPdf={this.openCvPdf}
         />
 
         <MesRealisations/>

@@ -44,8 +44,8 @@ header {
     padding-left: 0;
     padding-right: 0;
 
-    .navLinkMargin {
-      margin-left: 8rem;
+    .navbar-nav {
+      justify-content: space-between;
     }
 
     .nav-link {
@@ -64,10 +64,14 @@ header {
     }
 
     .navLink2 {
-      animation: fadeIn 2000ms 2500ms both;
+      animation: fadeIn 2000ms 2333ms both;
     }
 
     .navLink3 {
+      animation: fadeIn 2000ms 2667ms both;
+    }
+
+    .navLink4 {
       animation: fadeIn 2000ms 3000ms both;
     }
   }

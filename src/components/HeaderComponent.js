@@ -8,10 +8,11 @@ class HeaderComponent extends Component {
       <header>
         <Container fluid className={"header-width"}>
           <Navbar>
-            <Nav className="mr-auto">
+            <Nav>
               <Nav.Link className={"navLink1"} href="#mes-realisations">Portfolio</Nav.Link>
               <Nav.Link className={"navLink2 navLinkMargin"} href="#a-propos">À propos</Nav.Link>
-              <Nav.Link className={"navLink3 navLinkMargin"} onClick={this.props.openModalContact}>Contact</Nav.Link>
+              <Nav.Link className={"navLink3 navLinkMargin"} onClick={this.props.openCvPdf}>CV</Nav.Link>
+              <Nav.Link className={"navLink4 navLinkMargin"} onClick={this.props.openModalContact}>Contact</Nav.Link>
             </Nav>
           </Navbar>
           <h1 className="text-name">Pol Thomas</h1>
