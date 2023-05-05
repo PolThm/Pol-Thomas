@@ -10,9 +10,9 @@ class HeaderComponent extends Component {
           <Navbar>
             <Nav>
               <Nav.Link className={"navLink1"} href="#mes-realisations">Portfolio</Nav.Link>
-              <Nav.Link className={"navLink2 navLinkMargin"} href="#a-propos">À propos</Nav.Link>
-              <Nav.Link className={"navLink3 navLinkMargin"} onClick={this.props.openCvPdf}>CV</Nav.Link>
-              <Nav.Link className={"navLink4 navLinkMargin"} onClick={this.props.openModalContact}>Contact</Nav.Link>
+              <Nav.Link className={"navLink2"} href="#a-propos">À propos</Nav.Link>
+              <Nav.Link className={"navLink3"} onClick={this.props.openCvPdf}>CV</Nav.Link>
+              <Nav.Link className={"navLink4"} onClick={this.props.openModalContact}>Contact</Nav.Link>
             </Nav>
           </Navbar>
           <h1 className="text-name">Pol Thomas</h1>

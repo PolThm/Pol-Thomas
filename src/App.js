@@ -64,6 +64,7 @@ class App extends Component {
           showModalContact={this.state.showModalContact}
           openModalContact={this.openModalContact}
           closeModalContact={this.closeModalContact}
+          openCvPdf={this.openCvPdf}
         />
 
         <footer>

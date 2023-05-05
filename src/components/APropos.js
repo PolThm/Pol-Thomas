@@ -49,6 +49,11 @@ class APropos extends Component {
                   </ScrollAnimation>
                 </a>
               </div>
+              <div role='button' onClick={this.props.openCvPdf}>
+                <ScrollAnimation animateIn={"fadeInUp"} animateOnce={true} duration={3} delay={1050}>
+                  <i className="fas fa-address-card"/>
+                </ScrollAnimation>
+              </div>
             </div>
             <div className="fas-links fas-links-for-phone">
               <div>
@@ -57,6 +62,7 @@ class APropos extends Component {
               <div>
                 <a href="https://github.com/PolThm" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"/></a>
               </div>
+              <div role='button' onClick={this.props.openCvPdf}><i className="fas fa-address-card"/></div>
             </div>
           </div>
 
