@@ -17,14 +17,21 @@ class APropos extends Component {
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
                   <h2 className={"a-propos-title-notForPhone"}>À propos</h2>
                 </ScrollAnimation>
-                <p className={"text-a-propos"}>Diplômé d'une formation de développeur d'applications frontend,
-                  renforcée par plusieurs années d'expérience, j'exerce aujourd'hui mon activité en freelance.
+                {/*<p className={"text-a-propos"}>Diplômé d'une formation de développeur d'applications frontend,*/}
+                {/*  renforcée par plusieurs années d'expérience, j'exerce aujourd'hui mon activité en freelance.*/}
+                {/*  <br/><br/>*/}
+                {/*  Adepte du clean code, voici aujourd'hui un aperçu des technologies que <span>j'utilise :‎ </span>*/}
+                {/*  Vue.js (2, 3, +Nuxt), React.js (+Next), React Native, Typescript, Jest, SASS (+BEM), Tailwind, Git...*/}
+                {/*  <br/><br/>*/}
+                {/*  Je vous invite à me contacter si vous avez un besoin digital, une quelconque proposition ou tout*/}
+                {/*  simplement une question, c'est avec plaisir que j'y répondrai !*/}
+                {/*</p>*/}
+                <p className={"text-a-propos"}>
+                  En tant que spécialiste Typescript Vue.js, React.js et React Native, je suis un fervent adepte du Clean Code et j'attache une grande importance à sa qualité et sa maintenabilité (tests unitaires, documentation, architecture, etc).
                   <br/><br/>
-                  Adepte du clean code, voici aujourd'hui un aperçu des technologies que <span>j'utilise :‎ </span>
-                  Vue.js (2, 3, +Nuxt), React.js (+Next), React Native, Typescript, Jest, SASS (+BEM), Tailwind, Git...
+                  Communicant déterminé, avec une passion pour résoudre les défis complexes en équipe agile ou en autonomie, je suis toujours à la recherche de nouvelles opportunités pour développer et partager mes connaissances.
                   <br/><br/>
-                  Je vous invite à me contacter si vous avez un besoin digital, une quelconque proposition ou tout
-                  simplement une question, c'est avec plaisir que j'y répondrai !
+                  Si vous êtes à la recherche d'un développeur fiable pour travailler sur votre projet, je vous invite vivement à me contacter. Je serai heureux de discuter de vos idées afin de trouver la meilleure façon de les concrétiser ensemble !
                 </p>
               </div>
               <div className={"picture-a-propos"}>
