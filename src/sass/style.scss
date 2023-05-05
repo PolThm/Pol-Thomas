@@ -391,7 +391,7 @@ header {
     padding: 1rem 20px;
     .modal-title {
       margin: auto;
-      letter-spacing: 0.3rem;
+      letter-spacing: 0.2rem;
     }
 
     .close {
@@ -436,7 +436,7 @@ header {
     background-color: $tertiary;
     border-color: $tertiary;
     transition: color 200ms ease-in-out;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
 
     &:hover, &:focus {
       background-color: $tertiary;
@@ -454,7 +454,7 @@ header {
   }
 
   label {
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
   }
 
   .form-control {
@@ -509,7 +509,7 @@ footer {
   }
 
   .modal-title {
-    letter-spacing: 0.4rem;
+    letter-spacing: 0.3rem;
     text-align: center;
     width: 100%;
   }
