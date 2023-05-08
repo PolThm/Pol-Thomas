@@ -3,6 +3,9 @@
     opacity: 0;
     transform: translate3d(0, 100%, 0);
   }
+  90% {
+    opacity: 0.1;
+  }
   100% {
     transform: translateY(0px);
     opacity: 1;
