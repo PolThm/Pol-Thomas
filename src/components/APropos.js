@@ -17,7 +17,7 @@ class APropos extends Component {
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce={true}>
                   <h2 className={"a-propos-title-notForPhone"}>À propos</h2>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn={"fadeIn"} animateOnce={true} delay={50}>
+                <ScrollAnimation animateIn={"fadeIn"} animateOnce={true} delay={100}>
                   <p className={"text-a-propos"}>
                     En tant que spécialiste Typescript Vue.js, React.js et React Native, je suis un fervent adepte du Clean Code et j'attache une grande importance à sa qualité et sa maintenabilité (tests unitaires, documentation, architecture, etc).
                     <br/><br/>
