@@ -89,7 +89,7 @@ header {
     font-size: 2.6rem;
     letter-spacing: 0.6rem;
     margin-top: 5vh;
-    animation: fadeInUp 2000ms forwards;
+    animation: fadeInUp 2000ms forwards ease-out;
   }
 
   .line-header {
