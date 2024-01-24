@@ -12,13 +12,20 @@ import hairColor from "../img/hair-color.jpg";
 import shadeFinder from "../img/shade-finder.jpg";
 import spotscan from "../img/spotscan.jpg";
 import enjoySushi from "../img/enjoy-sushi.jpg";
-import chouquetteBet from "../img/chouquette-bet.jpg";
+import octappus from "../img/octappus.jpg";
 
 class MesRealisationsPage1 extends React.Component {
   render() {
     const content =
       <div>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={octappus}
+              description={"Octappus (React JS, TypeScript, React Query, MUI, PWA)"}
+              link={'https://octappus.fr'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={skinGenius}
@@ -59,13 +66,6 @@ class MesRealisationsPage1 extends React.Component {
               picture={spotscan}
               description={"La Roche Posay Spotscan (Vue JS)"}
               link={'https://www.laroche-posay.com.au/spotscan.html'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={chouquetteBet}
-              description={"Chouquette Bet (Vue 3, Pinia, Supabase, PrimeVue)"}
-              link={'https://chouquettebet.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>

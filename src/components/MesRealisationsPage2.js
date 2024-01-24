@@ -11,12 +11,20 @@ import youtubeVideos from "../img/projet-youtube-videos.jpg";
 import trim from "../img/trim.jpg";
 import sushiParlour from "../img/sushi-parlour.jpg";
 import recense from "../img/recense.jpg";
+import chouquetteBet from "../img/chouquette-bet.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={chouquetteBet}
+              description={"Chouquette Bet (Vue 3, Pinia, Supabase, PrimeVue)"}
+              link={'https://chouquettebet.fr/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={recense}
