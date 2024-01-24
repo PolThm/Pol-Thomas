@@ -22,7 +22,7 @@ class MesRealisationsPage1 extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={octappus}
-              description={"Octappus (React JS, TypeScript, React Query, MUI, PWA)"}
+              description={"Octappus Pepperbay (React JS, TypeScript, React Query, MUI, PWA)"}
               link={'https://octappus.fr'}
             />
           </Col>
