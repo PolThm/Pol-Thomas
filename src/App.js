@@ -68,7 +68,7 @@ class App extends Component {
         />
 
         <footer>
-          <p className={'text-footer'}>Copyright {new Date().getFullYear()} <span className={"realisedBy"}>by Pol Thomas </span>- <button className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Legal notice</button></p>
+          <p className={'text-footer'}>Copyright {new Date().getFullYear()} <span className={"realisedBy"}>by Pol Thomas </span>-<button className={'text-mentions-legales'} onClick={this.openModalMentionsLegales}>Legal notice</button></p>
           <ModalMentionsLegales
             showModalMentionsLegales={this.state.showModalMentionsLegales}
             closeModalMentionsLegales={this.closeModalMentionsLegales}

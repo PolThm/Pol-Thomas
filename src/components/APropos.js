@@ -19,11 +19,11 @@ class APropos extends Component {
                 </ScrollAnimation>
                 <ScrollAnimation animateIn={"fadeIn"} animateOnce={true} delay={100}>
                   <p className={"text-a-propos"}>
-                    As a specialist in Typescript, Vue.js, React.js, and React Native, I am a staunch advocate of Clean Code and place great importance on its quality and maintainability (unit tests, documentation, architecture, etc.).
+                    As a Typescript specialist in Vue.js, React.js, and React Native, I am a fervent advocate of Clean Code and place great importance on its quality and maintainability (unit tests, documentation, architecture, etc).
                     <br/><br/>
-                    A determined communicator, with a passion for solving complex challenges in an agile team or independently, I am always looking for new opportunities to develop and share my knowledge.
+                    With the ambition to become a competent Full-Stack developer, I am currently developing my skills in Node.js to complement my Front-End expertise and get more involved in server-side development.
                     <br/><br/>
-                    If you are looking for a reliable developer to work on your project, I strongly encourage you to contact me. I would be happy to discuss your ideas in order to find the best way to bring them to life together!
+                    A determined communicator, with a passion for solving complex challenges in an agile team or independently, I am always looking for new opportunities to develop and share my knowledge in the field of development.
                   </p>
                 </ScrollAnimation>
               </div>
