@@ -15,13 +15,13 @@ class MesRealisations extends React.Component {
             <h2 className={"mes-realisation-title"} id={"mes-realisation-title"}>Portfolio</h2>
           </ScrollAnimation>
 
-          <p className={"mes-realisation-description"}>Quelques projets sur lesquels j'ai travaillé</p>
+          <p className={"mes-realisation-description"}>Some projects I've worked on</p>
 
           <Tabs defaultActiveKey="page1" id="mes-realisations-tabs">
-            <Tab eventKey="page1" title="Vitrine" tabIndex={0}>
+            <Tab eventKey="page1" title="Showcase" tabIndex={0}>
               <MesRealisationsPage1 />
             </Tab>
-            <Tab eventKey="page2" title="Bac à sable" tabIndex={1}>
+            <Tab eventKey="page2" title="Sandbox" tabIndex={1}>
               <MesRealisationsPage2 />
             </Tab>
           </Tabs>

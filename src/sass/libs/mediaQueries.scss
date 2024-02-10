@@ -7,6 +7,9 @@ $tertiary: #fbb32c;
   html {
     font-size: 40%;
   }
+  header, .mes-realisations, .a-propos {
+    padding: 0 5% 0 5% !important;
+  }
   .navbar {
     display: none !important;
   }
@@ -138,6 +141,9 @@ $tertiary: #fbb32c;
   html {
     font-size: 42%;
   }
+  header, .mes-realisations, .a-propos {
+    padding: 0 5% 0 5% !important;
+  }
   .navbar {
     display: none !important;
   }
@@ -145,7 +151,7 @@ $tertiary: #fbb32c;
     animation: fadeInDown 2000ms 2000ms both !important;
   }
   .text-name {
-    font-size: 6.87rem !important;;
+    font-size: 8rem !important;
     margin-top: 0 !important;
     padding-top: 5vh !important;
   }
@@ -199,9 +205,6 @@ $tertiary: #fbb32c;
   }
   .text-name, .text-title, .text-welcome {
     text-align: center !important;
-  }
-  .text-name {
-    font-size: 5.7rem !important;
   }
   .text-title {
     font-size: 2.4rem !important;
@@ -421,6 +424,9 @@ $tertiary: #fbb32c;
   #ballFollowingMouse {
     display: none !important;
   }
+  .text-title {
+    font-size: 4.27rem !important;
+  }
 }
 
 //Tablets
@@ -503,6 +509,9 @@ $tertiary: #fbb32c;
   #ballFollowingMouse {
     display: none !important;
   }
+  .text-title {
+    font-size: 4.27rem !important;
+  }
 }
 
 //Desktop
@@ -521,6 +530,9 @@ $tertiary: #fbb32c;
   }
   h2 {
     font-size: 2.7rem !important;
+  }
+  .text-title {
+    font-size: 4.27rem !important;
   }
 }
 
@@ -541,6 +553,9 @@ $tertiary: #fbb32c;
   h2 {
     font-size: 2.7rem !important;
   }
+  .text-title {
+    font-size: 4.27rem !important;
+  }
 }
 
 //Very large Display
@@ -558,7 +573,7 @@ $tertiary: #fbb32c;
   }
 
   .text-title {
-    font-size: 2.69rem !important;
+    font-size: 4.27rem !important;
   }
 }
 

@@ -28,42 +28,42 @@ class MesRealisationsPage2 extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={recense}
-              description={'Recense - Appli de recensement (Vite, React JS, TypeScript, Redux Toolkit, Vitest (Jest), Material UI, Formik, PWA, Firebase)'}
+              description={'Recense (Vite, React.js, TypeScript, Redux Toolkit, Vitest (Jest), Material UI, Formik, PWA, Firebase)'}
               link={'https://recense.netlify.app/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={doIt}
-              description={'DO IT. - Todo List (React JS, TypeScript, Hooks, Context et Tailwind CSS)'}
+              description={'DO IT. (React.js, TypeScript, Hooks, Context and Tailwind CSS)'}
               link={'https://do-it.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={myTrip}
-              description={"MyTrip - Facturation de trajets (React JS, TS, Redux, React Router, Hooks, Firebase, Place Autocomplete, Distance Matrix, Stripe et Tailwind)"}
+              description={"MyTrip (React.js, TS, Redux, React Router, Hooks, Firebase, Place Autocomplete, Distance Matrix, Stripe and Tailwind)"}
               link={'https://mytrip.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={youtubeVideos}
-              description={'Youtube Vidéos - Lecteur vidéo (React JS, l\'API Youtube et Semantic UI)'}
+              description={'Youtube Videos (React.js, Youtube API and Semantic UI)'}
               link={'https://youtube-videos.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={moovies}
-              description={'Moovies - Galerie de films (React JS, Redux, React Router, Firebase, l\'API IMDb et Tailwind CSS)'}
+              description={'Moovies (React.js, Redux, React Router, Firebase, IMDb API and Tailwind CSS)'}
               link={'https://moovies.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={textories}
-              description={'Textories - Application mobile type "chat stories" (React Native et Redux)'}
+              description={'Textories (React Native and Redux)'}
               link={'https://www.youtube.com/watch?v=dS7lIfNiHsY&t'}
             />
           </Col>
@@ -71,28 +71,28 @@ class MesRealisationsPage2 extends React.Component {
             <Realisation
               className={'figureInTheMiddle'}
               picture={smartPoint}
-              description={'Smart Point - Site d\'avis de restaurants (React JS, l\'API Google Maps et Bootstrap)'}
+              description={'Smart Point (React.js, Google Maps API and Bootstrap)'}
               link={'https://smartpoint.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={shootMe}
-              description={'Shoot Me - Jeu de plateau (Vanilla JS, HTML et CSS)'}
+              description={'Shoot Me (Vanilla.js, HTML and CSS)'}
               link={'https://shootme.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={trim}
-              description={'Trim (React JS, SASS et React-Bootstrap)'}
+              description={'Trim (React.js, SASS and React-Bootstrap)'}
               link={'https://trim.pol-thomas.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={sushiParlour}
-              description={'Sushi Parlour (React JS, SASS et Tailwind CSS)'}
+              description={'Sushi Parlour (React.js, SASS and Tailwind CSS)'}
               link={'https://sushi-parlour.pol-thomas.com/'}
             />
           </Col>

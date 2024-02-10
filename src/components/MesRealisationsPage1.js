@@ -22,49 +22,49 @@ class MesRealisationsPage1 extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={octappus}
-              description={"Octappus Pepperbay (React JS, TypeScript, React Query, MUI, PWA)"}
+              description={"Octappus (React.js)"}
               link={'https://octappus.fr'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={skinGenius}
-              description={"L'Oréal Skin Genius (Vue JS)"}
+              description={"L'Oréal Skin Genius (Vue.js)"}
               link={'https://www.loreal-paris.co.uk/skin-genius'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={shadeFinder}
-              description={"Lancôme e-Shade Finder (Vue JS)"}
+              description={"Lancôme e-Shade Finder (Vue.js)"}
               link={'https://www.lancome-usa.com/e-shade-finder.html'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={hairColor}
-              description={"Garnier Color Match (Vue JS)"}
+              description={"Garnier Color Match (Vue.js)"}
               link={'https://www.garnier.ca/en-ca/tools-and-services/color-match'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={faceArchitect}
-              description={"Armani Face Maestro (Vue JS)"}
+              description={"Armani Face Maestro (Vue.js)"}
               link={'https://www.armanibeauty.fr/face-maestro-armani-beauty/face-maestro.html'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={hairCare}
-              description={"Kerastase Hair Quiz (Vue JS)"}
+              description={"Kerastase Hair Quiz (Vue.js)"}
               link={'https://www.kerastase-usa.com/hair-quiz.html'}
             />
           </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={spotscan}
-              description={"La Roche Posay Spotscan (Vue JS)"}
+              description={"La Roche Posay Spotscan (Vue.js)"}
               link={'https://www.laroche-posay.com.au/spotscan.html'}
             />
           </Col>

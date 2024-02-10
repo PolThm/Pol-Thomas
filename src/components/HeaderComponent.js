@@ -10,17 +10,16 @@ class HeaderComponent extends Component {
           <Navbar>
             <Nav>
               <Nav.Link className={"navLink1"} href="#mes-realisations">Portfolio</Nav.Link>
-              <Nav.Link className={"navLink2"} href="#a-propos">À propos</Nav.Link>
+              <Nav.Link className={"navLink2"} href="#a-propos">About</Nav.Link>
               <Nav.Link className={"navLink3"} onClick={this.props.openCvPdf}>CV</Nav.Link>
               <Nav.Link className={"navLink4"} onClick={this.props.openModalContact}>Contact</Nav.Link>
             </Nav>
           </Navbar>
           <h1 className="text-name">Pol Thomas</h1>
-          <h2 className="text-title">Développeur web frontend</h2>
+          <h2 className="text-title">Software Engineer</h2>
           <div className="line-header"/>
-          <h3 className="text-welcome">Bienvenue</h3>
-          <p className="text-introduction">Je vous propose mes services dans la création de sites ou d'applications web et mobile,
-            vous trouverez ci-dessous un aperçu de mon travail.</p>
+          <h3 className="text-welcome">Welcome</h3>
+          <p className="text-introduction">I offer my services in creating websites or web and mobile applications, below you will find an overview of my work.</p>
         </Container>
         <div className={"downArrow"}>
           <a href={"#mes-realisations"}>

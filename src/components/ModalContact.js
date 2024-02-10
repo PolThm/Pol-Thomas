@@ -10,11 +10,11 @@ class ModalContact extends React.Component {
       modalContact =
         <Modal className={'modal-contact'} show={this.props.showModalContact} onHide={this.props.closeModalContact}>
           <Modal.Header className={'title'} closeButton>
-            <Modal.Title>Laissez-moi un message</Modal.Title>
+            <Modal.Title>Leave me a message</Modal.Title>
           </Modal.Header>
           <ContactForm
             closeModalContact={this.props.closeModalContact}
-            sendSuccessNotification={() => toast.success("Message envoyé")}
+            sendSuccessNotification={() => toast.success("Message sent!")}
           />
         </Modal>
     }

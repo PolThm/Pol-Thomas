@@ -23,7 +23,7 @@ class ContactForm extends React.Component{
         this.closeModalContact();
         this.resetForm();
       } else if (response.data.status === 'fail'){
-        toast.error("Oups, le message n'est pas parti...");
+        toast.error("Oops, message not sent...");
       }
     })
   }
@@ -55,12 +55,12 @@ class ContactForm extends React.Component{
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="name-mail">
             <div className="form-group">
-              <label htmlFor="name">Nom</label>
+              <label htmlFor="name">Name</label>
               <input type="text" className="form-control" id="name" value={this.state.name}
                      onChange={this.onNameChange.bind(this)}/>
             </div>
             <div className="form-group">
-              <label htmlFor="exampleInputEmail1">Adresse email</label>
+              <label htmlFor="exampleInputEmail1">Email address</label>
               <input type="email" className="form-control" id="email" aria-describedby="emailHelp"
                      value={this.state.email} onChange={this.onEmailChange.bind(this)}/>
             </div>
@@ -69,7 +69,7 @@ class ContactForm extends React.Component{
             <label htmlFor="message">Message</label>
             <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
           </div>
-          <button type="submit" className="btn btn-secondary btnContactForm">Envoyer</button>
+          <button type="submit" className="btn btn-secondary btnContactForm">Submit</button>
         </form>
       </div>
     );
