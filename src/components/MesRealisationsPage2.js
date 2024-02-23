@@ -13,12 +13,20 @@ import sushiParlour from "../img/sushi-parlour.jpg";
 import recense from "../img/recense.jpg";
 import chouquetteBet from "../img/chouquette-bet.jpg";
 import beerBet from "../img/beer-bet.jpg";
+import paslchoix from "../img/paslchoix.jpg";
 
 class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={paslchoix}
+              description={"Pas l'choix (MongoDb, Express.js, React.js, Node.js, TS, JWT, React Query, MUI, PWA, Netlify, AWS EC2)"}
+              link={'https://paslchoix.netlify.app/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={beerBet}
