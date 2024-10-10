@@ -78,8 +78,8 @@ class MesRealisationsPage1 extends React.Component {
           <Col md={6} lg={4}>
             <Realisation
               picture={demapp}
-              description={"Demapp (Nuxt)"}
-              link={'https://www.demapp.fr/'}
+              description={"Demapp (React.js)"}
+              link={'https://pro.demapp.fr/'}
             />
           </Col>
           <Col md={6} lg={4}>
