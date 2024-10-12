@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from "react-scrollable-anchor";
 import ScrollAnimation from "react-animate-on-scroll";
-import polProfil from "../img/pol-profil-bw-2022.jpg"
+import polProfil from "../img/pol-profil-bw.jpg"
 import {Button, Image} from "react-bootstrap";
 import ModalContact from "./ModalContact";
 
