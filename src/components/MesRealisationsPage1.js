@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Row, Container} from "react-bootstrap";
 import Realisation from "./Realisation";
-import associationBabel from '../img/association-babel.jpg';
 import skinGenius from "../img/skin-genius.jpg";
 import demapp from "../img/demapp.jpg";
 import lucatelli from "../img/lucatelli.jpg";
@@ -13,17 +12,17 @@ import shadeFinder from "../img/shade-finder.jpg";
 import spotscan from "../img/spotscan.jpg";
 import enjoySushi from "../img/enjoy-sushi.jpg";
 import octappus from "../img/octappus.jpg";
-
+import xpeer from "../img/xpeer.jpg";
 class MesRealisationsPage1 extends React.Component {
   render() {
     const content =
       <div>
         <Row>
-          <Col md={6} lg={4}>
+        <Col md={6} lg={4}>
             <Realisation
-              picture={octappus}
-              description={"Octappus (React.js)"}
-              link={'https://octappus.fr'}
+              picture={xpeer}
+              description={"Xpeer (Next.js, React Native)"}
+              link={'https://xpeer.app'}
             />
           </Col>
           <Col md={6} lg={4}>
@@ -70,6 +69,13 @@ class MesRealisationsPage1 extends React.Component {
           </Col>
           <Col md={6} lg={4}>
             <Realisation
+              picture={octappus}
+              description={"Octappus (React.js)"}
+              link={'https://octappus.fr'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
               picture={enjoySushi}
               description={"Enjoy Sushi (React Native)"}
               link={'https://www.youtube.com/watch?v=cv4yXD17giE/'}
@@ -94,13 +100,6 @@ class MesRealisationsPage1 extends React.Component {
               picture={lucatelli}
               description={'Lucatelli (Wix)'}
               link={'https://www.jl-lucatelli-artiste-peintre.com/'}
-            />
-          </Col>
-          <Col md={6} lg={4}>
-            <Realisation
-              picture={associationBabel}
-              description={'Association Babel Grenoble (Wordpress)'}
-              link={'https://association-babel-grenoble.com/'}
             />
           </Col>
         </Row>

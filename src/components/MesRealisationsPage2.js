@@ -14,6 +14,7 @@ import recense from "../img/recense.jpg";
 import chouquetteBet from "../img/chouquette-bet.jpg";
 import beerBet from "../img/beer-bet.jpg";
 import paslchoix from "../img/paslchoix.jpg";
+import associationBabel from '../img/association-babel.jpg';
 
 class MesRealisationsPage2 extends React.Component {
   render() {
@@ -39,6 +40,13 @@ class MesRealisationsPage2 extends React.Component {
               picture={chouquetteBet}
               description={"Chouquette Bet (Vue 3, Pinia, Supabase, PrimeVue)"}
               link={'https://chouquettebet.fr/'}
+            />
+          </Col>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={associationBabel}
+              description={'Association Babel Grenoble (Wordpress)'}
+              link={'https://association-babel-grenoble.com/'}
             />
           </Col>
           <Col md={6} lg={4}>
