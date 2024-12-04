@@ -16,12 +16,20 @@ import beerBet from "../img/beer-bet.jpg";
 import paslchoix from "../img/paslchoix.jpg";
 import associationBabel from '../img/association-babel.jpg';
 import routines from '../img/routines.jpg';
+import mood from '../img/mood.jpg';
 
 class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={mood}
+              description={"Mood (Next.js, TS, AWS (Amplify, Cognito, API Gateway, Lambda, DynamoDB), Tailwind CSS, Shadcn, Radix, Lucide, Framer Motion)"}
+              link={'https://main.d25ejsq31px271.amplifyapp.com/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={routines}
