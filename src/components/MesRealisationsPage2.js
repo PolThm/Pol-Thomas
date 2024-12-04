@@ -15,12 +15,20 @@ import chouquetteBet from "../img/chouquette-bet.jpg";
 import beerBet from "../img/beer-bet.jpg";
 import paslchoix from "../img/paslchoix.jpg";
 import associationBabel from '../img/association-babel.jpg';
+import routines from '../img/routines.jpg';
 
 class MesRealisationsPage2 extends React.Component {
   render() {
     return(
       <Container fluid>
         <Row>
+          <Col md={6} lg={4}>
+            <Realisation
+              picture={routines}
+              description={"Routines (Next.js, TS, MUI, Howler, Vercel)"}
+              link={'https://routines-pol.vercel.app/'}
+            />
+          </Col>
           <Col md={6} lg={4}>
             <Realisation
               picture={paslchoix}
