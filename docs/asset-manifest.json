@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7273fbcd.chunk.css",
-    "main.js": "/portfolio/static/js/main.954ee7c3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.954ee7c3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.314cc00a.chunk.css",
+    "main.js": "/portfolio/static/js/main.ad0256ac.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.ad0256ac.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.803c8805.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.803c8805.js.map",
-    "static/css/2.b2eb29f2.chunk.css": "/portfolio/static/css/2.b2eb29f2.chunk.css",
-    "static/js/2.4e540198.chunk.js": "/portfolio/static/js/2.4e540198.chunk.js",
-    "static/js/2.4e540198.chunk.js.map": "/portfolio/static/js/2.4e540198.chunk.js.map",
+    "static/css/2.c2374459.chunk.css": "/portfolio/static/css/2.c2374459.chunk.css",
+    "static/js/2.0cfb0530.chunk.js": "/portfolio/static/js/2.0cfb0530.chunk.js",
+    "static/js/2.0cfb0530.chunk.js.map": "/portfolio/static/js/2.0cfb0530.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.5cf625ddf563834a7633b3a8ad1497f4.js": "/portfolio/precache-manifest.5cf625ddf563834a7633b3a8ad1497f4.js",
+    "precache-manifest.971f81cd4911f86cacc4a38b83c515c5.js": "/portfolio/precache-manifest.971f81cd4911f86cacc4a38b83c515c5.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.b2eb29f2.chunk.css.map": "/portfolio/static/css/2.b2eb29f2.chunk.css.map",
-    "static/css/main.7273fbcd.chunk.css.map": "/portfolio/static/css/main.7273fbcd.chunk.css.map",
-    "static/js/2.4e540198.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4e540198.chunk.js.LICENSE.txt",
+    "static/css/2.c2374459.chunk.css.map": "/portfolio/static/css/2.c2374459.chunk.css.map",
+    "static/css/main.314cc00a.chunk.css.map": "/portfolio/static/css/main.314cc00a.chunk.css.map",
+    "static/js/2.0cfb0530.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0cfb0530.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/background_header.6e94a46f.jpg",
     "static/media/association-babel.jpg": "/portfolio/static/media/association-babel.7aa3017d.jpg",
     "static/media/beer-bet.jpg": "/portfolio/static/media/beer-bet.98a95586.jpg",
@@ -47,9 +47,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.803c8805.js",
-    "static/css/2.b2eb29f2.chunk.css",
-    "static/js/2.4e540198.chunk.js",
-    "static/css/main.7273fbcd.chunk.css",
-    "static/js/main.954ee7c3.chunk.js"
+    "static/css/2.c2374459.chunk.css",
+    "static/js/2.0cfb0530.chunk.js",
+    "static/css/main.314cc00a.chunk.css",
+    "static/js/main.ad0256ac.chunk.js"
   ]
 }
