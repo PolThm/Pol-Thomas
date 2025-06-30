@@ -33,8 +33,7 @@
     "build": "react-app-rewired --openssl-legacy-provider build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build-and-copy": "npm run build && rm -rf docs && cp -r build docs"
   },
   "eslintConfig": {
     "extends": "react-app"
