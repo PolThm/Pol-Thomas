@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Pol-Thomas/static/css/main.b83cf45b.chunk.css",
-    "main.js": "/Pol-Thomas/static/js/main.954ee7c3.chunk.js",
-    "main.js.map": "/Pol-Thomas/static/js/main.954ee7c3.chunk.js.map",
+    "main.css": "/Pol-Thomas/static/css/main.daad4e41.chunk.css",
+    "main.js": "/Pol-Thomas/static/js/main.7d3f9d88.chunk.js",
+    "main.js.map": "/Pol-Thomas/static/js/main.7d3f9d88.chunk.js.map",
     "runtime-main.js": "/Pol-Thomas/static/js/runtime-main.e2f95a80.js",
     "runtime-main.js.map": "/Pol-Thomas/static/js/runtime-main.e2f95a80.js.map",
-    "static/css/2.b2eb29f2.chunk.css": "/Pol-Thomas/static/css/2.b2eb29f2.chunk.css",
-    "static/js/2.4e540198.chunk.js": "/Pol-Thomas/static/js/2.4e540198.chunk.js",
-    "static/js/2.4e540198.chunk.js.map": "/Pol-Thomas/static/js/2.4e540198.chunk.js.map",
+    "static/css/2.404773be.chunk.css": "/Pol-Thomas/static/css/2.404773be.chunk.css",
+    "static/js/2.063fe2f3.chunk.js": "/Pol-Thomas/static/js/2.063fe2f3.chunk.js",
+    "static/js/2.063fe2f3.chunk.js.map": "/Pol-Thomas/static/js/2.063fe2f3.chunk.js.map",
     "index.html": "/Pol-Thomas/index.html",
-    "precache-manifest.be7c633f828b6cf2989ebcaf5a160492.js": "/Pol-Thomas/precache-manifest.be7c633f828b6cf2989ebcaf5a160492.js",
+    "precache-manifest.68c3706f6f55e33aeb88dd3c9f3b89f3.js": "/Pol-Thomas/precache-manifest.68c3706f6f55e33aeb88dd3c9f3b89f3.js",
     "service-worker.js": "/Pol-Thomas/service-worker.js",
-    "static/css/2.b2eb29f2.chunk.css.map": "/Pol-Thomas/static/css/2.b2eb29f2.chunk.css.map",
-    "static/css/main.b83cf45b.chunk.css.map": "/Pol-Thomas/static/css/main.b83cf45b.chunk.css.map",
-    "static/js/2.4e540198.chunk.js.LICENSE.txt": "/Pol-Thomas/static/js/2.4e540198.chunk.js.LICENSE.txt",
+    "static/css/2.404773be.chunk.css.map": "/Pol-Thomas/static/css/2.404773be.chunk.css.map",
+    "static/css/main.daad4e41.chunk.css.map": "/Pol-Thomas/static/css/main.daad4e41.chunk.css.map",
+    "static/js/2.063fe2f3.chunk.js.LICENSE.txt": "/Pol-Thomas/static/js/2.063fe2f3.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Pol-Thomas/static/media/background_header.6e94a46f.jpg",
     "static/media/association-babel.jpg": "/Pol-Thomas/static/media/association-babel.7aa3017d.jpg",
     "static/media/beer-bet.jpg": "/Pol-Thomas/static/media/beer-bet.98a95586.jpg",
@@ -47,9 +47,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e2f95a80.js",
-    "static/css/2.b2eb29f2.chunk.css",
-    "static/js/2.4e540198.chunk.js",
-    "static/css/main.b83cf45b.chunk.css",
-    "static/js/main.954ee7c3.chunk.js"
+    "static/css/2.404773be.chunk.css",
+    "static/js/2.063fe2f3.chunk.js",
+    "static/css/main.daad4e41.chunk.css",
+    "static/js/main.7d3f9d88.chunk.js"
   ]
 }
