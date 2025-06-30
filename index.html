@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pol Thomas - Redirection</title>
+    <meta http-equiv="refresh" content="0; url=https://polthm.github.io/Pol-Thomas/">
+    <link rel="canonical" href="https://polthm.github.io/Pol-Thomas/">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 4px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: white;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>Redirection en cours...</h1>
+        <p>Vous allez être redirigé automatiquement vers le site de Pol Thomas.</p>
+        <p>Si la redirection ne fonctionne pas, <a href="https://polthm.github.io/Pol-Thomas/">cliquez ici</a>.</p>
+    </div>
+
+    <script>
+        // Redirection JavaScript au cas où meta refresh ne marche pas
+        setTimeout(function() {
+            window.location.href = "https://polthm.github.io/Pol-Thomas/";
+        }, 1000);
+    </script>
+</body>
+</html> 
